@@ -11,8 +11,8 @@ const cli = meow(`
 
   Options
     -h, --help      Display this help
-    -e, --extended  Display extended list woth download URLs
-    -s, --save      Save original XMLs locally to dir "export"
+    -e, --extended  Display extended list with download URLs
+    -s, --save      Save original XMLs locally to directory "export"
     -v, --version   Display version
 
 `);
