@@ -1,0 +1,51 @@
+{
+  "name": "android-sdk-client",
+  "version": "1.0.0",
+  "description": "Display list of available files of SDK repository",
+  "bin": {
+    "android-sdk-client": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
+  "author": "Peter Bakondy",
+  "license": "MIT",
+  "keywords": [
+    "android",
+    "android-sdk",
+    "sdk",
+    "client",
+    "platform",
+    "source",
+    "google",
+    "download",
+    "url",
+    "addon"
+  ],
+  "dependencies": {
+    "axios": "^0.9.1",
+    "es6-promise": "^3.0.2",
+    "humanize": "0.0.9",
+    "meow": "^3.7.0",
+    "mkdirp": "^0.5.1",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pbakondy/android-sdk-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pbakondy/android-sdk-client/issues"
+  },
+  "homepage": "https://github.com/pbakondy/android-sdk-client#readme"
+}
