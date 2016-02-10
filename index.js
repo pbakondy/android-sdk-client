@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 
-const VERSION = '1.0.0';
+const CONFIG = require('./package.json');
 
 const fs = require('fs');
 const url = require('url');
@@ -211,72 +211,78 @@ function printData(data, baseUrl, type, name) {
 
 
 function printDetails(data, source) {
-  if (source.data['sdk:sdk-repository']) {
-    if (source.data['sdk:sdk-repository']['sdk:platform']) {
-      source.data['sdk:sdk-repository']['sdk:platform'].forEach(item => {
-        let version = item['sdk:version'] ? item['sdk:version'][0] : '';
-        printData(item, source.url, 'Platform', `SDK Platform Android ${version}`);
-      });
-    }
-    if (source.data['sdk:sdk-repository']['sdk:sample']) {
-      source.data['sdk:sdk-repository']['sdk:sample'].forEach(item => {
-        let sdkApiLevel = item['sdk:api-level'] ? item['sdk:api-level'][0] : '';
-        printData(item, source.url, 'Sample', `Samples for SDK API ${sdkApiLevel}`);
-      });
-    }
-    if (source.data['sdk:sdk-repository']['sdk:platform-tool']) {
-      source.data['sdk:sdk-repository']['sdk:platform-tool'].forEach(item => {
-        printData(item, source.url, 'PlatformTool', 'Android SDK Platform-tools');
-      });
-    }
-    if (source.data['sdk:sdk-repository']['sdk:build-tool']) {
-      source.data['sdk:sdk-repository']['sdk:build-tool'].forEach(item => {
-        printData(item, source.url, 'BuildTool', 'Android SDK Build-tools');
-      });
-      if (source.data['sdk:sdk-repository']['sdk:tool']) {
-        source.data['sdk:sdk-repository']['sdk:tool'].forEach(item => {
-          printData(item, source.url, 'Tool', 'Android SDK Tools');
+  try {
+    if (source.data['sdk:sdk-repository']) {
+      if (source.data['sdk:sdk-repository']['sdk:platform']) {
+        source.data['sdk:sdk-repository']['sdk:platform'].forEach(item => {
+          let version = item['sdk:version'] ? item['sdk:version'][0] : '';
+          printData(item, source.url, 'Platform', `SDK Platform Android ${version}`);
         });
       }
-      if (source.data['sdk:sdk-repository']['sdk:doc']) {
-        source.data['sdk:sdk-repository']['sdk:doc'].forEach(item => {
+      if (source.data['sdk:sdk-repository']['sdk:sample']) {
+        source.data['sdk:sdk-repository']['sdk:sample'].forEach(item => {
           let sdkApiLevel = item['sdk:api-level'] ? item['sdk:api-level'][0] : '';
-          printData(item, source.url, 'Doc', `Documentation for Android SDK, API ${sdkApiLevel}`);
+          printData(item, source.url, 'Sample', `Samples for SDK API ${sdkApiLevel}`);
         });
       }
-      if (source.data['sdk:sdk-repository']['sdk:source']) {
-        source.data['sdk:sdk-repository']['sdk:source'].forEach(item => {
+      if (source.data['sdk:sdk-repository']['sdk:platform-tool']) {
+        source.data['sdk:sdk-repository']['sdk:platform-tool'].forEach(item => {
+          printData(item, source.url, 'PlatformTool', 'Android SDK Platform-tools');
+        });
+      }
+      if (source.data['sdk:sdk-repository']['sdk:build-tool']) {
+        source.data['sdk:sdk-repository']['sdk:build-tool'].forEach(item => {
+          printData(item, source.url, 'BuildTool', 'Android SDK Build-tools');
+        });
+        if (source.data['sdk:sdk-repository']['sdk:tool']) {
+          source.data['sdk:sdk-repository']['sdk:tool'].forEach(item => {
+            printData(item, source.url, 'Tool', 'Android SDK Tools');
+          });
+        }
+        if (source.data['sdk:sdk-repository']['sdk:doc']) {
+          source.data['sdk:sdk-repository']['sdk:doc'].forEach(item => {
+            let sdkApiLevel = item['sdk:api-level'] ? item['sdk:api-level'][0] : '';
+            printData(item, source.url, 'Doc', `Documentation for Android SDK, API ${sdkApiLevel}`);
+          });
+        }
+        if (source.data['sdk:sdk-repository']['sdk:source']) {
+          source.data['sdk:sdk-repository']['sdk:source'].forEach(item => {
+            let sdkApiLevel = item['sdk:api-level'] ? item['sdk:api-level'][0] : '';
+            printData(item, source.url, 'Source', `Sources for Android SDK, API ${sdkApiLevel}`);
+          });
+        }
+      }
+    }
+
+    if (source.data['sdk:sdk-addon']) {
+      if (source.data['sdk:sdk-addon']['sdk:add-on']) {
+        source.data['sdk:sdk-addon']['sdk:add-on'].forEach(item => {
+          let nameDisplay = item['sdk:name-display'] ? item['sdk:name-display'][0] : '';
           let sdkApiLevel = item['sdk:api-level'] ? item['sdk:api-level'][0] : '';
-          printData(item, source.url, 'Source', `Sources for Android SDK, API ${sdkApiLevel}`);
+          printData(item, source.url, 'Addon', `${nameDisplay}, Android API ${sdkApiLevel}`);
+        });
+      }
+      if (source.data['sdk:sdk-addon']['sdk:extra']) {
+        source.data['sdk:sdk-addon']['sdk:extra'].forEach(item => {
+          let nameDisplay = item['sdk:name-display'] ? item['sdk:name-display'][0] : '';
+          printData(item, source.url, 'Extra', nameDisplay);
         });
       }
     }
-  }
 
-  if (source.data['sdk:sdk-addon']) {
-    if (source.data['sdk:sdk-addon']['sdk:add-on']) {
-      source.data['sdk:sdk-addon']['sdk:add-on'].forEach(item => {
-        let nameDisplay = item['sdk:name-display'] ? item['sdk:name-display'][0] : '';
-        let sdkApiLevel = item['sdk:api-level'] ? item['sdk:api-level'][0] : '';
-        printData(item, source.url, 'Addon', `${nameDisplay}, Android API ${sdkApiLevel}`);
-      });
-    }
-    if (source.data['sdk:sdk-addon']['sdk:extra']) {
-      source.data['sdk:sdk-addon']['sdk:extra'].forEach(item => {
-        let nameDisplay = item['sdk:name-display'] ? item['sdk:name-display'][0] : '';
-        printData(item, source.url, 'Extra', nameDisplay);
-      });
-    }
-  }
+    if (source.data['sdk:sdk-sys-img']) {
+      if (source.data['sdk:sdk-sys-img']['sdk:system-image']) {
+        source.data['sdk:sdk-sys-img']['sdk:system-image'].forEach(item => {
 
-  if (source.data['sdk:sdk-sys-img']) {
-    if (source.data['sdk:sdk-sys-img']['sdk:system-image']) {
-      source.data['sdk:sdk-sys-img']['sdk:system-image'].forEach(item => {
-        let abi = data['sdk:abi'] ? data['sdk:abi'][0] : '';
-        let sdkApiLevel = item['sdk:api-level'] ? item['sdk:api-level'][0] : '';
-        printData(item, source.url, 'SystemImage', `${SYSTEM_IMAGE_NAMES[abi]}, Android API ${sdkApiLevel}`);
-      });
+          let abi = item['sdk:abi'] ? item['sdk:abi'][0] : '';
+          let sdkApiLevel = item['sdk:api-level'] ? item['sdk:api-level'][0] : '';
+          printData(item, source.url, 'SystemImage', `${SYSTEM_IMAGE_NAMES[abi]}, Android API ${sdkApiLevel}`);
+        });
+      }
     }
+
+  } catch(e) {
+    console.error(e);
   }
 
   return source;
@@ -351,7 +357,7 @@ function printList() {
 
 module.exports = function(options) {
   if (options.v || options.version) {
-    console.log('v' + VERSION);
+    console.log('v' + CONFIG.version);
     return;
   }
 
