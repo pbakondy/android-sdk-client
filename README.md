@@ -29,9 +29,16 @@ $ android-sdk-client --help
   Options
     -h, --help      Display this help
     -e, --extended  Display extended list with download URLs
+    -o, --obsolete  Show obsolete items
     -s, --save      Save original XMLs locally to directory "export"
     -v, --version   Display version
 
+```
+
+List all items with download URLs:
+
+```
+$ android-sdk-client -e
 ```
 
 ## License

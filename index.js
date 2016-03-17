@@ -30,6 +30,7 @@ const SYSTEM_IMAGE_NAMES = {
 var itemCounter;
 var detailedList = false;
 var exportFiles = false;
+var showObsolete = false;
 
 var repositories = [
   { url: 'https://dl.google.com/android/repository/repository-11.xml', name: 'SDK Repository' },
@@ -113,7 +114,13 @@ function getRevisionString(revision) {
 function printData(data, baseUrl, type, name) {
 
   try {
-    let obsoleteString = data['sdk:obsolete'] ? ' (Obsolete)' : '';
+    let obsoleteItem = !!data['sdk:obsolete'];
+
+    if (!showObsolete && obsoleteItem) {
+      return;
+    }
+
+    let obsoleteString = obsoleteItem ? ' (Obsolete)' : '';
     let version = data['sdk:version'] ? data['sdk:version'][0] : '';
     let sdkApiLevel = data['sdk:api-level'] ? data['sdk:api-level'][0] : '';
     let sdkRevision = data['sdk:revision'] ? getRevisionString(data['sdk:revision']) : '';
@@ -357,12 +364,13 @@ function printList() {
 
 module.exports = function(options) {
   if (options.v || options.version) {
-    console.log('v' + CONFIG.version);
+    console.log(CONFIG.version);
     return;
   }
 
   detailedList = options.e || options.extended;
   exportFiles = options.s || options.save;
+  showObsolete = options.o || options.obsolete;
 
   getData();
 };

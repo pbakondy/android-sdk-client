@@ -12,6 +12,7 @@ const cli = meow(`
   Options
     -h, --help      Display this help
     -e, --extended  Display extended list with download URLs
+    -o, --obsolete  Show obsolete items
     -s, --save      Save original XMLs locally to directory "export"
     -v, --version   Display version
 
