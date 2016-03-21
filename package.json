@@ -9,7 +9,8 @@
     "node": ">=4"
   },
   "scripts": {
-    "eslint": "eslint ."
+    "eslint": "eslint .",
+    "example": "node cli.js -o > example/short-list.txt && node cli.js -e -o > example/extended-list.txt"
   },
   "files": [
     "cli.js",
