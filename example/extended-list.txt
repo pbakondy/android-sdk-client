@@ -13,13 +13,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-im
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/addon-6.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl-ssl.google.com/glass/gdk/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
 Done loading packages.
 ------------
 id: 1
@@ -759,6 +759,20 @@ id: 63
 ------------
 id: 64
     Type: BuildTool
+    Desc: Android SDK Build-tools, revision 23.0.3
+          Revision 23.0.3
+ windows: https://dl.google.com/android/repository/build-tools_r23.0.3-windows.zip
+          size: 38.02 MB
+          sha1: c6d8266c6a3243c8f1e41b786c0e3cee4c781263
+   linux: https://dl.google.com/android/repository/build-tools_r23.0.3-linux.zip
+          size: 38.85 MB
+          sha1: 368f2600feac7e9b511b82f53d1f2240ae4a91a3
+  macosx: https://dl.google.com/android/repository/build-tools_r23.0.3-macosx.zip
+          size: 37.84 MB
+          sha1: fbc98cd303fd15a31d472de6c03bd707829f00b0
+------------
+id: 65
+    Type: BuildTool
     Desc: Android SDK Build-tools, revision 24 rc1
           Revision 24 rc1
  windows: https://dl.google.com/android/repository/build-tools_r24.0.0-windows_rc1.zip
@@ -771,7 +785,7 @@ id: 64
           size: 39.96 MB
           sha1: b8e697b509e3b2fda772a0ecde7c30afcc5d4c01
 ------------
-id: 65
+id: 66
     Type: BuildTool
     Desc: Android SDK Build-tools, revision 24 rc2
           Revision 24 rc2
@@ -785,7 +799,7 @@ id: 65
           size: 39.98 MB
           sha1: 09c9d4a11db9157a68a74b85751571b538af6832
 ------------
-id: 66
+id: 67
     Type: Tool
     Desc: Android SDK Tools, revision 24.4.1
           Revision 24.4.1
@@ -799,7 +813,7 @@ id: 66
           size: 97.95 MB
           sha1: 90db74e1827846b0e946a26d22a4314f8cfa3701
 ------------
-id: 67
+id: 68
     Type: Tool
     Desc: Android SDK Tools, revision 25.0.10 rc11
           Revision 25.0.10 rc11
@@ -813,7 +827,7 @@ id: 67
           size: 153.78 MB
           sha1: dd1752f30fa3ac8767299edc7351bdfadde866fc
 ------------
-id: 68
+id: 69
     Type: Doc
     Desc: Documentation for Android SDK, API 23, revision 1
           API 23
@@ -822,7 +836,7 @@ download: https://dl.google.com/android/repository/docs-23_r01.zip
           size: 316.78 MB
           sha1: 060ebab2f74861e1ddd9136df26b837312bc087f
 ------------
-id: 69
+id: 70
     Type: Source
     Desc: Sources for Android SDK, API 14, revision 1 (Obsolete)
           API 14
@@ -831,7 +845,7 @@ download: https://dl.google.com/android/repository/sources-14_r01.zip
           size: 15.40 MB
           sha1: eaf4ed7dcac46e68516a1b4aa5b0d9e5a39a7555
 ------------
-id: 70
+id: 71
     Type: Source
     Desc: Sources for Android SDK, API 15, revision 2
           API 15
@@ -840,7 +854,7 @@ download: https://dl.google.com/android/repository/sources-15_r02.zip
           size: 15.71 MB
           sha1: e5992a5747c9590783fbbdd700337bf0c9f6b1fa
 ------------
-id: 71
+id: 72
     Type: Source
     Desc: Sources for Android SDK, API 16, revision 2
           API 16
@@ -849,7 +863,7 @@ download: https://dl.google.com/android/repository/sources-16_r02.zip
           size: 17.05 MB
           sha1: 0f83c14ed333c45d962279ab5d6bc98a0269ef84
 ------------
-id: 72
+id: 73
     Type: Source
     Desc: Sources for Android SDK, API 17, revision 1
           API 17
@@ -858,7 +872,7 @@ download: https://dl.google.com/android/repository/sources-17_r01.zip
           size: 18.10 MB
           sha1: 6f1f18cd2d2b1852d7f6892df9cee3823349d43a
 ------------
-id: 73
+id: 74
     Type: Source
     Desc: Sources for Android SDK, API 18, revision 1
           API 18
@@ -867,7 +881,7 @@ download: https://dl.google.com/android/repository/sources-18_r01.zip
           size: 19.29 MB
           sha1: 8b49fdf7433f4881a2bfb559b5dd05d8ec65fb78
 ------------
-id: 74
+id: 75
     Type: Source
     Desc: Sources for Android SDK, API 19, revision 2
           API 19
@@ -876,7 +890,7 @@ download: https://dl.google.com/android/repository/sources-19_r02.zip
           size: 20.81 MB
           sha1: 433a1d043ef77561571250e94cb7a0ef24a202e7
 ------------
-id: 75
+id: 76
     Type: Source
     Desc: Sources for Android SDK, API 20, revision 1
           API 20
@@ -885,7 +899,7 @@ download: https://dl.google.com/android/repository/sources-20_r01.zip
           size: 22.29 MB
           sha1: 8da3e40f2625f9f7ef38b7e403f49f67226c0d76
 ------------
-id: 76
+id: 77
     Type: Source
     Desc: Sources for Android SDK, API 21, revision 1
           API 21
@@ -894,7 +908,7 @@ download: https://dl.google.com/android/repository/sources-21_r01.zip
           size: 26.96 MB
           sha1: 137a5044915d32bea297a8c1552684802bbc2e25
 ------------
-id: 77
+id: 78
     Type: Source
     Desc: Sources for Android SDK, API 22, revision 1
           API 22
@@ -903,7 +917,7 @@ download: https://dl.google.com/android/repository/sources-22_r01.zip
           size: 27.52 MB
           sha1: 98320e13976d11597a4a730a8d203ac9a03ed5a6
 ------------
-id: 78
+id: 79
     Type: Source
     Desc: Sources for Android SDK, API 23, revision 1
           API 23
@@ -912,7 +926,7 @@ download: https://dl.google.com/android/repository/sources-23_r01.zip
           size: 30.30 MB
           sha1: b0f15da2762b42f543c5e364c2b15b198cc99cc2
 ------------
-id: 79
+id: 80
     Type: Addon
     Desc: Google APIs, Android API 3, revision 3 (Obsolete)
           API 3
@@ -924,7 +938,7 @@ download: https://dl.google.com/android/repository/google_apis-3-r03.zip
           size: 33.29 MB
           sha1: 1f92abf3a76be66ae8032257fc7620acbd2b2e3a
 ------------
-id: 80
+id: 81
     Type: Addon
     Desc: Google APIs, Android API 4, revision 2 (Obsolete)
           API 4
@@ -936,7 +950,7 @@ download: https://dl.google.com/android/repository/google_apis-4_r02.zip
           size: 40.47 MB
           sha1: 9b6e86d8568558de4d606a7debc4f6049608dbd0
 ------------
-id: 81
+id: 82
     Type: Addon
     Desc: Google APIs, Android API 5, revision 1 (Obsolete)
           API 5
@@ -948,7 +962,7 @@ download: https://dl.google.com/android/repository/google_apis-5_r01.zip
           size: 46.85 MB
           sha1: 46eaeb56b645ee7ffa24ede8fa17f3df70db0503
 ------------
-id: 82
+id: 83
     Type: Addon
     Desc: Google APIs, Android API 6, revision 1 (Obsolete)
           API 6
@@ -960,7 +974,7 @@ download: https://dl.google.com/android/repository/google_apis-6_r01.zip
           size: 50.91 MB
           sha1: 5ff545d96e031e09580a6cf55713015c7d4936b2
 ------------
-id: 83
+id: 84
     Type: Addon
     Desc: Google APIs, Android API 7, revision 1 (Obsolete)
           API 7
@@ -972,7 +986,7 @@ download: https://dl.google.com/android/repository/google_apis-7_r01.zip
           size: 51.20 MB
           sha1: 2e7f91e0fe34fef7f58aeced973c6ae52361b5ac
 ------------
-id: 84
+id: 85
     Type: Addon
     Desc: Google APIs, Android API 8, revision 2
           API 8
@@ -984,7 +998,7 @@ download: https://dl.google.com/android/repository/google_apis-8_r02.zip
           size: 56.75 MB
           sha1: 3079958e7ec87222cac1e6b27bc471b27bf2c352
 ------------
-id: 85
+id: 86
     Type: Addon
     Desc: Google APIs, Android API 9, revision 2 (Obsolete)
           API 9
@@ -996,7 +1010,7 @@ download: https://dl.google.com/android/repository/google_apis-9_r02.zip
           size: 60.46 MB
           sha1: 78664645a1e9accea4430814f8694291a7f1ea5d
 ------------
-id: 86
+id: 87
     Type: Addon
     Desc: Google APIs, Android API 10, revision 2
           API 10
@@ -1008,7 +1022,7 @@ download: https://dl.google.com/android/repository/google_apis-10_r02.zip
           size: 62.73 MB
           sha1: cc0711857c881fa7534f90cf8cc09b8fe985484d
 ------------
-id: 87
+id: 88
     Type: Addon
     Desc: Google APIs, Android API 11, revision 1 (Obsolete)
           API 11
@@ -1020,7 +1034,7 @@ download: https://dl.google.com/android/repository/google_apis-11_r01.zip
           size: 79.61 MB
           sha1: 5eab5e81addee9f3576d456d205208314b5146a5
 ------------
-id: 88
+id: 89
     Type: Addon
     Desc: Google APIs, Android API 12, revision 1 (Obsolete)
           API 12
@@ -1032,7 +1046,7 @@ download: https://dl.google.com/android/repository/google_apis-12_r01.zip
           size: 82.11 MB
           sha1: e9999f4fa978812174dfeceec0721c793a636e5d
 ------------
-id: 89
+id: 90
     Type: Addon
     Desc: Google APIs, Android API 13, revision 1 (Obsolete)
           API 13
@@ -1044,7 +1058,7 @@ download: https://dl.google.com/android/repository/google_apis-13_r01.zip
           size: 84.51 MB
           sha1: 3b153edd211c27dc736c893c658418a4f9041417
 ------------
-id: 90
+id: 91
     Type: Addon
     Desc: Google APIs, Android API 14, revision 2 (Obsolete)
           API 14
@@ -1056,7 +1070,7 @@ download: https://dl.google.com/android/repository/google_apis-14_r02.zip
           size: 101.60 MB
           sha1: f8eb4d96ad0492b4c0db2d7e4f1a1a3836664d39
 ------------
-id: 91
+id: 92
     Type: Addon
     Desc: Google APIs, Android API 15, revision 3
           API 15
@@ -1068,7 +1082,7 @@ download: https://dl.google.com/android/repository/google_apis-15_r03.zip
           size: 101.68 MB
           sha1: d0d2bf26805eb271693570a1aaec33e7dc3f45e9
 ------------
-id: 92
+id: 93
     Type: Addon
     Desc: Google APIs, Android API 16, revision 4
           API 16
@@ -1080,7 +1094,7 @@ download: https://dl.google.com/android/repository/google_apis-16_r04.zip
           size: 121.44 MB
           sha1: ee6acf1b01020bfa8a8e24725dbc4478bee5e792
 ------------
-id: 93
+id: 94
     Type: Addon
     Desc: Google APIs, Android API 17, revision 4
           API 17
@@ -1092,7 +1106,7 @@ download: https://dl.google.com/android/repository/google_apis-17_r04.zip
           size: 130.87 MB
           sha1: a076be0677f38df8ca5536b44dfb411a0c808c4f
 ------------
-id: 94
+id: 95
     Type: Addon
     Desc: Google APIs, Android API 18, revision 4
           API 18
@@ -1104,7 +1118,7 @@ download: https://dl.google.com/android/repository/google_apis-18_r04.zip
           size: 136.56 MB
           sha1: 6109603409debdd40854d4d4a92eaf8481462c8b
 ------------
-id: 95
+id: 96
     Type: Addon
     Desc: Google APIs (ARM System Image), Android API 19, revision 18
           API 19
@@ -1116,7 +1130,7 @@ download: https://dl.google.com/android/repository/google_apis-19_r18.zip
           size: 170.55 MB
           sha1: 701595b0d9985cca00be29b3c606e64731c3e1f7
 ------------
-id: 96
+id: 97
     Type: Addon
     Desc: Google APIs, Android API 21, revision 1
           API 21
@@ -1128,7 +1142,7 @@ download: https://dl.google.com/android/repository/google_apis-21_r01.zip
           size: 175.29 KB
           sha1: 66a754efb24e9bb07cc51648426443c7586c9d4a
 ------------
-id: 97
+id: 98
     Type: Addon
     Desc: Google APIs, Android API 22, revision 1
           API 22
@@ -1140,7 +1154,7 @@ download: https://dl.google.com/android/repository/google_apis-22_r01.zip
           size: 175.06 KB
           sha1: 5def0f42160cba8acff51b9c0c7e8be313de84f5
 ------------
-id: 98
+id: 99
     Type: Addon
     Desc: Google TV Addon, Android API 12, revision 2 (Obsolete)
           API 12
@@ -1152,7 +1166,7 @@ id: 98
           size: 74.64 MB
           sha1: 92128a12e7e8b0fb5bac59153d7779b717e7b840
 ------------
-id: 99
+id: 100
     Type: Addon
     Desc: Google TV Addon, Android API 13, revision 1 (Obsolete)
           API 13
@@ -1164,7 +1178,7 @@ download: https://dl.google.com/android/repository/google_tv-13_r01.zip
           size: 83.66 MB
           sha1: b73f7c66011ac8180b44aa4e83b8d78c66ea9a09
 ------------
-id: 100
+id: 101
     Type: Addon
     Desc: Google APIs, Android API 23, revision 1
           API 23
@@ -1176,7 +1190,7 @@ download: https://dl.google.com/android/repository/google_apis-23_r01.zip
           size: 175.68 KB
           sha1: 04c5cc1a7c88967250ebba9561d81e24104167db
 ------------
-id: 101
+id: 102
     Type: Extra
     Desc: Android Support Library, revision 23.2.1
           Revision 23.2.1
@@ -1186,7 +1200,7 @@ download: https://dl.google.com/android/repository/support_r23.2.1.zip
           size: 10.35 MB
           sha1: 41121bbc412c2fce0be170d589d20cfa3e78e857
 ------------
-id: 102
+id: 103
     Type: Extra
     Desc: Local Maven repository for Support Libraries, revision 28
           Revision 28
@@ -1196,7 +1210,7 @@ download: https://dl.google.com/android/repository/android_m2repository_r28.zip
           size: 190.84 MB
           sha1: e4d0ad49df085a8d0322cfc4cfaa5e74a7b0569b
 ------------
-id: 103
+id: 104
     Type: Extra
     Desc: GPU Debugging tools, revision 1.0.3
           Revision 1.0.3
@@ -1213,7 +1227,7 @@ id: 103
           size: 12.37 MB
           sha1: 7c9ef7544cf0aea030bcc29bd8e12c04fd53e653
 ------------
-id: 104
+id: 105
     Type: Extra
     Desc: Google Repository, revision 24
           Revision 24
@@ -1224,7 +1238,7 @@ download: https://dl.google.com/android/repository/google_m2repository_r24.zip
           size: 67.46 MB
           sha1: 7e9607f15c824e554bb9acde604b2a1b6f9c9dff
 ------------
-id: 105
+id: 106
     Type: Extra
     Desc: Google Play Licensing Library, revision 2
           Revision 2
@@ -1235,7 +1249,7 @@ download: https://dl.google.com/android/repository/market_licensing-r02.zip
           size: 73.35 KB
           sha1: 355e8dc304a92a5616db235af8ee7bd554356254
 ------------
-id: 106
+id: 107
     Type: Extra
     Desc: Google Play APK Expansion Library, revision 3
           Revision 3
@@ -1246,7 +1260,7 @@ download: https://dl.google.com/android/repository/market_apk_expansion-r03.zip
           size: 107.62 KB
           sha1: 5305399dc1a56814e86b8459ce24871916f78b8c
 ------------
-id: 107
+id: 108
     Type: Extra
     Desc: Google Play services for Froyo, revision 12 (Obsolete)
           Revision 12
@@ -1257,7 +1271,7 @@ download: https://dl.google.com/android/repository/google_play_services_3265130_
           size: 5.02 MB
           sha1: 92558dbc380bba3d55d0ec181167fb05ce7c79d9
 ------------
-id: 108
+id: 109
     Type: Extra
     Desc: Google Play services, revision 29
           Revision 29
@@ -1268,7 +1282,7 @@ download: https://dl.google.com/android/repository/google_play_services_8487000_
           size: 20.93 MB
           sha1: 2c6c23f0a0911221d3613e43593180cba4540ce8
 ------------
-id: 109
+id: 110
     Type: Extra
     Desc: Google USB Driver, revision 11
           Revision 11
@@ -1279,7 +1293,7 @@ id: 109
           size: 8.28 MB
           sha1: dc8a2ed2fbd7246d4caf9ab10ffe7749dc35d1cc
 ------------
-id: 110
+id: 111
     Type: Extra
     Desc: Google Play Billing Library, revision 5
           Revision 5
@@ -1290,7 +1304,7 @@ download: https://dl.google.com/android/repository/play_billing_r05.zip
           size: 426.42 KB
           sha1: bd2ac5ce7127070ac3229003eb69cfb806628ac9
 ------------
-id: 111
+id: 112
     Type: Extra
     Desc: Google AdMob Ads SDK, revision 11 (Obsolete)
           Revision 11
@@ -1301,7 +1315,7 @@ download: https://dl.google.com/googleadmobadssdk/googleadmobadssdkandroid-6.4.1
           size: 688.00 KB
           sha1: 0102859d9575baa0bf4fd5eb422af2ad0fe6cb82
 ------------
-id: 112
+id: 113
     Type: Extra
     Desc: Google Analytics App Tracking SDK, revision 3 (Obsolete)
           Revision 3
@@ -1312,7 +1326,7 @@ download: https://dl.google.com/gaformobileapps/GoogleAnalyticsAndroid_2.0beta5.
           size: 206.48 KB
           sha1: dc14026bf0ce78315cb5dd00552607de0894de83
 ------------
-id: 113
+id: 114
     Type: Extra
     Desc: Google Web Driver, revision 2
           Revision 2
@@ -1323,7 +1337,7 @@ download: https://dl.google.com/android/repository/webdriver_r02.zip
           size: 3.87 MB
           sha1: 13f3a3b2670a5fc04a7342861644be9a01b07e38
 ------------
-id: 114
+id: 115
     Type: Extra
     Desc: Google Cloud Messaging for Android Library, revision 3 (Obsolete)
           Revision 3
@@ -1334,7 +1348,7 @@ download: https://dl.google.com/android/repository/gcm_r03.zip
           size: 5.63 MB
           sha1: ad066fd0dc7fc99d8aadac09c65a3c2519fbc7bf
 ------------
-id: 115
+id: 116
     Type: Extra
     Desc: Android Auto API Simulators, revision 1
           Revision 1
@@ -1345,7 +1359,7 @@ download: https://dl.google.com/android/repository/simulator_r01.zip
           size: 2.07 MB
           sha1: 4fb5344e34e8faab4db18af07dace44c50db26a7
 ------------
-id: 116
+id: 117
     Type: Extra
     Desc: Android Auto Desktop Head Unit emulator, revision 1.1
           Revision 1.1
@@ -1362,7 +1376,7 @@ id: 116
           size: 2.27 MB
           sha1: 8179cbb3914493ebc5eb65b731cba061582f2e84
 ------------
-id: 117
+id: 118
     Type: Extra
     Desc: Android Support Library, revision 19.1
           Revision 19.1
@@ -1372,7 +1386,7 @@ download: https://dl.google.com/android/repository/support_r19.1.zip
           size: 4.90 MB
           sha1: 9d881bfc3137f2e416c94eb7509af94ea007e074
 ------------
-id: 118
+id: 119
     Type: Addon
     Desc: Glass Development Kit Preview, Android API 19, revision 11
           API 19
@@ -1384,7 +1398,7 @@ download: https://dl.google.com/glass/xe22/google-gdk.zip
           size: 71.27 KB
           sha1: 52cadbec4d42ce68a667e7e4ea461ef8b81924ef
 ------------
-id: 119
+id: 120
     Type: Extra
     Desc: Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.1
           Revision 6.0.1
@@ -1398,7 +1412,7 @@ id: 119
           size: 218.60 KB
           sha1: 89c95b2beda89e1a75675528f4184d228188ece2
 ------------
-id: 120
+id: 121
     Type: Addon
     Desc: Google APIs (x86 System Image), Android API 19, revision 18
           API 19
@@ -1410,7 +1424,7 @@ download: https://dl.google.com/android/repository/sys-img/x86/google_apis_x86-1
           size: 218.30 MB
           sha1: 5d055111eebdc307bc7b59fd3a84581b221573fc
 ------------
-id: 121
+id: 122
     Type: SystemImage
     Desc: Android SDK Platform 4.0 (Obsolete)
           API 14
@@ -1421,7 +1435,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_armv7a
           size: 95.01 MB
           sha1: d8991b0c06b18d7d6ed4169d67460ee1add6661b
 ------------
-id: 122
+id: 123
     Type: SystemImage
     Desc: Android SDK Platform 4.0.3
           API 15
@@ -1432,7 +1446,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_armv7a
           size: 91.78 MB
           sha1: 0a47f586e172b1cf3db2ada857a70c2bdec24ef8
 ------------
-id: 123
+id: 124
     Type: SystemImage
     Desc: Android SDK Platform 4.1.2
           API 16
@@ -1443,7 +1457,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_armv7a
           size: 107.39 MB
           sha1: 39c093ea755098f0ee79f607be7df9e54ba4943f
 ------------
-id: 124
+id: 125
     Type: SystemImage
     Desc: Android SDK Platform 4.2.2
           API 17
@@ -1454,7 +1468,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_armv7a
           size: 113.17 MB
           sha1: 97cfad22b51c8475e228b207dd36dbef1c18fa38
 ------------
-id: 125
+id: 126
     Type: SystemImage
     Desc: Android SDK Platform 4.3.1
           API 18
@@ -1465,7 +1479,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_armv7a
           size: 119.69 MB
           sha1: 2d7d51f4d2742744766511e5d6b491bd49161c51
 ------------
-id: 126
+id: 127
     Type: SystemImage
     Desc: Android SDK Platform 4.4.4
           API 19
@@ -1476,7 +1490,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_armv7a
           size: 152.01 MB
           sha1: 5daf7718e3ab03d9bd8792b492dd305f386ef12f
 ------------
-id: 127
+id: 128
     Type: SystemImage
     Desc: Android SDK Platform 5.0.2
           API 21
@@ -1487,7 +1501,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_arm-21
           size: 177.88 MB
           sha1: 0b2e21421d29f48211b5289ca4addfa7f4c7ae5a
 ------------
-id: 128
+id: 129
     Type: SystemImage
     Desc: Android SDK Platform 5.1
           API 22
@@ -1498,7 +1512,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_arm-22
           size: 184.71 MB
           sha1: 2aa6a887ee75dcf3ac34627853d561997792fcb8
 ------------
-id: 129
+id: 130
     Type: SystemImage
     Desc: Android SDK Platform 2.3.7
           API 10
@@ -1509,7 +1523,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-10
           size: 63.89 MB
           sha1: 6b8539eaca9685d2d3289bf8e6d21d366d791326
 ------------
-id: 130
+id: 131
     Type: SystemImage
     Desc: Android SDK Platform 4.0.4
           API 15
@@ -1520,7 +1534,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-15
           size: 103.97 MB
           sha1: 56b8d4b3d0f6a8876bc78d654da186f3b7b7c44f
 ------------
-id: 131
+id: 132
     Type: SystemImage
     Desc: Android SDK Platform 4.1.1
           API 16
@@ -1531,7 +1545,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-16
           size: 128.99 MB
           sha1: 36c2a2e394bcb3290583ce09815eae7711d0b2c2
 ------------
-id: 132
+id: 133
     Type: SystemImage
     Desc: Android SDK Platform 4.2.2
           API 17
@@ -1542,7 +1556,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-17
           size: 129.77 MB
           sha1: bd8c7c5411431af7e051cbe961be430fc31e773d
 ------------
-id: 133
+id: 134
     Type: SystemImage
     Desc: Android SDK Platform 4.3.1
           API 18
@@ -1553,7 +1567,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-18
           size: 137.23 MB
           sha1: ab3de121a44fca43ac3aa83f7d68cc47fc643ee8
 ------------
-id: 134
+id: 135
     Type: SystemImage
     Desc: Android SDK Platform 4.4.4
           API 19
@@ -1564,7 +1578,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-19
           size: 171.90 MB
           sha1: 3782f3ebac5e54b3de454570add401989515ffca
 ------------
-id: 135
+id: 136
     Type: SystemImage
     Desc: Android SDK Platform 5.0.2
           API 21
@@ -1575,7 +1589,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-21
           size: 192.26 MB
           sha1: a0b510c66769e84fa5e40515531be2d266a4247f
 ------------
-id: 136
+id: 137
     Type: SystemImage
     Desc: Android SDK Platform 5.0.2
           API 21
@@ -1586,7 +1600,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86_64
           size: 272.04 MB
           sha1: 2f205b728695d84488156f4846beb83a353ea64b
 ------------
-id: 137
+id: 138
     Type: SystemImage
     Desc: Android SDK Platform 5.1.1
           API 22
@@ -1597,7 +1611,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-22
           size: 201.61 MB
           sha1: b9381a43f102f5401ff7cb1c41ad2f10cde0ea82
 ------------
-id: 138
+id: 139
     Type: SystemImage
     Desc: Android SDK Platform 5.1.1
           API 22
@@ -1608,7 +1622,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86_64
           size: 283.24 MB
           sha1: 258af99a63a6cd7f97b90cb5847c702bedc17216
 ------------
-id: 139
+id: 140
     Type: SystemImage
     Desc: Android 4.0.4
           API 15
@@ -1619,7 +1633,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_mips-1
           size: 112.06 MB
           sha1: a753bb4a6783124dad726c500ce9aec9d2c1b2d9
 ------------
-id: 140
+id: 141
     Type: SystemImage
     Desc: Android 4.1.2
           API 16
@@ -1630,7 +1644,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_mips-1
           size: 116.81 MB
           sha1: 67943c54fb3943943ffeb05fdd39c0b753681f6e
 ------------
-id: 141
+id: 142
     Type: SystemImage
     Desc: Android 4.2.1
           API 17
@@ -1641,7 +1655,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_mips-1
           size: 125.68 MB
           sha1: f0c6e153bd584c29e51b5c9723cfbf30f996a05d
 ------------
-id: 142
+id: 143
     Type: SystemImage
     Desc: Android SDK Platform 6.0
           API 23
@@ -1652,7 +1666,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-23
           size: 240.33 MB
           sha1: 127b2143b686fead099ef6b58691d9b467f23770
 ------------
-id: 143
+id: 144
     Type: SystemImage
     Desc: Android SDK Platform 6.0
           API 23
@@ -1663,7 +1677,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86_64
           size: 333.15 MB
           sha1: 8be549a1dc8cb6c0c901426cf2b737d9c6402d93
 ------------
-id: 144
+id: 145
     Type: SystemImage
     Desc: Android SDK Platform 6.0
           API 23
@@ -1674,7 +1688,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_arm-23
           size: 216.37 MB
           sha1: 7bb8768ec4333500192fd9627d4234f505fa98dc
 ------------
-id: 145
+id: 146
     Type: SystemImage
     Desc: Android SDK Platform N
           API 23
@@ -1685,7 +1699,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86_64
           size: 669.97 MB
           sha1: 6bfcf58203ce3f7a5b1c6c21c86009fbd5aab105
 ------------
-id: 146
+id: 147
     Type: SystemImage
     Desc: Android SDK Platform N
           API 23
@@ -1696,7 +1710,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-N_
           size: 495.39 MB
           sha1: 4cd9925577f8ca0e937e0b8d4b21a369728e9fa0
 ------------
-id: 147
+id: 148
     Type: SystemImage
     Desc: Android SDK Platform 4.4W
           API 20
@@ -1707,7 +1721,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           size: 107.61 MB
           sha1: c05655105fe739a5405d12532430066d2537ed13
 ------------
-id: 148
+id: 149
     Type: SystemImage
     Desc: Android SDK Platform 4.4W
           API 20
@@ -1718,7 +1732,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           size: 119.77 MB
           sha1: efcc67868b1f487b144655d9d6c642c2606723de
 ------------
-id: 149
+id: 150
     Type: SystemImage
     Desc: Android SDK Platform 5.0.2
           API 21
@@ -1729,7 +1743,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           size: 168.55 MB
           sha1: 28a1113314a0c92a793282ba40e8216f3afd1186
 ------------
-id: 150
+id: 151
     Type: SystemImage
     Desc: Android SDK Platform 5.0.2
           API 21
@@ -1740,7 +1754,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           size: 178.44 MB
           sha1: 4ab3a1c33e46fcdf13b5bc4d5b3f67eea1206bed
 ------------
-id: 151
+id: 152
     Type: SystemImage
     Desc: Android SDK Platform 5.1.1
           API 22
@@ -1751,7 +1765,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           size: 177.89 MB
           sha1: 97b26d1ef08f291fd980358cbfa64861757d5fdf
 ------------
-id: 152
+id: 153
     Type: SystemImage
     Desc: Android SDK Platform 5.1.1
           API 22
@@ -1762,7 +1776,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           size: 185.53 MB
           sha1: a4aa0122186f00667f11c1fdaf39554724e8fd47
 ------------
-id: 153
+id: 154
     Type: SystemImage
     Desc: Android SDK Platform 6.0.1
           API 23
@@ -1773,7 +1787,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           size: 236.44 MB
           sha1: facac55f52853d8a9144bb8bb51c46dd6d186354
 ------------
-id: 154
+id: 155
     Type: SystemImage
     Desc: Android SDK Platform 6.0.1
           API 23
@@ -1784,7 +1798,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           size: 246.33 MB
           sha1: 628c740bd35f3766cb3367982e0b986c56fc1eae
 ------------
-id: 155
+id: 156
     Type: SystemImage
     Desc: Android SDK Platform 5.0.2
           API 21
@@ -1795,7 +1809,7 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
           size: 256.49 MB
           sha1: 2f8a1988188d6abfd6c6395baeb4471a034dc1e8
 ------------
-id: 156
+id: 157
     Type: SystemImage
     Desc: Android SDK Platform 5.0.2
           API 21
@@ -1806,7 +1820,7 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
           size: 237.87 MB
           sha1: b63e28a47f11b639dd94981a458b7abfa89ac331
 ------------
-id: 157
+id: 158
     Type: SystemImage
     Desc: Android SDK Platform 5.1
           API 22
@@ -1817,7 +1831,7 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
           size: 272.35 MB
           sha1: 51849acc07627b75c8941b15cbe659644aac4a55
 ------------
-id: 158
+id: 159
     Type: SystemImage
     Desc: Android SDK Platform 5.1
           API 22
@@ -1828,7 +1842,7 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
           size: 256.63 MB
           sha1: 557b7934170caa94f9dcac174f411b747ad62328
 ------------
-id: 159
+id: 160
     Type: SystemImage
     Desc: Android SDK Platform 6.0
           API 23
@@ -1839,7 +1853,7 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
           size: 308.09 MB
           sha1: d09c3917d10c65e270b744b0d141fdb8fddc84d5
 ------------
-id: 160
+id: 161
     Type: SystemImage
     Desc: Android SDK Platform 6.0
           API 23
@@ -1850,7 +1864,7 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
           size: 285.92 MB
           sha1: b2f8ecaa952481be259228779a12be3516f9e843
 ------------
-id: 161
+id: 162
     Type: SystemImage
     Desc: Android SDK Platform N
           API 23
@@ -1861,7 +1875,7 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_x86
           size: 368.77 MB
           sha1: 555d02d73d9a7fbb5d0e128ed8f1987212601643
 ------------
-id: 162
+id: 163
     Type: SystemImage
     Desc: System Image x86 with Google APIs.
           API 21
@@ -1872,7 +1886,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           size: 264.68 MB
           sha1: c218fba49110dcc811d24bc170af8863c6253f8f
 ------------
-id: 163
+id: 164
     Type: SystemImage
     Desc: System Image x86_64 with Google APIs.
           API 21
@@ -1883,7 +1897,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           size: 378.71 MB
           sha1: e9d75e0d6fc6733b3b0578ddda85f1ac702f8ea0
 ------------
-id: 164
+id: 165
     Type: SystemImage
     Desc: System Image armeabi-v7a with Google APIs.
           API 21
@@ -1894,7 +1908,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_ar
           size: 246.63 MB
           sha1: 10a7ae993dbd9ac45be9e5946d87c25e51c4bcf3
 ------------
-id: 165
+id: 166
     Type: SystemImage
     Desc: System Image x86 with Google APIs.
           API 22
@@ -1905,7 +1919,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           size: 326.60 MB
           sha1: 86754a8918d0dbfe74bbe10ac57f5ad385db9025
 ------------
-id: 166
+id: 167
     Type: SystemImage
     Desc: System Image armeabi-v7a with Google APIs.
           API 22
@@ -1916,7 +1930,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_ar
           size: 252.95 MB
           sha1: 70273783312d4519f8b503cdd8be980180fb1197
 ------------
-id: 167
+id: 168
     Type: SystemImage
     Desc: System Image x86_64 with Google APIs.
           API 22
@@ -1927,7 +1941,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           size: 447.88 MB
           sha1: 86fbc1b3c1c8485e0d9c18c3a1f3b5f4cbdc3538
 ------------
-id: 168
+id: 169
     Type: SystemImage
     Desc: System Image x86 with Google APIs.
           API 23
@@ -1938,7 +1952,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           size: 377.62 MB
           sha1: 1c10a261fd6bbf3af6614acb6f18b766ba5ea97e
 ------------
-id: 169
+id: 170
     Type: SystemImage
     Desc: System Image x86_64 with Google APIs.
           API 23
@@ -1949,7 +1963,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           size: 505.34 MB
           sha1: 01b883a5ff16cd47569de272e0a36e3a1f99a632
 ------------
-id: 170
+id: 171
     Type: SystemImage
     Desc: System Image armeabi-v7a with Google APIs.
           API 23
