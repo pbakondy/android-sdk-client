@@ -27,7 +27,6 @@ const SYSTEM_IMAGE_NAMES = {
   'mips': 'MIPS System Image'
 };
 
-var itemCounter;
 var detailedList = false;
 var exportFiles = false;
 var showObsolete = false;
@@ -169,7 +168,6 @@ function printData(data, baseUrl, type, name) {
 
     if (detailedList) {
       console.log('------------');
-      console.log(`id: ${itemCounter++}`);
       console.log('    Type: ' + type);
       console.log('    Desc: ' + description);
       if (version) {
@@ -206,9 +204,7 @@ function printData(data, baseUrl, type, name) {
       });
 
     } else {
-      let count = itemCounter++;
-      let gap = (count > 99 ? ' ' : (count > 9 ? '  ' : '   '));
-      let out = `${gap}${count}- ${name}, revision ${getRevisionString(data['sdk:revision'])}${obsoleteString}`;
+      let out = ` - ${name}, revision ${getRevisionString(data['sdk:revision'])}${obsoleteString}`;
       console.log(out);
     }
   } catch(e) {
@@ -351,7 +347,6 @@ function getAddonsData() {
 
 
 function printList() {
-  itemCounter = 1;
 
   repositories.forEach(repo => {
     printDetails(null, repo);
