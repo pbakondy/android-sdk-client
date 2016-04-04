@@ -1,7 +1,7 @@
 Fetching URL: https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addons_list-2.xml
-Parse XML:    https://dl.google.com/android/repository/repository-11.xml
 Parse XML:    https://dl.google.com/android/repository/addons_list-2.xml
+Parse XML:    https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addon.xml
 Fetching URL: https://dl.google.com/android/repository/addon-6.xml
 Fetching URL: https://dl-ssl.google.com/glass/gdk/addon.xml
@@ -12,14 +12,14 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/addon-6.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl-ssl.google.com/glass/gdk/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon-6.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl-ssl.google.com/glass/gdk/addon.xml
 Done loading packages.
  - SDK Platform Android 1.1, revision 1 (Obsolete)
  - SDK Platform Android 1.5, revision 4 (Obsolete)
@@ -42,8 +42,8 @@ Done loading packages.
  - SDK Platform Android 4.4W.2, revision 2
  - SDK Platform Android 5.0.1, revision 2
  - SDK Platform Android 5.1.1, revision 2
- - SDK Platform Android 6.0, revision 2
  - SDK Platform Android N, revision 1
+ - SDK Platform Android 6.0, revision 3
  - Android SDK Platform-tools, revision 23.1
  - Android SDK Platform-tools, revision 24 rc1
  - Android SDK Build-tools, revision 17 (Obsolete)
@@ -71,7 +71,7 @@ Done loading packages.
  - Android SDK Build-tools, revision 23.0.3
  - Android SDK Build-tools, revision 24 rc2
  - Android SDK Tools, revision 24.4.1
- - Android SDK Tools, revision 25.1 rc1
+ - Android SDK Tools, revision 25.1.1 rc1
  - Documentation for Android SDK, API 23, revision 1
  - Sources for Android SDK, API 14, revision 1 (Obsolete)
  - Sources for Android SDK, API 15, revision 2

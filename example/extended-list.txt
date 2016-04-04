@@ -11,15 +11,15 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl-ssl.google.com/glass/gdk/addon.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl-ssl.google.com/glass/gdk/addon.xml
 Parse XML:    https://dl.google.com/android/repository/addon-6.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -242,15 +242,6 @@ download: https://dl.google.com/android/repository/android-22_r02.zip
           sha1: 5d1bd10fea962b216a0dece1247070164760a9fc
 ------------
     Type: Platform
-    Desc: Android SDK Platform 23, rev 2
-          Version 6.0
-          API 23
-          Revision 2
-download: https://dl.google.com/android/repository/android-23_r02.zip
-          size: 67.15 MB
-          sha1: a71706896fe8159015c1c02f63af6ea03ceeb79e
-------------
-    Type: Platform
     Desc: Android SDK Platform N
           Version N
           API 23
@@ -258,6 +249,15 @@ download: https://dl.google.com/android/repository/android-23_r02.zip
 download: https://dl.google.com/android/repository/platform-N_r01.zip
           size: 77.03 MB
           sha1: 4bc248be737fb22175e8632c597d5bccf341ba8b
+------------
+    Type: Platform
+    Desc: Android SDK Platform 23, rev 3
+          Version 6.0
+          API 23
+          Revision 3
+download: https://dl.google.com/android/repository/platform-23_r03.zip
+          size: 67.17 MB
+          sha1: 027fede3de6aa1649115bbd0bffff30ccd51c9a0
 ------------
     Type: PlatformTool
     Desc: Android SDK Platform-tools, revision 23.1
@@ -611,17 +611,17 @@ download: https://dl.google.com/android/repository/platform-N_r01.zip
           sha1: 4b16f8f109e49a11a36949fe781dc804d38a1a68
 ------------
     Type: Tool
-    Desc: Android SDK Tools, revision 25.1 rc1
-          Revision 25.1 rc1
-   linux: https://dl.google.com/android/repository/tools_r25.1.0-linux.zip
-          size: 223.26 MB
-          sha1: 1caf81282ef0a93a83b121c75936c1ee2640f631
-  macosx: https://dl.google.com/android/repository/tools_r25.1.0-macosx.zip
-          size: 153.57 MB
-          sha1: 3e60f223fec640cd47de34da018f41566ab5d6cb
- windows: https://dl.google.com/android/repository/tools_r25.1.0-windows.zip
-          size: 219.35 MB
-          sha1: dbcf923e5405638cdc6169a1bf759e35d5e5345b
+    Desc: Android SDK Tools, revision 25.1.1 rc1
+          Revision 25.1.1 rc1
+   linux: https://dl.google.com/android/repository/tools_r25.1.1-linux.zip
+          size: 223.40 MB
+          sha1: f1a0a0c21e495888fdd8c03501dee3b6d6a48821
+  macosx: https://dl.google.com/android/repository/tools_r25.1.1-macosx.zip
+          size: 153.66 MB
+          sha1: 4371b642c8c709c7a673c355fe479dd849e3b698
+ windows: https://dl.google.com/android/repository/tools_r25.1.1-windows.zip
+          size: 219.47 MB
+          sha1: aaeb3dc605f9f366af08df5d49d26ba95b2580a4
 ------------
     Type: Doc
     Desc: Documentation for Android SDK, API 23, revision 1
