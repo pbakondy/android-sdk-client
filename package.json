@@ -1,6 +1,6 @@
 {
   "name": "android-sdk-client",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Display list of available files of SDK repository",
   "bin": {
     "android-sdk-client": "cli.js"

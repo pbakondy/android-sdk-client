@@ -285,7 +285,7 @@ function printDetails(data, source) {
     }
 
   } catch(e) {
-    console.error(e);
+    console.error(e, data, source);
   }
 
   return source;
@@ -321,16 +321,24 @@ function getRepositoryData() {
     repositories.forEach(source => list.push(getAndParse(source)));
     Promise.all(list).then(() => {
       // fill addons list
-      repositories[1].data['sdk:sdk-addons-list']['sdk:addon-site']
-        .forEach(addon => addons.push({
-          url: url.resolve(repositories[1].url, addon['sdk:url'][0]),
-          name: addon['sdk:name'][0]
-        }));
-      repositories[1].data['sdk:sdk-addons-list']['sdk:sys-img-site']
-        .forEach(addon => addons.push({
-          url: url.resolve(repositories[1].url, addon['sdk:url'][0]),
-          name: addon['sdk:name'][0]
-        }));
+      try {
+        repositories[1].data['sdk:sdk-addons-list']['sdk:addon-site']
+          .forEach(addon => addons.push({
+            url: url.resolve(repositories[1].url, addon['sdk:url'][0]),
+            name: addon['sdk:name'][0]
+          }));
+      } catch (e) {
+        console.log(e);
+      }
+      try {
+        repositories[1].data['sdk:sdk-addons-list']['sdk:sys-img-site']
+          .forEach(addon => addons.push({
+            url: url.resolve(repositories[1].url, addon['sdk:url'][0]),
+            name: addon['sdk:name'][0]
+          }));
+      } catch (e) {
+        console.log(e);
+      }
       resolve();
     }, reject);
   });
