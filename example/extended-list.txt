@@ -10,13 +10,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Done loading packages.
 ------------
@@ -607,6 +607,19 @@ download: https://dl.google.com/android/repository/platform-23_r03.zip
  windows: https://dl.google.com/android/repository/tools_r25.1.1-windows.zip
           size: 219.47 MB
           sha1: aaeb3dc605f9f366af08df5d49d26ba95b2580a4
+------------
+    Type: Tool
+    Desc: Android SDK Tools, revision 25.1.2
+          Revision 25.1.2
+   linux: https://dl.google.com/android/repository/tools_r25.1.2-linux.zip
+          size: 223.44 MB
+          sha1: fcda2d661ca15bc8717c29482e584006751b7ae0
+  macosx: https://dl.google.com/android/repository/tools_r25.1.2-macosx.zip
+          size: 153.72 MB
+          sha1: a295555c71c0bfb849ff313e94cf76f027815e4e
+ windows: https://dl.google.com/android/repository/tools_r25.1.2-windows.zip
+          size: 219.52 MB
+          sha1: a7baa6a8df4702f9eb1ef96b1b07d7996915e630
 ------------
     Type: Doc
     Desc: Documentation for Android SDK, API 23, revision 1
