@@ -10,14 +10,14 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -240,15 +240,6 @@ download: https://dl.google.com/android/repository/android-22_r02.zip
           sha1: 5d1bd10fea962b216a0dece1247070164760a9fc
 ------------
     Type: Platform
-    Desc: Android SDK Platform N
-          Version N
-          API 23
-          Revision 1
-download: https://dl.google.com/android/repository/platform-N_r01.zip
-          size: 77.03 MB
-          sha1: 4bc248be737fb22175e8632c597d5bccf341ba8b
-------------
-    Type: Platform
     Desc: Android SDK Platform 23, rev 3
           Version 6.0
           API 23
@@ -256,6 +247,15 @@ download: https://dl.google.com/android/repository/platform-N_r01.zip
 download: https://dl.google.com/android/repository/platform-23_r03.zip
           size: 67.17 MB
           sha1: 027fede3de6aa1649115bbd0bffff30ccd51c9a0
+------------
+    Type: Platform
+    Desc: Android SDK Platform N, rev 2
+          Version N
+          API 23
+          Revision 2
+download: https://dl.google.com/android/repository/platform-N_r02.zip
+          size: 78.37 MB
+          sha1: c1a3a3bf6776c2e46246cf55bf69d0e8e156239c
 ------------
     Type: PlatformTool
     Desc: Android SDK Platform-tools, revision 23.1
@@ -271,17 +271,17 @@ download: https://dl.google.com/android/repository/platform-23_r03.zip
           sha1: 787bd06180525ff94602fa8c45ccf25b8699e8f7
 ------------
     Type: PlatformTool
-    Desc: Android SDK Platform-tools, revision 24 rc1
-          Revision 24 rc1
-   linux: https://dl.google.com/android/repository/platform-tools_r24.0.0-linux_rc1.zip
-          size: 3.06 MB
-          sha1: c9f183f7a0b92372aa25ce30578dba444b4a9788
-  macosx: https://dl.google.com/android/repository/platform-tools_r24.0.0-macosx_rc1.zip
-          size: 2.88 MB
-          sha1: fc56df928d25178c304dbcc81ea8c7d9d9af9ae7
- windows: https://dl.google.com/android/repository/platform-tools_r24.0.0-windows_rc1.zip
-          size: 2.73 MB
-          sha1: 0e53c73c41010a83390bdeaebc9bbe20a31f7197
+    Desc: Android SDK Platform-tools, revision 24 rc2
+          Revision 24 rc2
+   linux: https://dl.google.com/android/repository/platform-tools_r24rc2-linux_rc2.zip
+          size: 3.07 MB
+          sha1: 6979e1eb599e9f79508bce6171cf56b800b22673
+  macosx: https://dl.google.com/android/repository/platform-tools_r24rc2-macosx_rc2.zip
+          size: 2.89 MB
+          sha1: 553715ffaffd5adf83bec7a14c2c9d6e89ba95a0
+ windows: https://dl.google.com/android/repository/platform-tools_r24rc2-windows_rc2.zip
+          size: 2.74 MB
+          sha1: 3212b4198db34310df5a59435858ada5f61930e2
 ------------
     Type: BuildTool
     Desc: Android SDK Build-tools, revision 17 (Obsolete)
@@ -583,17 +583,17 @@ download: https://dl.google.com/android/repository/platform-23_r03.zip
           sha1: c6d8266c6a3243c8f1e41b786c0e3cee4c781263
 ------------
     Type: BuildTool
-    Desc: Android SDK Build-tools, revision 24 rc2
-          Revision 24 rc2
-   linux: https://dl.google.com/android/repository/build-tools_r24.0.0-linux_rc2.zip
-          size: 40.22 MB
-          sha1: 9c565d7c69b21fd5afccaf3d0e90777a2830385c
-  macosx: https://dl.google.com/android/repository/build-tools_r24.0.0-macosx_rc2.zip
-          size: 39.98 MB
-          sha1: 09c9d4a11db9157a68a74b85751571b538af6832
- windows: https://dl.google.com/android/repository/build-tools_r24.0.0-windows_rc2.zip
-          size: 40.64 MB
-          sha1: b115a76143466caaf074639861098aec5a0e41e2
+    Desc: Android SDK Build-tools, revision 24 rc3
+          Revision 24 rc3
+   linux: https://dl.google.com/android/repository/build-tools_r24rc3-linux_rc3.zip
+          size: 43.27 MB
+          sha1: ed5c27591bf23de2491a1dc37a741626a66c30da
+  macosx: https://dl.google.com/android/repository/build-tools_r24rc3-macosx_rc3.zip
+          size: 43.37 MB
+          sha1: c89de32ec273a814a44539d5cc34d7c81718877e
+ windows: https://dl.google.com/android/repository/build-tools_r24rc3-windows_rc3.zip
+          size: 43.70 MB
+          sha1: 5475eee1a39ff747f62edc0f9b732e6f29ba3cfa
 ------------
     Type: Tool
     Desc: Android SDK Tools, revision 25.1.1
@@ -609,8 +609,8 @@ download: https://dl.google.com/android/repository/platform-23_r03.zip
           sha1: aaeb3dc605f9f366af08df5d49d26ba95b2580a4
 ------------
     Type: Tool
-    Desc: Android SDK Tools, revision 25.1.2
-          Revision 25.1.2
+    Desc: Android SDK Tools, revision 25.1.2 rc1
+          Revision 25.1.2 rc1
    linux: https://dl.google.com/android/repository/tools_r25.1.2-linux.zip
           size: 223.44 MB
           sha1: fcda2d661ca15bc8717c29482e584006751b7ae0
@@ -1120,14 +1120,14 @@ download: https://dl.google.com/android/repository/android_m2repository_r28.zip
           sha1: e4d0ad49df085a8d0322cfc4cfaa5e74a7b0569b
 ------------
     Type: Extra
-    Desc: Android Support Repository, revision 29
-          Revision 29
+    Desc: Android Support Repository, revision 30
+          Revision 30
           by Android
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/android_m2repository_r29.zip
-          size: 197.40 MB
-          sha1: 0ce9fa36dc040c70273b2ac706a7591cae550ab6
+download: https://dl.google.com/android/repository/android_m2repository_r30.zip
+          size: 204.22 MB
+          sha1: a06aadc0a32f1cd1c44e8004385929b17425fc37
 ------------
     Type: Addon
     Desc: Glass Development Kit Preview, Android API 19, revision 11
@@ -1407,22 +1407,22 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86_64
     Type: SystemImage
     Desc: Intel x86 Atom System Image
           API 23
-          Revision 1
+          Revision 2
           Intel x86 Atom System Image
           Requires SDK Platform Android API 23
-download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-N_r01.zip
-          size: 495.39 MB
-          sha1: 4cd9925577f8ca0e937e0b8d4b21a369728e9fa0
+download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-N_r02.zip
+          size: 509.43 MB
+          sha1: 48c3566302fa9af9821e37d898a09ed7b703c642
 ------------
     Type: SystemImage
     Desc: Intel x86 Atom_64 System Image
           API 23
-          Revision 1
+          Revision 2
           Intel x86 Atom_64 System Image
           Requires SDK Platform Android API 23
-download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86_64-N_r01.zip
-          size: 669.97 MB
-          sha1: 6bfcf58203ce3f7a5b1c6c21c86009fbd5aab105
+download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86_64-N_r02.zip
+          size: 691.84 MB
+          sha1: b70fe7c57f4724ecb6c5d78e759ce30072758557
 ------------
     Type: SystemImage
     Desc: Android Wear ARM EABI v7a System Image
@@ -1567,12 +1567,12 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
     Type: SystemImage
     Desc: Android TV Intel x86 Atom System Image
           API 23
-          Revision 1
+          Revision 2
           Intel x86 Atom System Image
           Requires SDK Platform Android API 23
-download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_x86-N_r01.zip
-          size: 368.77 MB
-          sha1: 555d02d73d9a7fbb5d0e128ed8f1987212601643
+download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv_x86-N_r02.zip
+          size: 373.19 MB
+          sha1: 8ac8c71e24535b67b6bd8ab2369604b01e3c357c
 ------------
     Type: SystemImage
     Desc: Google APIs ARM EABI v7a System Image
