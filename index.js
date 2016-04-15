@@ -365,6 +365,14 @@ function printList() {
 
 }
 
+
+// http://www.2ality.com/2016/04/unhandled-rejections.html
+process.on('unhandledRejection', (reason) => {
+  console.log('unhandledRejection');
+  console.log('Reason: ' + reason);
+});
+
+
 module.exports = function(options) {
   if (options.v || options.version) {
     console.log(CONFIG.version);
