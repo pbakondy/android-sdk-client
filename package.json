@@ -31,7 +31,7 @@
     "addon"
   ],
   "dependencies": {
-    "axios": "^0.9.1",
+    "axios": "^0.11.0",
     "es6-promise": "^3.1.2",
     "humanize": "0.0.9",
     "meow": "^3.7.0",
@@ -39,7 +39,7 @@
     "xml2js": "^0.4.16"
   },
   "devDependencies": {
-    "eslint": "^2.7.0"
+    "eslint": "^2.9.0"
   },
   "repository": {
     "type": "git",
