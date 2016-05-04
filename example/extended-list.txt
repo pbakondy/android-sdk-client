@@ -1,7 +1,7 @@
 Fetching URL: https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addons_list-2.xml
-Parse XML:    https://dl.google.com/android/repository/addons_list-2.xml
 Parse XML:    https://dl.google.com/android/repository/repository-11.xml
+Parse XML:    https://dl.google.com/android/repository/addons_list-2.xml
 Fetching URL: https://dl.google.com/android/repository/addon.xml
 Fetching URL: https://dl.google.com/android/repository/glass/addon.xml
 Fetching URL: https://dl.google.com/android/repository/extras/intel/addon.xml
@@ -10,14 +10,14 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -36,7 +36,7 @@ Done loading packages.
           sha1: a4060f29ed39fc929c302836d488998c53c3002e
 ------------
     Type: Platform
-    Desc: Android SDK Platform 3, rev 4 (Obsolete)
+    Desc: Android SDK Platform 3 (Obsolete)
           Version 1.5
           API 3
           Revision 4
@@ -51,7 +51,7 @@ Done loading packages.
           sha1: 5bb106d2e40d481edd337b0833093843e15fe49a
 ------------
     Type: Platform
-    Desc: Android SDK Platform 4, rev 3 (Obsolete)
+    Desc: Android SDK Platform 4 (Obsolete)
           Version 1.6
           API 4
           Revision 3
@@ -96,7 +96,7 @@ Done loading packages.
           sha1: 255781ebe4509d9707d0e77edda2815e2bc216e6
 ------------
     Type: Platform
-    Desc: Android SDK Platform 7, rev 3
+    Desc: Android SDK Platform 7
           Version 2.1
           API 7
           Revision 3
@@ -105,7 +105,7 @@ Done loading packages.
           sha1: 5ce51b023ac19f8738500b1007a1da5de2349a1e
 ------------
     Type: Platform
-    Desc: Android SDK Platform 8, rev 3
+    Desc: Android SDK Platform 8
           Version 2.2
           API 8
           Revision 3
@@ -114,7 +114,7 @@ Done loading packages.
           sha1: 231262c63eefdff8fd0386e9ccfefeb27a8f9202
 ------------
     Type: Platform
-    Desc: Android SDK Platform 9, rev 2
+    Desc: Android SDK Platform 9
           Version 2.3.1
           API 9
           Revision 2
@@ -123,7 +123,7 @@ Done loading packages.
           sha1: 209f8a7a8b2cb093fce858b8b55fed3ba5206773
 ------------
     Type: Platform
-    Desc: Android SDK Platform 10, rev 2
+    Desc: Android SDK Platform 10
           Version 2.3.3
           API 10
           Revision 2
@@ -132,7 +132,7 @@ Done loading packages.
           sha1: 887e37783ec32f541ea33c2c649dda648e8e6fb3
 ------------
     Type: Platform
-    Desc: Android SDK Platform 11, rev 2
+    Desc: Android SDK Platform 11
           Version 3.0
           API 11
           Revision 2
@@ -141,7 +141,7 @@ Done loading packages.
           sha1: 2c7d4bd13f276e76f6bbd87315fe27aba351dd37
 ------------
     Type: Platform
-    Desc: Android SDK Platform 12, rev 3
+    Desc: Android SDK Platform 12
           Version 3.1
           API 12
           Revision 3
@@ -159,7 +159,7 @@ Done loading packages.
           sha1: 6189a500a8c44ae73a439604363de93591163cd9
 ------------
     Type: Platform
-    Desc: Android SDK Platform 14, rev 4
+    Desc: Android SDK Platform 14
           Version 4.0
           API 14
           Revision 4
@@ -168,7 +168,7 @@ download: https://dl.google.com/android/repository/android-14_r04.zip
           sha1: d4f1d8fbca25225b5f0e7a0adf0d39c3d6e60b3c
 ------------
     Type: Platform
-    Desc: Android SDK Platform 15, rev 5
+    Desc: Android SDK Platform 15
           Version 4.0.3
           API 15
           Revision 5
@@ -177,7 +177,7 @@ download: https://dl.google.com/android/repository/android-15_r05.zip
           sha1: 69ab4c443b37184b2883af1fd38cc20cbeffd0f3
 ------------
     Type: Platform
-    Desc: Android SDK Platform 16, rev 5
+    Desc: Android SDK Platform 16
           Version 4.1.2
           API 16
           Revision 5
@@ -186,7 +186,7 @@ download: https://dl.google.com/android/repository/android-16_r05.zip
           sha1: 12a5ce6235a76bc30f62c26bda1b680e336abd07
 ------------
     Type: Platform
-    Desc: Android SDK Platform 17, rev 3
+    Desc: Android SDK Platform 17
           Version 4.2.2
           API 17
           Revision 3
@@ -195,7 +195,7 @@ download: https://dl.google.com/android/repository/android-17_r03.zip
           sha1: dbe14101c06e6cdb34e300393e64e64f8c92168a
 ------------
     Type: Platform
-    Desc: Android SDK Platform 18, rev 3
+    Desc: Android SDK Platform 18
           Version 4.3.1
           API 18
           Revision 3
@@ -204,7 +204,7 @@ download: https://dl.google.com/android/repository/android-18_r03.zip
           sha1: e6b09b3505754cbbeb4a5622008b907262ee91cb
 ------------
     Type: Platform
-    Desc: Android SDK Platform 19, rev 4
+    Desc: Android SDK Platform 19
           Version 4.4.2
           API 19
           Revision 4
@@ -213,7 +213,7 @@ download: https://dl.google.com/android/repository/android-19_r04.zip
           sha1: 2ff20d89e68f2f5390981342e009db5a2d456aaa
 ------------
     Type: Platform
-    Desc: Android SDK Platform 20, rev 2
+    Desc: Android SDK Platform 20
           Version 4.4W.2
           API 20
           Revision 2
@@ -222,7 +222,7 @@ download: https://dl.google.com/android/repository/android-20_r02.zip
           sha1: a9251f8a3f313ab05834a07a963000927637e01d
 ------------
     Type: Platform
-    Desc: Android SDK Platform 21, rev 2
+    Desc: Android SDK Platform 21
           Version 5.0.1
           API 21
           Revision 2
@@ -231,7 +231,7 @@ download: https://dl.google.com/android/repository/android-21_r02.zip
           sha1: 53536556059bb29ae82f414fd2e14bc335a4eb4c
 ------------
     Type: Platform
-    Desc: Android SDK Platform 22, rev 2
+    Desc: Android SDK Platform 22
           Version 5.1.1
           API 22
           Revision 2
@@ -240,7 +240,7 @@ download: https://dl.google.com/android/repository/android-22_r02.zip
           sha1: 5d1bd10fea962b216a0dece1247070164760a9fc
 ------------
     Type: Platform
-    Desc: Android SDK Platform 23, rev 3
+    Desc: Android SDK Platform 23
           Version 6.0
           API 23
           Revision 3
@@ -249,7 +249,7 @@ download: https://dl.google.com/android/repository/platform-23_r03.zip
           sha1: 027fede3de6aa1649115bbd0bffff30ccd51c9a0
 ------------
     Type: Platform
-    Desc: Android SDK Platform N, rev 2
+    Desc: Android SDK Platform N
           Version N
           API 23
           Revision 2

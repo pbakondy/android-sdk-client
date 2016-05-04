@@ -1,7 +1,7 @@
 Fetching URL: https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addons_list-2.xml
-Parse XML:    https://dl.google.com/android/repository/repository-11.xml
 Parse XML:    https://dl.google.com/android/repository/addons_list-2.xml
+Parse XML:    https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addon.xml
 Fetching URL: https://dl.google.com/android/repository/glass/addon.xml
 Fetching URL: https://dl.google.com/android/repository/extras/intel/addon.xml
@@ -10,14 +10,14 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Done loading packages.
  - SDK Platform Android 1.1, revision 1 (Obsolete)
  - SDK Platform Android 1.5, revision 4 (Obsolete)
