@@ -1,7 +1,7 @@
 Fetching URL: https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addons_list-2.xml
-Parse XML:    https://dl.google.com/android/repository/addons_list-2.xml
 Parse XML:    https://dl.google.com/android/repository/repository-11.xml
+Parse XML:    https://dl.google.com/android/repository/addons_list-2.xml
 Fetching URL: https://dl.google.com/android/repository/addon.xml
 Fetching URL: https://dl.google.com/android/repository/glass/addon.xml
 Fetching URL: https://dl.google.com/android/repository/extras/intel/addon.xml
@@ -10,14 +10,14 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -595,6 +595,19 @@ download: https://dl.google.com/android/repository/platform-N_r03.zip
           size: 219.59 MB
           sha1: 8dd33ab0835d7d676e093d2e987499ddcbc6dfdc
 ------------
+    Type: Tool
+    Desc: Android SDK Tools, revision 25.1.7 rc1
+          Revision 25.1.7 rc1
+   linux: https://dl.google.com/android/repository/tools_r25.1.7-linux.zip
+          size: 223.58 MB
+          sha1: 36869e6c81cda18f862959a92301761f81bc06b8
+  macosx: https://dl.google.com/android/repository/tools_r25.1.7-macosx.zip
+          size: 153.93 MB
+          sha1: 0fc555651bc6c7fc93237316311d3b435747bf3b
+ windows: https://dl.google.com/android/repository/tools_r25.1.7-windows.zip
+          size: 219.74 MB
+          sha1: 2556ac9a5fa741d44d9b989966c0bbdf15cb6424
+------------
     Type: Doc
     Desc: Documentation for Android SDK, API 23, revision 1
           API 23
@@ -913,15 +926,15 @@ download: https://dl.google.com/android/repository/google_apis-23_r01.zip
           sha1: 04c5cc1a7c88967250ebba9561d81e24104167db
 ------------
     Type: Addon
-    Desc: Google APIs, Android API 19, revision 18
+    Desc: Google APIs, Android API 19, revision 20
           API 19
-          Revision 18
+          Revision 20
           by Google Inc.
           Android + Google APIs
           Requires SDK Platform Android API 19
-download: https://dl.google.com/android/repository/google_apis-19_r18.zip
-          size: 170.55 MB
-          sha1: 701595b0d9985cca00be29b3c606e64731c3e1f7
+download: https://dl.google.com/android/repository/google_apis-19_r20.zip
+          size: 143.63 KB
+          sha1: 5b933abe830b2f25b4c0f171d45e9e0651e56311
 ------------
     Type: Extra
     Desc: Google Web Driver, revision 2
@@ -1126,17 +1139,6 @@ download: https://dl.google.com/android/repository/glass/google-gdk.zip
  windows: https://dl.google.com/android/repository/extras/intel/haxm-windows_r6_0_1.zip
           size: 1.72 MB
           sha1: 3b7268858cc6ae97f63e90d1d662b746bbfc5145
-------------
-    Type: Addon
-    Desc: Google APIs (x86 System Image), Android API 19, revision 18
-          API 19
-          Revision 18
-          by Google Inc.
-          Android x86 + Google APIs
-          Requires SDK Platform Android API 19
-download: https://dl.google.com/android/repository/sys-img/x86/google_apis_x86-19_r18.zip
-          size: 218.30 MB
-          sha1: 5d055111eebdc307bc7b59fd3a84581b221573fc
 ------------
     Type: SystemImage
     Desc: Intel x86 Atom System Image
@@ -1579,16 +1581,6 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           sha1: b8f5a56440b35fc7618f8d210ff1a75d514816bc
 ------------
     Type: SystemImage
-    Desc: Google APIs ARM EABI v7a System Image
-          API 19
-          Revision 20
-          ARM EABI v7a System Image
-          Requires SDK Platform Android API 19
-download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_armeabi-v7a-19_r20.zip
-          size: 208.80 MB
-          sha1: ba8eff47ea7378fe858c258be7b61ac2a158e65c
-------------
-    Type: SystemImage
     Desc: Google APIs Intel x86 Atom_64 System Image
           API 21
           Revision 12
@@ -1677,3 +1669,13 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
 download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x86-21_r13.zip
           size: 296.28 MB
           sha1: 90419491bc34409b281ed0f61329d3aa7142b722
+------------
+    Type: SystemImage
+    Desc: Google APIs ARM EABI v7a System Image
+          API 19
+          Revision 21
+          ARM EABI v7a System Image
+          Requires SDK Platform Android API 19
+download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_armeabi-v7a-19_r21.zip
+          size: 211.11 MB
+          sha1: a1b45e3b2e30a368f4842185017f5dcbf32e3bd8

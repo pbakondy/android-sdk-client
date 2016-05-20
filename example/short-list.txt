@@ -11,11 +11,11 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Done loading packages.
@@ -68,6 +68,7 @@ Done loading packages.
  - Android SDK Build-tools, revision 23.0.3
  - Android SDK Build-tools, revision 24 rc4
  - Android SDK Tools, revision 25.1.6
+ - Android SDK Tools, revision 25.1.7 rc1
  - Documentation for Android SDK, API 23, revision 1
  - Sources for Android SDK, API 14, revision 1 (Obsolete)
  - Sources for Android SDK, API 15, revision 2
@@ -100,7 +101,7 @@ Done loading packages.
  - Google APIs, Android API 15, revision 3
  - Google APIs, Android API 16, revision 4
  - Google APIs, Android API 23, revision 1
- - Google APIs, Android API 19, revision 18
+ - Google APIs, Android API 19, revision 20
  - Google Web Driver, revision 2
  - Google Play Licensing Library, revision 1
  - Google Cloud Messaging for Android Library, revision 3 (Obsolete)
@@ -120,7 +121,6 @@ Done loading packages.
  - Android Support Repository, revision 32
  - Glass Development Kit Preview, Android API 19, revision 11
  - Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.1
- - Google APIs (x86 System Image), Android API 19, revision 18
  - Intel x86 Atom System Image, Android API 10, revision 3
  - Intel x86 Atom System Image, Android API 15, revision 2
  - Intel x86 Atom System Image, Android API 16, revision 2
@@ -165,7 +165,6 @@ Done loading packages.
  - ARM EABI v7a System Image, Android API 23, revision 3
  - Intel x86 Atom System Image, Android API 23, revision 3
  - Intel x86 Atom System Image, Android API 19, revision 20
- - ARM EABI v7a System Image, Android API 19, revision 20
  - Intel x86 Atom_64 System Image, Android API 21, revision 12
  - ARM EABI v7a System Image, Android API 21, revision 12
  - ARM EABI v7a System Image, Android API 22, revision 6
@@ -175,3 +174,4 @@ Done loading packages.
  - ARM EABI v7a System Image, Android API 23, revision 14
  - Intel x86 Atom System Image, Android API 22, revision 7
  - Intel x86 Atom System Image, Android API 21, revision 13
+ - ARM EABI v7a System Image, Android API 19, revision 21
