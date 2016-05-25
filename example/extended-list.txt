@@ -1,7 +1,7 @@
 Fetching URL: https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addons_list-2.xml
-Parse XML:    https://dl.google.com/android/repository/repository-11.xml
 Parse XML:    https://dl.google.com/android/repository/addons_list-2.xml
+Parse XML:    https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addon.xml
 Fetching URL: https://dl.google.com/android/repository/glass/addon.xml
 Fetching URL: https://dl.google.com/android/repository/extras/intel/addon.xml
@@ -10,14 +10,14 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -100,7 +100,7 @@ Done loading packages.
           Version 2.1
           API 7
           Revision 3
-   linux: https://dl.google.com/android/repository/android-2.1_r03-linux.zip
+download: https://dl.google.com/android/repository/android-2.1_r03.zip
           size: 66.89 MB
           sha1: 5ce51b023ac19f8738500b1007a1da5de2349a1e
 ------------
@@ -109,7 +109,7 @@ Done loading packages.
           Version 2.2
           API 8
           Revision 3
-   linux: https://dl.google.com/android/repository/android-2.2_r03-linux.zip
+download: https://dl.google.com/android/repository/android-2.2_r03.zip
           size: 71.19 MB
           sha1: 231262c63eefdff8fd0386e9ccfefeb27a8f9202
 ------------
@@ -118,7 +118,7 @@ Done loading packages.
           Version 2.3.1
           API 9
           Revision 2
-   linux: https://dl.google.com/android/repository/android-2.3.1_r02-linux.zip
+download: https://dl.google.com/android/repository/android-2.3.1_r02.zip
           size: 75.09 MB
           sha1: 209f8a7a8b2cb093fce858b8b55fed3ba5206773
 ------------
@@ -127,7 +127,7 @@ Done loading packages.
           Version 2.3.3
           API 10
           Revision 2
-   linux: https://dl.google.com/android/repository/android-2.3.3_r02-linux.zip
+download: https://dl.google.com/android/repository/android-2.3.3_r02.zip
           size: 81.51 MB
           sha1: 887e37783ec32f541ea33c2c649dda648e8e6fb3
 ------------
@@ -136,7 +136,7 @@ Done loading packages.
           Version 3.0
           API 11
           Revision 2
-   linux: https://dl.google.com/android/repository/android-3.0_r02-linux.zip
+download: https://dl.google.com/android/repository/android-3.0_r02.zip
           size: 99.67 MB
           sha1: 2c7d4bd13f276e76f6bbd87315fe27aba351dd37
 ------------
@@ -145,7 +145,7 @@ Done loading packages.
           Version 3.1
           API 12
           Revision 3
-   linux: https://dl.google.com/android/repository/android-3.1_r03-linux.zip
+download: https://dl.google.com/android/repository/android-3.1_r03.zip
           size: 101.54 MB
           sha1: 4a50a6679cd95bb68bb5fc032e754cd7c5e2b1bf
 ------------
@@ -154,7 +154,7 @@ Done loading packages.
           Version 3.2
           API 13
           Revision 1
-   linux: https://dl.google.com/android/repository/android-3.2_r01-linux.zip
+download: https://dl.google.com/android/repository/android-3.2_r01.zip
           size: 103.40 MB
           sha1: 6189a500a8c44ae73a439604363de93591163cd9
 ------------
