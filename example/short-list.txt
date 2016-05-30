@@ -10,14 +10,14 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Done loading packages.
  - SDK Platform Android 1.1, revision 1 (Obsolete)
  - SDK Platform Android 1.5, revision 4 (Obsolete)
@@ -117,8 +117,8 @@ Done loading packages.
  - Android Auto Desktop Head Unit emulator, revision 1.1
  - GPU Debugging tools, revision 1.0.3
  - Android Support Library, revision 23.2.1 (Obsolete)
- - Google Repository, revision 26
  - Google Play services, revision 30
+ - Google Repository, revision 27
  - Glass Development Kit Preview, Android API 19, revision 11
  - Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.1
  - Intel x86 Atom System Image, Android API 10, revision 3
