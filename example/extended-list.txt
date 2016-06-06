@@ -1,23 +1,21 @@
 Fetching URL: https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addons_list-2.xml
-Parse XML:    https://dl.google.com/android/repository/addons_list-2.xml
 Parse XML:    https://dl.google.com/android/repository/repository-11.xml
+Parse XML:    https://dl.google.com/android/repository/addons_list-2.xml
 Fetching URL: https://dl.google.com/android/repository/addon.xml
 Fetching URL: https://dl.google.com/android/repository/glass/addon.xml
 Fetching URL: https://dl.google.com/android/repository/extras/intel/addon.xml
-Fetching URL: https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -583,21 +581,8 @@ download: https://dl.google.com/android/repository/platform-N_r03.zip
           sha1: f619519659c12bc242a3bec899b5a62aba4263fd
 ------------
     Type: Tool
-    Desc: Android SDK Tools, revision 25.1.6
-          Revision 25.1.6
-   linux: https://dl.google.com/android/repository/tools_r25.1.6-linux.zip
-          size: 223.48 MB
-          sha1: a375003033774604d1426eb2d33ce6e507c95900
-  macosx: https://dl.google.com/android/repository/tools_r25.1.6-macosx.zip
-          size: 153.77 MB
-          sha1: b04bc0088bca1df5765ba450064ecdc9fd47697a
- windows: https://dl.google.com/android/repository/tools_r25.1.6-windows.zip
-          size: 219.59 MB
-          sha1: 8dd33ab0835d7d676e093d2e987499ddcbc6dfdc
-------------
-    Type: Tool
-    Desc: Android SDK Tools, revision 25.1.7 rc1
-          Revision 25.1.7 rc1
+    Desc: Android SDK Tools, revision 25.1.7
+          Revision 25.1.7
    linux: https://dl.google.com/android/repository/tools_r25.1.7-linux.zip
           size: 223.58 MB
           sha1: 36869e6c81cda18f862959a92301761f81bc06b8
@@ -1107,14 +1092,14 @@ download: https://dl.google.com/android/repository/google_play_services_9080000_
           sha1: 5eb28691853a7815a95f6a67636e176c13ee4a23
 ------------
     Type: Extra
-    Desc: Google Repository, revision 27
-          Revision 27
+    Desc: Google Repository, revision 28
+          Revision 28
           by Google Inc.
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/google_m2repository_r27.zip
-          size: 80.70 MB
-          sha1: 4464fc20784225fc190d172211c1b5cef946e911
+download: https://dl.google.com/android/repository/google_m2repository_r28.zip
+          size: 87.04 MB
+          sha1: 05ce60de2ddb4bfe30dd939570fee0b063d9b84e
 ------------
     Type: Addon
     Desc: Glass Development Kit Preview, Android API 19, revision 11

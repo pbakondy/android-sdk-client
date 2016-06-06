@@ -5,19 +5,17 @@ Parse XML:    https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addon.xml
 Fetching URL: https://dl.google.com/android/repository/glass/addon.xml
 Fetching URL: https://dl.google.com/android/repository/extras/intel/addon.xml
-Fetching URL: https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Done loading packages.
  - SDK Platform Android 1.1, revision 1 (Obsolete)
  - SDK Platform Android 1.5, revision 4 (Obsolete)
@@ -67,8 +65,7 @@ Done loading packages.
  - Android SDK Build-tools, revision 23.0.2
  - Android SDK Build-tools, revision 23.0.3
  - Android SDK Build-tools, revision 24 rc4
- - Android SDK Tools, revision 25.1.6
- - Android SDK Tools, revision 25.1.7 rc1
+ - Android SDK Tools, revision 25.1.7
  - Documentation for Android SDK, API 23, revision 1
  - Sources for Android SDK, API 14, revision 1 (Obsolete)
  - Sources for Android SDK, API 15, revision 2
@@ -118,7 +115,7 @@ Done loading packages.
  - GPU Debugging tools, revision 1.0.3
  - Android Support Library, revision 23.2.1 (Obsolete)
  - Google Play services, revision 30
- - Google Repository, revision 27
+ - Google Repository, revision 28
  - Glass Development Kit Preview, Android API 19, revision 11
  - Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.1
  - Intel x86 Atom System Image, Android API 10, revision 3
