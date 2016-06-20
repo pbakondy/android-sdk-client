@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -256,21 +256,8 @@ download: https://dl.google.com/android/repository/platform-24_r01.zip
           sha1: b58f5dd3f60ee0fbaa09cce6372157c36c688075
 ------------
     Type: PlatformTool
-    Desc: Android SDK Platform-tools, revision 23.1
-          Revision 23.1
-   linux: https://dl.google.com/android/repository/platform-tools_r23.1.0-linux.zip
-          size: 2.73 MB
-          sha1: 90d5555035be2dfa3be691403ef8f3bc75c258b7
-  macosx: https://dl.google.com/android/repository/platform-tools_r23.1.0-macosx.zip
-          size: 2.62 MB
-          sha1: ae617adb1f55c7f3c909b247d39ef9e58d3cf7f2
- windows: https://dl.google.com/android/repository/platform-tools_r23.1.0-windows.zip
-          size: 2.47 MB
-          sha1: 787bd06180525ff94602fa8c45ccf25b8699e8f7
-------------
-    Type: PlatformTool
-    Desc: Android SDK Platform-tools, revision 24 rc1
-          Revision 24 rc1
+    Desc: Android SDK Platform-tools, revision 24
+          Revision 24
    linux: https://dl.google.com/android/repository/platform-tools_r24-linux.zip
           size: 3.18 MB
           sha1: 5c493c923431a3677ad13b618edcbd58e5325cb1
@@ -922,16 +909,6 @@ download: https://dl.google.com/android/repository/google_apis-23_r01.zip
           sha1: 04c5cc1a7c88967250ebba9561d81e24104167db
 ------------
     Type: Extra
-    Desc: Android Support Repository, revision 31
-          Revision 31
-          by Android
-          Local Maven repository for Support Libraries
-          Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/android_m2repository_r31.zip
-          size: 210.78 MB
-          sha1: 66480960ad07c7cdd87f3ca6183c0ab64ffe251c
-------------
-    Type: Extra
     Desc: Android Support Repository, revision 33
           Revision 33
           by Android
@@ -940,6 +917,22 @@ download: https://dl.google.com/android/repository/android_m2repository_r31.zip
 download: https://dl.google.com/android/repository/android_m2repository_r33.zip
           size: 225.41 MB
           sha1: 647bfe10953923268c2dda1dc1ecf51c1d5d5ebb
+------------
+    Type: Extra
+    Desc: GPU Debugging tools, revision 3
+          Revision 3
+          by Android
+          Tools that support GPU debugging and profiling within an IDE.
+          Install path: extras/android/gapid_3
+   linux: https://dl.google.com/android/repository/gapid_2980123_linux.zip
+          size: 29.89 MB
+          sha1: c6b6f35517fd5b754e6d7ce750e98a6a4e4cc8df
+  macosx: https://dl.google.com/android/repository/gapid_2980123_osx.zip
+          size: 36.50 MB
+          sha1: 747a33e5a302e9ccef5c274790d24034f6131a1f
+ windows: https://dl.google.com/android/repository/gapid_2980123_windows.zip
+          size: 30.01 MB
+          sha1: f434c899345922fc24171f9411e9fbf6aec5ec39
 ------------
     Type: Extra
     Desc: Google Web Driver, revision 2
