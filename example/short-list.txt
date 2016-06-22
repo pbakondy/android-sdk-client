@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Done loading packages.
  - SDK Platform Android 1.1, revision 1 (Obsolete)
  - SDK Platform Android 1.5, revision 4 (Obsolete)
@@ -99,7 +99,7 @@ Done loading packages.
  - Google APIs, Android API 16, revision 4
  - Google APIs, Android API 23, revision 1
  - Android Support Repository, revision 33
- - GPU Debugging tools, revision 3
+ - GPU Debugging tools, revision 3.1
  - Google Web Driver, revision 2
  - Google Play Licensing Library, revision 1
  - Google Cloud Messaging for Android Library, revision 3 (Obsolete)

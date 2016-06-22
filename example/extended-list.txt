@@ -10,12 +10,12 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -919,20 +919,20 @@ download: https://dl.google.com/android/repository/android_m2repository_r33.zip
           sha1: 647bfe10953923268c2dda1dc1ecf51c1d5d5ebb
 ------------
     Type: Extra
-    Desc: GPU Debugging tools, revision 3
-          Revision 3
+    Desc: GPU Debugging tools, revision 3.1
+          Revision 3.1
           by Android
           Tools that support GPU debugging and profiling within an IDE.
           Install path: extras/android/gapid_3
-   linux: https://dl.google.com/android/repository/gapid_2980123_linux.zip
-          size: 29.89 MB
-          sha1: c6b6f35517fd5b754e6d7ce750e98a6a4e4cc8df
-  macosx: https://dl.google.com/android/repository/gapid_2980123_osx.zip
-          size: 36.50 MB
-          sha1: 747a33e5a302e9ccef5c274790d24034f6131a1f
- windows: https://dl.google.com/android/repository/gapid_2980123_windows.zip
-          size: 30.01 MB
-          sha1: f434c899345922fc24171f9411e9fbf6aec5ec39
+   linux: https://dl.google.com/android/repository/gapid_2994895_linux.zip
+          size: 30.07 MB
+          sha1: a33fe37c87b095171d647385445abe164ae03514
+  macosx: https://dl.google.com/android/repository/gapid_2994895_osx.zip
+          size: 30.43 MB
+          sha1: 81dec931c8b0a5fe7c68accd8b3f8c731a9474f3
+ windows: https://dl.google.com/android/repository/gapid_2994895_windows.zip
+          size: 30.19 MB
+          sha1: ce00f4a7364d7fdd5d25d2429f04c4d50f56be1e
 ------------
     Type: Extra
     Desc: Google Web Driver, revision 2
