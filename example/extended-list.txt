@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -1075,24 +1075,24 @@ download: https://dl.google.com/android/repository/support_r23.2.1.zip
           sha1: 41121bbc412c2fce0be170d589d20cfa3e78e857
 ------------
     Type: Extra
-    Desc: Google Play services, revision 30
-          Revision 30
+    Desc: Google Play services, revision 31
+          Revision 31
           by Google Inc.
           Google Play services Javadocs and sample code
           Install path: extras/android/google_play_services
-download: https://dl.google.com/android/repository/google_play_services_9080000_r30.zip
-          size: 10.59 MB
-          sha1: 5eb28691853a7815a95f6a67636e176c13ee4a23
+download: https://dl.google.com/android/repository/google_play_services_9256000_r31.zip
+          size: 11.20 MB
+          sha1: 3f1b502d0f6361c036cb332b8c15249a1168e08b
 ------------
     Type: Extra
-    Desc: Google Repository, revision 28
-          Revision 28
+    Desc: Google Repository, revision 29
+          Revision 29
           by Google Inc.
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/google_m2repository_r28.zip
-          size: 87.04 MB
-          sha1: 05ce60de2ddb4bfe30dd939570fee0b063d9b84e
+download: https://dl.google.com/android/repository/google_m2repository_r29.zip
+          size: 94.08 MB
+          sha1: e7e27b0bf6552ef61eacc04c98209cfb8b01faae
 ------------
     Type: Addon
     Desc: Glass Development Kit Preview, Android API 19, revision 11
