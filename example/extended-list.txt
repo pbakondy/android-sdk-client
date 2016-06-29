@@ -12,10 +12,10 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-i
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -1106,17 +1106,17 @@ download: https://dl.google.com/android/repository/glass/google-gdk.zip
           sha1: 52cadbec4d42ce68a667e7e4ea461ef8b81924ef
 ------------
     Type: Extra
-    Desc: Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.1
-          Revision 6.0.1
+    Desc: Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.3
+          Revision 6.0.3
           by Intel Corporation
           Emulation speedup using Intel VT processor technology. Read more at www.intel.com/software/android
           Install path: extras/android/Hardware_Accelerated_Execution_Manager
-  macosx: https://dl.google.com/android/repository/extras/intel/haxm-macosx_r6_0_1.zip
-          size: 218.60 KB
-          sha1: 89c95b2beda89e1a75675528f4184d228188ece2
- windows: https://dl.google.com/android/repository/extras/intel/haxm-windows_r6_0_1.zip
-          size: 1.72 MB
-          sha1: 3b7268858cc6ae97f63e90d1d662b746bbfc5145
+  macosx: https://dl.google.com/android/repository/extras/intel/haxm-macosx_r6_0_3.zip
+          size: 219.23 KB
+          sha1: 3128fdfe9a25d9918f93ee42f1a60574be702212
+ windows: https://dl.google.com/android/repository/extras/intel/haxm-windows_r6_0_3.zip
+          size: 1.73 MB
+          sha1: daa0c2e0c74e772312dad6908fd64d47e66f25a5
 ------------
     Type: SystemImage
     Desc: Intel x86 Atom System Image
