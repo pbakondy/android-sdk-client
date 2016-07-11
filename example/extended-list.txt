@@ -10,12 +10,12 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -669,17 +669,6 @@ download: https://dl.google.com/android/repository/sources-23_r01.zip
           sha1: b0f15da2762b42f543c5e364c2b15b198cc99cc2
 ------------
     Type: Addon
-    Desc: Google APIs, Android API 19, revision 20
-          API 19
-          Revision 20
-          by Google Inc.
-          Android + Google APIs
-          Requires SDK Platform Android API 19
-download: https://dl.google.com/android/repository/google_apis-19_r20.zip
-          size: 143.63 KB
-          sha1: 5b933abe830b2f25b4c0f171d45e9e0651e56311
-------------
-    Type: Addon
     Desc: Google APIs, Android API 3, revision 3 (Obsolete)
           API 3
           Revision 3
@@ -691,17 +680,6 @@ download: https://dl.google.com/android/repository/google_apis-3-r03.zip
           sha1: 1f92abf3a76be66ae8032257fc7620acbd2b2e3a
 ------------
     Type: Addon
-    Desc: Google APIs, Android API 5, revision 1 (Obsolete)
-          API 5
-          Revision 1
-          by Google Inc.
-          Android + Google APIs
-          Requires SDK Platform Android API 5
-download: https://dl.google.com/android/repository/google_apis-5_r01.zip
-          size: 46.85 MB
-          sha1: 46eaeb56b645ee7ffa24ede8fa17f3df70db0503
-------------
-    Type: Addon
     Desc: Google APIs, Android API 4, revision 2 (Obsolete)
           API 4
           Revision 2
@@ -711,6 +689,17 @@ download: https://dl.google.com/android/repository/google_apis-5_r01.zip
 download: https://dl.google.com/android/repository/google_apis-4_r02.zip
           size: 40.47 MB
           sha1: 9b6e86d8568558de4d606a7debc4f6049608dbd0
+------------
+    Type: Addon
+    Desc: Google APIs, Android API 5, revision 1 (Obsolete)
+          API 5
+          Revision 1
+          by Google Inc.
+          Android + Google APIs
+          Requires SDK Platform Android API 5
+download: https://dl.google.com/android/repository/google_apis-5_r01.zip
+          size: 46.85 MB
+          sha1: 46eaeb56b645ee7ffa24ede8fa17f3df70db0503
 ------------
     Type: Addon
     Desc: Google APIs, Android API 6, revision 1 (Obsolete)
@@ -757,17 +746,6 @@ download: https://dl.google.com/android/repository/google_apis-9_r02.zip
           sha1: 78664645a1e9accea4430814f8694291a7f1ea5d
 ------------
     Type: Addon
-    Desc: Google APIs, Android API 11, revision 1 (Obsolete)
-          API 11
-          Revision 1
-          by Google Inc.
-          Android + Google APIs
-          Requires SDK Platform Android API 11
-download: https://dl.google.com/android/repository/google_apis-11_r01.zip
-          size: 79.61 MB
-          sha1: 5eab5e81addee9f3576d456d205208314b5146a5
-------------
-    Type: Addon
     Desc: Google APIs, Android API 10, revision 2 (Obsolete)
           API 10
           Revision 2
@@ -777,6 +755,17 @@ download: https://dl.google.com/android/repository/google_apis-11_r01.zip
 download: https://dl.google.com/android/repository/google_apis-10_r02.zip
           size: 62.73 MB
           sha1: cc0711857c881fa7534f90cf8cc09b8fe985484d
+------------
+    Type: Addon
+    Desc: Google APIs, Android API 11, revision 1 (Obsolete)
+          API 11
+          Revision 1
+          by Google Inc.
+          Android + Google APIs
+          Requires SDK Platform Android API 11
+download: https://dl.google.com/android/repository/google_apis-11_r01.zip
+          size: 79.61 MB
+          sha1: 5eab5e81addee9f3576d456d205208314b5146a5
 ------------
     Type: Addon
     Desc: Google APIs, Android API 12, revision 1 (Obsolete)
@@ -801,16 +790,6 @@ download: https://dl.google.com/android/repository/google_apis-13_r01.zip
           sha1: 3b153edd211c27dc736c893c658418a4f9041417
 ------------
     Type: Addon
-    Desc: Google TV Addon, Android API 12, revision 2 (Obsolete)
-          API 12
-          Revision 2
-          by Google Inc.
-          Requires SDK Platform Android API 12
-download: https://dl.google.com/android/repository/google_tv-12_r02.zip
-          size: 74.64 MB
-          sha1: 92128a12e7e8b0fb5bac59153d7779b717e7b840
-------------
-    Type: Addon
     Desc: Google APIs, Android API 14, revision 2 (Obsolete)
           API 14
           Revision 2
@@ -820,60 +799,6 @@ download: https://dl.google.com/android/repository/google_tv-12_r02.zip
 download: https://dl.google.com/android/repository/google_apis-14_r02.zip
           size: 101.60 MB
           sha1: f8eb4d96ad0492b4c0db2d7e4f1a1a3836664d39
-------------
-    Type: Addon
-    Desc: Google TV Addon, Android API 13, revision 1 (Obsolete)
-          API 13
-          Revision 1
-          by Google Inc.
-          Requires SDK Platform Android API 13
-download: https://dl.google.com/android/repository/google_tv-13_r01.zip
-          size: 83.66 MB
-          sha1: b73f7c66011ac8180b44aa4e83b8d78c66ea9a09
-------------
-    Type: Addon
-    Desc: Google APIs, Android API 21, revision 1
-          API 21
-          Revision 1
-          by Google Inc.
-          Android + Google APIs
-          Requires SDK Platform Android API 21
-download: https://dl.google.com/android/repository/google_apis-21_r01.zip
-          size: 175.29 KB
-          sha1: 66a754efb24e9bb07cc51648426443c7586c9d4a
-------------
-    Type: Addon
-    Desc: Google APIs, Android API 22, revision 1
-          API 22
-          Revision 1
-          by Google Inc.
-          Android + Google APIs
-          Requires SDK Platform Android API 22
-download: https://dl.google.com/android/repository/google_apis-22_r01.zip
-          size: 175.06 KB
-          sha1: 5def0f42160cba8acff51b9c0c7e8be313de84f5
-------------
-    Type: Addon
-    Desc: Google APIs, Android API 17, revision 4
-          API 17
-          Revision 4
-          by Google Inc.
-          Android + Google APIs
-          Requires SDK Platform Android API 17
-download: https://dl.google.com/android/repository/google_apis-17_r04.zip
-          size: 130.87 MB
-          sha1: a076be0677f38df8ca5536b44dfb411a0c808c4f
-------------
-    Type: Addon
-    Desc: Google APIs, Android API 18, revision 4
-          API 18
-          Revision 4
-          by Google Inc.
-          Android + Google APIs
-          Requires SDK Platform Android API 18
-download: https://dl.google.com/android/repository/google_apis-18_r04.zip
-          size: 136.56 MB
-          sha1: 6109603409debdd40854d4d4a92eaf8481462c8b
 ------------
     Type: Addon
     Desc: Google APIs, Android API 15, revision 3
@@ -898,6 +823,61 @@ download: https://dl.google.com/android/repository/google_apis-16_r04.zip
           sha1: ee6acf1b01020bfa8a8e24725dbc4478bee5e792
 ------------
     Type: Addon
+    Desc: Google APIs, Android API 17, revision 4
+          API 17
+          Revision 4
+          by Google Inc.
+          Android + Google APIs
+          Requires SDK Platform Android API 17
+download: https://dl.google.com/android/repository/google_apis-17_r04.zip
+          size: 130.87 MB
+          sha1: a076be0677f38df8ca5536b44dfb411a0c808c4f
+------------
+    Type: Addon
+    Desc: Google APIs, Android API 18, revision 4
+          API 18
+          Revision 4
+          by Google Inc.
+          Android + Google APIs
+          Requires SDK Platform Android API 18
+download: https://dl.google.com/android/repository/google_apis-18_r04.zip
+          size: 136.56 MB
+          sha1: 6109603409debdd40854d4d4a92eaf8481462c8b
+------------
+    Type: Addon
+    Desc: Google APIs, Android API 19, revision 20
+          API 19
+          Revision 20
+          by Google Inc.
+          Android + Google APIs
+          Requires SDK Platform Android API 19
+download: https://dl.google.com/android/repository/google_apis-19_r20.zip
+          size: 143.63 KB
+          sha1: 5b933abe830b2f25b4c0f171d45e9e0651e56311
+------------
+    Type: Addon
+    Desc: Google APIs, Android API 21, revision 1
+          API 21
+          Revision 1
+          by Google Inc.
+          Android + Google APIs
+          Requires SDK Platform Android API 21
+download: https://dl.google.com/android/repository/google_apis-21_r01.zip
+          size: 175.29 KB
+          sha1: 66a754efb24e9bb07cc51648426443c7586c9d4a
+------------
+    Type: Addon
+    Desc: Google APIs, Android API 22, revision 1
+          API 22
+          Revision 1
+          by Google Inc.
+          Android + Google APIs
+          Requires SDK Platform Android API 22
+download: https://dl.google.com/android/repository/google_apis-22_r01.zip
+          size: 175.06 KB
+          sha1: 5def0f42160cba8acff51b9c0c7e8be313de84f5
+------------
+    Type: Addon
     Desc: Google APIs, Android API 23, revision 1
           API 23
           Revision 1
@@ -908,6 +888,26 @@ download: https://dl.google.com/android/repository/google_apis-23_r01.zip
           size: 175.68 KB
           sha1: 04c5cc1a7c88967250ebba9561d81e24104167db
 ------------
+    Type: Addon
+    Desc: Google TV Addon, Android API 12, revision 2 (Obsolete)
+          API 12
+          Revision 2
+          by Google Inc.
+          Requires SDK Platform Android API 12
+download: https://dl.google.com/android/repository/google_tv-12_r02.zip
+          size: 74.64 MB
+          sha1: 92128a12e7e8b0fb5bac59153d7779b717e7b840
+------------
+    Type: Addon
+    Desc: Google TV Addon, Android API 13, revision 1 (Obsolete)
+          API 13
+          Revision 1
+          by Google Inc.
+          Requires SDK Platform Android API 13
+download: https://dl.google.com/android/repository/google_tv-13_r01.zip
+          size: 83.66 MB
+          sha1: b73f7c66011ac8180b44aa4e83b8d78c66ea9a09
+------------
     Type: Extra
     Desc: Android Support Repository, revision 33
           Revision 33
@@ -917,6 +917,31 @@ download: https://dl.google.com/android/repository/google_apis-23_r01.zip
 download: https://dl.google.com/android/repository/android_m2repository_r33.zip
           size: 225.41 MB
           sha1: 647bfe10953923268c2dda1dc1ecf51c1d5d5ebb
+------------
+    Type: Extra
+    Desc: Android Support Library, revision 23.2.1 (Obsolete)
+          Revision 23.2.1
+          by Android
+          Install path: extras/android/support
+download: https://dl.google.com/android/repository/support_r23.2.1.zip
+          size: 10.35 MB
+          sha1: 41121bbc412c2fce0be170d589d20cfa3e78e857
+------------
+    Type: Extra
+    Desc: GPU Debugging tools, revision 1.0.3
+          Revision 1.0.3
+          by Android
+          Tools that support GPU debugging and profiling within an IDE.
+          Install path: extras/android/gapid
+   linux: https://dl.google.com/android/repository/gapid_r01_linux.zip
+          size: 12.37 MB
+          sha1: 7c9ef7544cf0aea030bcc29bd8e12c04fd53e653
+  macosx: https://dl.google.com/android/repository/gapid_r01_osx.zip
+          size: 15.09 MB
+          sha1: 597eb271349d890566274861eba2770a84ee4c69
+ windows: https://dl.google.com/android/repository/gapid_r01_windows.zip
+          size: 12.61 MB
+          sha1: 82c9b3eb1b281f27f58fe55025227148b3deb12e
 ------------
     Type: Extra
     Desc: GPU Debugging tools, revision 3.1
@@ -935,13 +960,14 @@ download: https://dl.google.com/android/repository/android_m2repository_r33.zip
           sha1: ce00f4a7364d7fdd5d25d2429f04c4d50f56be1e
 ------------
     Type: Extra
-    Desc: Google Web Driver, revision 2
-          Revision 2
+    Desc: Google Repository, revision 29
+          Revision 29
           by Google Inc.
-          Install path: extras/android/webdriver
-download: https://dl.google.com/android/repository/webdriver_r02.zip
-          size: 3.87 MB
-          sha1: 13f3a3b2670a5fc04a7342861644be9a01b07e38
+          Local Maven repository for Support Libraries
+          Install path: extras/android/m2repository
+download: https://dl.google.com/android/repository/google_m2repository_r29.zip
+          size: 94.08 MB
+          sha1: e7e27b0bf6552ef61eacc04c98209cfb8b01faae
 ------------
     Type: Extra
     Desc: Google Play Licensing Library, revision 1
@@ -954,16 +980,6 @@ download: https://dl.google.com/android/repository/market_licensing-r02.zip
           sha1: 355e8dc304a92a5616db235af8ee7bd554356254
 ------------
     Type: Extra
-    Desc: Google Cloud Messaging for Android Library, revision 3 (Obsolete)
-          Revision 3
-          by Google Inc.
-          GCM library has been moved to Google Play Services (com.google.android.gms.gcm) and this standalone version is no longer supported
-          Install path: extras/android/gcm
-download: https://dl.google.com/android/repository/gcm_r03.zip
-          size: 5.63 MB
-          sha1: ad066fd0dc7fc99d8aadac09c65a3c2519fbc7bf
-------------
-    Type: Extra
     Desc: Google Play APK Expansion library, revision 1
           Revision 1
           by Google Inc.
@@ -972,26 +988,6 @@ download: https://dl.google.com/android/repository/gcm_r03.zip
 download: https://dl.google.com/android/repository/market_apk_expansion-r03.zip
           size: 107.62 KB
           sha1: 5305399dc1a56814e86b8459ce24871916f78b8c
-------------
-    Type: Extra
-    Desc: Google Analytics App Tracking SDK, revision 3 (Obsolete)
-          Revision 3
-          by Google Inc.
-          Analytics App Tracking SDK
-          Install path: extras/android/analytics_sdk_v2
-download: https://dl.google.com/android/repository/GoogleAnalyticsAndroid_2.0beta5.zip
-          size: 206.48 KB
-          sha1: dc14026bf0ce78315cb5dd00552607de0894de83
-------------
-    Type: Extra
-    Desc: Google AdMob Ads SDK, revision 11 (Obsolete)
-          Revision 11
-          by Google Inc.
-          AdMob Ads SDK
-          Install path: extras/android/admob_ads_sdk
-download: https://dl.google.com/android/repository/GoogleAdMobAdsSdkAndroid-6.4.1.zip
-          size: 688.00 KB
-          sha1: 0102859d9575baa0bf4fd5eb422af2ad0fe6cb82
 ------------
     Type: Extra
     Desc: Google Play services for Froyo, revision 12 (Obsolete)
@@ -1004,14 +1000,14 @@ download: https://dl.google.com/android/repository/google_play_services_3265130_
           sha1: 92558dbc380bba3d55d0ec181167fb05ce7c79d9
 ------------
     Type: Extra
-    Desc: Google Play Billing Library, revision 5
-          Revision 5
+    Desc: Google Play services, revision 31
+          Revision 31
           by Google Inc.
-          Google Play Billing files and sample code
-          Install path: extras/android/play_billing
-download: https://dl.google.com/android/repository/play_billing_r05.zip
-          size: 426.42 KB
-          sha1: bd2ac5ce7127070ac3229003eb69cfb806628ac9
+          Google Play services Javadocs and sample code
+          Install path: extras/android/google_play_services
+download: https://dl.google.com/android/repository/google_play_services_9256000_r31.zip
+          size: 11.20 MB
+          sha1: 3f1b502d0f6361c036cb332b8c15249a1168e08b
 ------------
     Type: Extra
     Desc: Google USB Driver, revision 11
@@ -1022,6 +1018,55 @@ download: https://dl.google.com/android/repository/play_billing_r05.zip
  windows: https://dl.google.com/android/repository/usb_driver_r11-windows.zip
           size: 8.28 MB
           sha1: dc8a2ed2fbd7246d4caf9ab10ffe7749dc35d1cc
+------------
+    Type: Extra
+    Desc: Google Play Billing Library, revision 5
+          Revision 5
+          by Google Inc.
+          Google Play Billing files and sample code
+          Install path: extras/android/play_billing
+download: https://dl.google.com/android/repository/play_billing_r05.zip
+          size: 426.42 KB
+          sha1: bd2ac5ce7127070ac3229003eb69cfb806628ac9
+------------
+    Type: Extra
+    Desc: Google AdMob Ads SDK, revision 11 (Obsolete)
+          Revision 11
+          by Google Inc.
+          AdMob Ads SDK
+          Install path: extras/android/admob_ads_sdk
+download: https://dl.google.com/android/repository/GoogleAdMobAdsSdkAndroid-6.4.1.zip
+          size: 688.00 KB
+          sha1: 0102859d9575baa0bf4fd5eb422af2ad0fe6cb82
+------------
+    Type: Extra
+    Desc: Google Analytics App Tracking SDK, revision 3 (Obsolete)
+          Revision 3
+          by Google Inc.
+          Analytics App Tracking SDK
+          Install path: extras/android/analytics_sdk_v2
+download: https://dl.google.com/android/repository/GoogleAnalyticsAndroid_2.0beta5.zip
+          size: 206.48 KB
+          sha1: dc14026bf0ce78315cb5dd00552607de0894de83
+------------
+    Type: Extra
+    Desc: Google Web Driver, revision 2
+          Revision 2
+          by Google Inc.
+          Install path: extras/android/webdriver
+download: https://dl.google.com/android/repository/webdriver_r02.zip
+          size: 3.87 MB
+          sha1: 13f3a3b2670a5fc04a7342861644be9a01b07e38
+------------
+    Type: Extra
+    Desc: Google Cloud Messaging for Android Library, revision 3 (Obsolete)
+          Revision 3
+          by Google Inc.
+          GCM library has been moved to Google Play Services (com.google.android.gms.gcm) and this standalone version is no longer supported
+          Install path: extras/android/gcm
+download: https://dl.google.com/android/repository/gcm_r03.zip
+          size: 5.63 MB
+          sha1: ad066fd0dc7fc99d8aadac09c65a3c2519fbc7bf
 ------------
     Type: Extra
     Desc: Android Auto API Simulators, revision 1
@@ -1048,51 +1093,6 @@ download: https://dl.google.com/android/repository/simulator_r01.zip
  windows: https://dl.google.com/android/repository/desktop-head-unit-windows_r01.1.zip
           size: 2.57 MB
           sha1: 99c4a7172d73673552119347bc24c58b47da177b
-------------
-    Type: Extra
-    Desc: GPU Debugging tools, revision 1.0.3
-          Revision 1.0.3
-          by Android
-          Tools that support GPU debugging and profiling within an IDE.
-          Install path: extras/android/gapid
-   linux: https://dl.google.com/android/repository/gapid_r01_linux.zip
-          size: 12.37 MB
-          sha1: 7c9ef7544cf0aea030bcc29bd8e12c04fd53e653
-  macosx: https://dl.google.com/android/repository/gapid_r01_osx.zip
-          size: 15.09 MB
-          sha1: 597eb271349d890566274861eba2770a84ee4c69
- windows: https://dl.google.com/android/repository/gapid_r01_windows.zip
-          size: 12.61 MB
-          sha1: 82c9b3eb1b281f27f58fe55025227148b3deb12e
-------------
-    Type: Extra
-    Desc: Android Support Library, revision 23.2.1 (Obsolete)
-          Revision 23.2.1
-          by Android
-          Install path: extras/android/support
-download: https://dl.google.com/android/repository/support_r23.2.1.zip
-          size: 10.35 MB
-          sha1: 41121bbc412c2fce0be170d589d20cfa3e78e857
-------------
-    Type: Extra
-    Desc: Google Play services, revision 31
-          Revision 31
-          by Google Inc.
-          Google Play services Javadocs and sample code
-          Install path: extras/android/google_play_services
-download: https://dl.google.com/android/repository/google_play_services_9256000_r31.zip
-          size: 11.20 MB
-          sha1: 3f1b502d0f6361c036cb332b8c15249a1168e08b
-------------
-    Type: Extra
-    Desc: Google Repository, revision 29
-          Revision 29
-          by Google Inc.
-          Local Maven repository for Support Libraries
-          Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/google_m2repository_r29.zip
-          size: 94.08 MB
-          sha1: e7e27b0bf6552ef61eacc04c98209cfb8b01faae
 ------------
     Type: Addon
     Desc: Glass Development Kit Preview, Android API 19, revision 11
