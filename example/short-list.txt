@@ -1,7 +1,7 @@
 Fetching URL: https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addons_list-2.xml
-Parse XML:    https://dl.google.com/android/repository/repository-11.xml
 Parse XML:    https://dl.google.com/android/repository/addons_list-2.xml
+Parse XML:    https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addon.xml
 Fetching URL: https://dl.google.com/android/repository/glass/addon.xml
 Fetching URL: https://dl.google.com/android/repository/extras/intel/addon.xml
@@ -10,12 +10,12 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Done loading packages.
  - SDK Platform Android N, revision 1
  - SDK Platform Android 6.0, revision 3
@@ -118,31 +118,31 @@ Done loading packages.
  - Android Auto Desktop Head Unit emulator, revision 1.1
  - Glass Development Kit Preview, Android API 19, revision 11
  - Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.3
+ - ARM EABI v7a System Image, Android API 14, revision 2
+ - ARM EABI v7a System Image, Android API 15, revision 3
+ - ARM EABI v7a System Image, Android API 16, revision 4
+ - ARM EABI v7a System Image, Android API 17, revision 3
+ - ARM EABI v7a System Image, Android API 18, revision 3
+ - ARM EABI v7a System Image, Android API 19, revision 3
+ - ARM EABI v7a System Image, Android API 21, revision 3
+ - ARM EABI v7a System Image, Android API 22, revision 1
+ - ARM EABI v7a System Image, Android API 23, revision 3
+ - MIPS System Image, Android API 15, revision 1
+ - MIPS System Image, Android API 16, revision 1
+ - MIPS System Image, Android API 17, revision 1
  - Intel x86 Atom System Image, Android API 10, revision 3
  - Intel x86 Atom System Image, Android API 15, revision 2
  - Intel x86 Atom System Image, Android API 16, revision 2
- - ARM EABI v7a System Image, Android API 14, revision 2
- - ARM EABI v7a System Image, Android API 22, revision 1
- - ARM EABI v7a System Image, Android API 15, revision 3
- - MIPS System Image, Android API 15, revision 1
- - ARM EABI v7a System Image, Android API 16, revision 4
- - MIPS System Image, Android API 16, revision 1
- - ARM EABI v7a System Image, Android API 17, revision 3
- - MIPS System Image, Android API 17, revision 1
  - Intel x86 Atom System Image, Android API 17, revision 2
- - ARM EABI v7a System Image, Android API 18, revision 3
  - Intel x86 Atom System Image, Android API 18, revision 2
- - ARM EABI v7a System Image, Android API 19, revision 3
- - ARM EABI v7a System Image, Android API 21, revision 3
- - ARM EABI v7a System Image, Android API 23, revision 3
- - Intel x86 Atom System Image, Android API 23, revision 9
- - Intel x86 Atom_64 System Image, Android API 23, revision 9
- - Intel x86 Atom System Image, Android API 22, revision 5
- - Intel x86 Atom_64 System Image, Android API 22, revision 5
- - Intel x86 Atom System Image, Android API 21, revision 4
- - Intel x86 Atom_64 System Image, Android API 21, revision 4
  - Intel x86 Atom System Image, Android API 19, revision 5
+ - Intel x86 Atom System Image, Android API 21, revision 4
+ - Intel x86 Atom System Image, Android API 22, revision 5
+ - Intel x86 Atom System Image, Android API 23, revision 9
  - Intel x86 Atom System Image, Android API 24, revision 4
+ - Intel x86 Atom_64 System Image, Android API 21, revision 4
+ - Intel x86 Atom_64 System Image, Android API 22, revision 5
+ - Intel x86 Atom_64 System Image, Android API 23, revision 9
  - Intel x86 Atom_64 System Image, Android API 24, revision 4
  - ARM EABI v7a System Image, Android API 20, revision 4
  - Intel x86 Atom System Image, Android API 20, revision 4
@@ -154,21 +154,21 @@ Done loading packages.
  - Intel x86 Atom System Image, Android API 23, revision 5
  - ARM EABI v7a System Image, Android API 24, revision 1
  - Intel x86 Atom System Image, Android API 24, revision 1
- - ARM EABI v7a System Image, Android API 22, revision 1
  - Intel x86 Atom System Image, Android API 21, revision 3
  - ARM EABI v7a System Image, Android API 21, revision 3
- - ARM EABI v7a System Image, Android API 23, revision 3
- - Intel x86 Atom System Image, Android API 23, revision 4
  - Intel x86 Atom System Image, Android API 22, revision 3
+ - ARM EABI v7a System Image, Android API 22, revision 1
+ - Intel x86 Atom System Image, Android API 23, revision 4
+ - ARM EABI v7a System Image, Android API 23, revision 3
  - Intel x86 Atom System Image, Android API 24, revision 4
- - Intel x86 Atom System Image, Android API 19, revision 20
- - Intel x86 Atom_64 System Image, Android API 21, revision 12
- - ARM EABI v7a System Image, Android API 21, revision 12
- - ARM EABI v7a System Image, Android API 22, revision 6
- - Intel x86 Atom_64 System Image, Android API 22, revision 6
- - Intel x86 Atom System Image, Android API 23, revision 14
- - Intel x86 Atom_64 System Image, Android API 23, revision 14
- - ARM EABI v7a System Image, Android API 23, revision 14
- - Intel x86 Atom System Image, Android API 22, revision 7
- - Intel x86 Atom System Image, Android API 21, revision 13
- - ARM EABI v7a System Image, Android API 19, revision 21
+ - Intel x86 Atom System Image, Android API 19, revision 22
+ - ARM EABI v7a System Image, Android API 19, revision 22
+ - Intel x86 Atom System Image, Android API 21, revision 14
+ - Intel x86 Atom_64 System Image, Android API 21, revision 14
+ - ARM EABI v7a System Image, Android API 21, revision 14
+ - Intel x86 Atom System Image, Android API 22, revision 8
+ - ARM EABI v7a System Image, Android API 22, revision 8
+ - Intel x86 Atom_64 System Image, Android API 22, revision 8
+ - Intel x86 Atom System Image, Android API 23, revision 15
+ - Intel x86 Atom_64 System Image, Android API 23, revision 15
+ - ARM EABI v7a System Image, Android API 23, revision 15
