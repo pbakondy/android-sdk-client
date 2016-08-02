@@ -22,6 +22,7 @@ const EXPORT_PATH = path.join(process.cwd(), 'export');
 
 const SYSTEM_IMAGE_NAMES = {
   'armeabi-v7a': 'ARM EABI v7a System Image',
+  'arm64-v8a': 'ARM 64 v8a System Image',
   'x86': 'Intel x86 Atom System Image',
   'x86_64': 'Intel x86 Atom_64 System Image',
   'mips': 'MIPS System Image'
@@ -158,7 +159,7 @@ function printData(data, baseUrl, type, name) {
       pathDescription = `Install path: extras/android/${path}`;
     }
     if (type === 'SystemImage') {
-      extraDescription = SYSTEM_IMAGE_NAMES[abi];
+      extraDescription = SYSTEM_IMAGE_NAMES[abi] ? SYSTEM_IMAGE_NAMES[abi] : abi;
       requires = `Requires SDK Platform Android API ${sdkApiLevel}`;
     }
 
@@ -278,8 +279,9 @@ function printDetails(data, source) {
         source.data['sdk:sdk-sys-img']['sdk:system-image'].forEach(item => {
 
           let abi = item['sdk:abi'] ? item['sdk:abi'][0] : '';
+          let abiName = SYSTEM_IMAGE_NAMES[abi] ? SYSTEM_IMAGE_NAMES[abi] : abi;
           let sdkApiLevel = item['sdk:api-level'] ? item['sdk:api-level'][0] : '';
-          printData(item, source.url, 'SystemImage', `${SYSTEM_IMAGE_NAMES[abi]}, Android API ${sdkApiLevel}`);
+          printData(item, source.url, 'SystemImage', `${abiName}, Android API ${sdkApiLevel}`);
         });
       }
     }
