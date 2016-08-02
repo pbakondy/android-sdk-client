@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
 Done loading packages.
  - SDK Platform Android 7.0, revision 2
  - SDK Platform Android 6.0, revision 3
@@ -104,11 +104,11 @@ Done loading packages.
  - Android Support Library, revision 23.2.1 (Obsolete)
  - GPU Debugging tools, revision 1.0.3
  - GPU Debugging tools, revision 3.1
- - Google Repository, revision 31
+ - Google Repository, revision 32
  - Google Play Licensing Library, revision 1
  - Google Play APK Expansion library, revision 1
  - Google Play services for Froyo, revision 12 (Obsolete)
- - Google Play services, revision 31
+ - Google Play services, revision 32
  - Google USB Driver, revision 11
  - Google Play Billing Library, revision 5
  - Google AdMob Ads SDK, revision 11 (Obsolete)
@@ -129,6 +129,7 @@ Done loading packages.
  - ARM EABI v7a System Image, Android API 22, revision 1
  - ARM EABI v7a System Image, Android API 23, revision 3
  - ARM EABI v7a System Image, Android API 24, revision 5
+ - ARM 64 v8a System Image, Android API 24, revision 5
  - MIPS System Image, Android API 15, revision 1
  - MIPS System Image, Android API 16, revision 1
  - MIPS System Image, Android API 17, revision 1
@@ -163,14 +164,14 @@ Done loading packages.
  - Intel x86 Atom System Image, Android API 23, revision 4
  - ARM EABI v7a System Image, Android API 23, revision 3
  - Intel x86 Atom System Image, Android API 24, revision 5
- - Intel x86 Atom System Image, Android API 19, revision 22
- - ARM EABI v7a System Image, Android API 19, revision 22
- - Intel x86 Atom System Image, Android API 21, revision 14
- - Intel x86 Atom_64 System Image, Android API 21, revision 14
- - ARM EABI v7a System Image, Android API 21, revision 14
- - Intel x86 Atom System Image, Android API 22, revision 8
- - ARM EABI v7a System Image, Android API 22, revision 8
- - Intel x86 Atom_64 System Image, Android API 22, revision 8
- - Intel x86 Atom System Image, Android API 23, revision 15
- - Intel x86 Atom_64 System Image, Android API 23, revision 15
- - ARM EABI v7a System Image, Android API 23, revision 15
+ - Intel x86 Atom System Image, Android API 19, revision 23
+ - ARM EABI v7a System Image, Android API 19, revision 23
+ - Intel x86 Atom System Image, Android API 21, revision 15
+ - Intel x86 Atom_64 System Image, Android API 21, revision 15
+ - ARM EABI v7a System Image, Android API 21, revision 15
+ - Intel x86 Atom System Image, Android API 22, revision 9
+ - ARM EABI v7a System Image, Android API 22, revision 9
+ - Intel x86 Atom_64 System Image, Android API 22, revision 9
+ - Intel x86 Atom System Image, Android API 23, revision 16
+ - Intel x86 Atom_64 System Image, Android API 23, revision 16
+ - ARM EABI v7a System Image, Android API 23, revision 16
