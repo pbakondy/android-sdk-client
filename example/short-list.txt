@@ -9,11 +9,11 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
 Done loading packages.
@@ -66,7 +66,7 @@ Done loading packages.
  - Android SDK Build-tools, revision 18.0.1 (Obsolete)
  - Android SDK Build-tools, revision 17 (Obsolete)
  - Android SDK Tools, revision 25.1.7
- - Android SDK Tools, revision 25.2 rc1
+ - Android SDK Tools, revision 25.2.1 rc1
  - Documentation for Android SDK, API 23, revision 1
  - Sources for Android SDK, API 23, revision 1
  - Sources for Android SDK, API 22, revision 1

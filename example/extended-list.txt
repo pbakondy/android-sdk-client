@@ -10,12 +10,12 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -594,17 +594,17 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
           sha1: 2556ac9a5fa741d44d9b989966c0bbdf15cb6424
 ------------
     Type: Tool
-    Desc: Android SDK Tools, revision 25.2 rc1
-          Revision 25.2 rc1
-   linux: https://dl.google.com/android/repository/tools_r25.2-linux.zip
-          size: 264.59 MB
-          sha1: 084ff93feb2f432f532cb00375e582f46b583ff2
-  macosx: https://dl.google.com/android/repository/tools_r25.2-macosx.zip
-          size: 186.70 MB
-          sha1: e49cc97f6f408fde9181f11ab942dbbea31abce3
- windows: https://dl.google.com/android/repository/tools_r25.2-windows.zip
-          size: 287.58 MB
-          sha1: cc8bcbd7fb5627ab866cc583b041d0bfc18e4441
+    Desc: Android SDK Tools, revision 25.2.1 rc1
+          Revision 25.2.1 rc1
+   linux: https://dl.google.com/android/repository/tools_r25.2.1-linux.zip
+          size: 260.83 MB
+          sha1: 216c45d4133e1dbfef33dc5fd17185bfd86720a9
+  macosx: https://dl.google.com/android/repository/tools_r25.2.1-macosx.zip
+          size: 186.78 MB
+          sha1: 743d093ed22c99c6ad0748cdce17ccd29308d45c
+ windows: https://dl.google.com/android/repository/tools_r25.2.1-windows.zip
+          size: 287.67 MB
+          sha1: 4dd1ef4e395f983a85c719ca55e3705d767b4eee
 ------------
     Type: Doc
     Desc: Documentation for Android SDK, API 23, revision 1
