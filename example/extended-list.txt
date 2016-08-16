@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -952,38 +952,6 @@ download: https://dl.google.com/android/repository/android_m2repository_r35.zip
 download: https://dl.google.com/android/repository/support_r23.2.1.zip
           size: 10.35 MB
           sha1: 41121bbc412c2fce0be170d589d20cfa3e78e857
-------------
-    Type: Extra
-    Desc: GPU Debugging tools, revision 1.0.3
-          Revision 1.0.3
-          by Android
-          Tools that support GPU debugging and profiling within an IDE.
-          Install path: extras/android/gapid
-   linux: https://dl.google.com/android/repository/gapid_r01_linux.zip
-          size: 12.37 MB
-          sha1: 7c9ef7544cf0aea030bcc29bd8e12c04fd53e653
-download: https://dl.google.com/android/repository/gapid_r01_osx.zip
-          size: 15.09 MB
-          sha1: 597eb271349d890566274861eba2770a84ee4c69
- windows: https://dl.google.com/android/repository/gapid_r01_windows.zip
-          size: 12.61 MB
-          sha1: 82c9b3eb1b281f27f58fe55025227148b3deb12e
-------------
-    Type: Extra
-    Desc: GPU Debugging tools, revision 3.1
-          Revision 3.1
-          by Android
-          Tools that support GPU debugging and profiling within an IDE.
-          Install path: extras/android/gapid_3
-   linux: https://dl.google.com/android/repository/gapid_2994895_linux.zip
-          size: 30.07 MB
-          sha1: a33fe37c87b095171d647385445abe164ae03514
-download: https://dl.google.com/android/repository/gapid_2994895_osx.zip
-          size: 30.43 MB
-          sha1: 81dec931c8b0a5fe7c68accd8b3f8c731a9474f3
- windows: https://dl.google.com/android/repository/gapid_2994895_windows.zip
-          size: 30.19 MB
-          sha1: ce00f4a7364d7fdd5d25d2429f04c4d50f56be1e
 ------------
     Type: Extra
     Desc: Google Repository, revision 32
