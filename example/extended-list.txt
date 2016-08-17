@@ -9,12 +9,12 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Done loading packages.
 ------------
@@ -594,17 +594,17 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
           sha1: 2556ac9a5fa741d44d9b989966c0bbdf15cb6424
 ------------
     Type: Tool
-    Desc: Android SDK Tools, revision 25.2.1 rc1
-          Revision 25.2.1 rc1
-   linux: https://dl.google.com/android/repository/tools_r25.2.1-linux.zip
-          size: 260.83 MB
-          sha1: 216c45d4133e1dbfef33dc5fd17185bfd86720a9
-  macosx: https://dl.google.com/android/repository/tools_r25.2.1-macosx.zip
+    Desc: Android SDK Tools, revision 25.2.2 rc1
+          Revision 25.2.2 rc1
+   linux: https://dl.google.com/android/repository/tools_r25.2.2-linux.zip
+          size: 260.82 MB
+          sha1: 99257925a3d8b46fee948a7520d7b7e3e3e1890e
+  macosx: https://dl.google.com/android/repository/tools_r25.2.2-macosx.zip
           size: 186.78 MB
-          sha1: 743d093ed22c99c6ad0748cdce17ccd29308d45c
- windows: https://dl.google.com/android/repository/tools_r25.2.1-windows.zip
+          sha1: bbaa3929696ce523ea62b58cc8032d7964a154c5
+ windows: https://dl.google.com/android/repository/tools_r25.2.2-windows.zip
           size: 287.67 MB
-          sha1: 4dd1ef4e395f983a85c719ca55e3705d767b4eee
+          sha1: ef898dff805c4b9e39f6e77fd9ec397fb1b1f809
 ------------
     Type: Doc
     Desc: Documentation for Android SDK, API 23, revision 1
@@ -1535,12 +1535,12 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
     Type: SystemImage
     Desc: Android TV Intel x86 Atom System Image
           API 23
-          Revision 4
+          Revision 5
           Intel x86 Atom System Image
           Requires SDK Platform Android API 23
-download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv_x86-23_r04.zip
-          size: 305.93 MB
-          sha1: 1afcdead9f385f296d2188fb1f61a8c7df807dc4
+download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv_x86-23_r05.zip
+          size: 311.83 MB
+          sha1: 835936eaab742e0fc61b36f4ff68adece77fa736
 ------------
     Type: SystemImage
     Desc: Android TV ARM EABI v7a System Image
