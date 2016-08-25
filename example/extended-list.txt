@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -23,9 +23,9 @@ Done loading packages.
           Version 7.0
           API 24
           Revision 2
-download: https://dl.google.com/android/repository/platform-24_r01.zip
+download: https://dl.google.com/android/repository/platform-24_r02.zip
           size: 78.82 MB
-          sha1: 27516dab4848f55896e16f7089038c62bbbffea7
+          sha1: 8912da3d4bfe7a9f28f0e5ce92d3a8dc96342aee
 ------------
     Type: Platform
     Desc: Android SDK Platform 23
@@ -256,30 +256,43 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
           sha1: a4060f29ed39fc929c302836d488998c53c3002e
 ------------
     Type: PlatformTool
-    Desc: Android SDK Platform-tools, revision 24.0.1
-          Revision 24.0.1
-   linux: https://dl.google.com/android/repository/platform-tools_r24-linux.zip
-          size: 3.17 MB
-          sha1: 597f626c206dac435b55c64bbfa13e153a7d97c2
-  macosx: https://dl.google.com/android/repository/platform-tools_r24-macosx.zip
-          size: 3.00 MB
-          sha1: f089af7906ccb6a43691b9bad9bb197e7104902e
- windows: https://dl.google.com/android/repository/platform-tools_r24-windows.zip
-          size: 2.85 MB
-          sha1: f1e2d122544d7beaa6f979e485fe742ba735802e
+    Desc: Android SDK Platform-tools, revision 24.0.2
+          Revision 24.0.2
+   linux: https://dl.google.com/android/repository/platform-tools_r24.0.2-linux.zip
+          size: 3.19 MB
+          sha1: 3f21512a21dbbe05ed190cb1626123942bf0c696
+  macosx: https://dl.google.com/android/repository/platform-tools_r24.0.2-macosx.zip
+          size: 3.01 MB
+          sha1: 284482435264e7300efbb880ceba14efd6c234ae
+ windows: https://dl.google.com/android/repository/platform-tools_r24.0.2-windows.zip
+          size: 2.86 MB
+          sha1: 4e25629294079dae973699fbc993069758afa44c
+------------
+    Type: BuildTool
+    Desc: Android SDK Build-tools, revision 24.0.2
+          Revision 24.0.2
+   linux: https://dl.google.com/android/repository/build-tools_r24.0.2-linux.zip
+          size: 46.67 MB
+          sha1: f199a7a788c3fefbed102eea34d6007737b803cf
+  macosx: https://dl.google.com/android/repository/build-tools_r24.0.2-macosx.zip
+          size: 46.47 MB
+          sha1: 8bb8fc575477491d5957de743089df412de55cda
+ windows: https://dl.google.com/android/repository/build-tools_r24.0.2-windows.zip
+          size: 47.22 MB
+          sha1: 09586a1f1c39bcfa7db5205c9a07837247deb67e
 ------------
     Type: BuildTool
     Desc: Android SDK Build-tools, revision 24.0.1
           Revision 24.0.1
    linux: https://dl.google.com/android/repository/build-tools_r24.0.1-linux.zip
           size: 46.67 MB
-          sha1: d3647db5c349247787d4e124dfb717e72b4304c7
+          sha1: 84f18c392919a074fcbb9b1d967984e6b2fef8b4
   macosx: https://dl.google.com/android/repository/build-tools_r24.0.1-macosx.zip
           size: 46.47 MB
-          sha1: 4fb942e52d05ded78719410fc8644e70a62f18d6
+          sha1: 5c6457fcdfa07724fb086d8ff4e8316fc0742848
  windows: https://dl.google.com/android/repository/build-tools_r24.0.1-windows.zip
           size: 47.22 MB
-          sha1: f73cc9028bff45689351ac8e093876bbeb80d1f1
+          sha1: ac4a7cea42c3ef74d7fbf1b992fad311c550034e
 ------------
     Type: BuildTool
     Desc: Android SDK Build-tools, revision 24
@@ -613,6 +626,14 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
 download: https://dl.google.com/android/repository/docs-23_r01.zip
           size: 316.78 MB
           sha1: 060ebab2f74861e1ddd9136df26b837312bc087f
+------------
+    Type: Source
+    Desc: Sources for Android SDK, API 24, revision 1
+          API 24
+          Revision 1
+download: https://dl.google.com/android/repository/sources-24_r01.zip
+          size: 28.87 MB
+          sha1: 6b96115830a83d654479f32ce4b724ca9011148b
 ------------
     Type: Source
     Desc: Sources for Android SDK, API 23, revision 1
@@ -1205,22 +1226,22 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_arm-23
     Type: SystemImage
     Desc: ARM EABI v7a System Image
           API 24
-          Revision 5
+          Revision 6
           ARM EABI v7a System Image
           Requires SDK Platform Android API 24
-download: https://dl.google.com/android/repository/sys-img/android/sysimg_armeabi-v7a-24_r05.zip
-          size: 474.45 MB
-          sha1: 2eb8fb86f7312614a2a0b033d669d67206a618ff
+download: https://dl.google.com/android/repository/sys-img/android/sysimg_armeabi-v7a-24_r06.zip
+          size: 482.01 MB
+          sha1: e40c4cb6a18293ca064d7414ae7248364f988c33
 ------------
     Type: SystemImage
     Desc: ARM 64 v8a System Image
           API 24
-          Revision 5
+          Revision 6
           ARM 64 v8a System Image
           Requires SDK Platform Android API 24
-download: https://dl.google.com/android/repository/sys-img/android/sysimg_arm64-v8a-24_r05.zip
-          size: 650.19 MB
-          sha1: 5eceb8fb05def11275410575004281521dff9910
+download: https://dl.google.com/android/repository/sys-img/android/sysimg_arm64-v8a-24_r06.zip
+          size: 659.44 MB
+          sha1: ffc9af8bf3162ed42f48e1954cd0cf616d348f85
 ------------
     Type: SystemImage
     Desc: MIPS System Image
@@ -1345,12 +1366,12 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-23
     Type: SystemImage
     Desc: Intel x86 Atom System Image
           API 24
-          Revision 5
+          Revision 6
           Intel x86 Atom System Image
           Requires SDK Platform Android API 24
-download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-24_r05.zip
-          size: 510.43 MB
-          sha1: ce6441c4cadaecd28b364c59b36c31ef0904dae0
+download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86-24_r06.zip
+          size: 518.15 MB
+          sha1: 4e76a5f5dd9b33e674a7f28a1bb8754a04f8adb7
 ------------
     Type: SystemImage
     Desc: Intel x86 Atom_64 System Image
@@ -1385,12 +1406,12 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86_64
     Type: SystemImage
     Desc: Intel x86 Atom_64 System Image
           API 24
-          Revision 5
+          Revision 6
           Intel x86 Atom_64 System Image
           Requires SDK Platform Android API 24
-download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86_64-24_r05.zip
-          size: 693.54 MB
-          sha1: e1869b32b1dcb2f4d4d18c912166b3e2bee8a841
+download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86_64-24_r06.zip
+          size: 702.87 MB
+          sha1: 88e566de5d21665bddf3cd61d8bea8506cf65a9c
 ------------
     Type: SystemImage
     Desc: Android Wear ARM EABI v7a System Image
@@ -1398,7 +1419,7 @@ download: https://dl.google.com/android/repository/sys-img/android/sysimg_x86_64
           Revision 4
           ARM EABI v7a System Image
           Requires SDK Platform Android API 20
-download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_wear_arm-20_r04.zip
+download: https://dl.google.com/android/repository/sys-img/android-wear/armeabi-v7a-20_r04.zip
           size: 107.61 MB
           sha1: c05655105fe739a5405d12532430066d2537ed13
 ------------
@@ -1408,7 +1429,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           Revision 4
           Intel x86 Atom System Image
           Requires SDK Platform Android API 20
-download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_wear_x86-20_r04.zip
+download: https://dl.google.com/android/repository/sys-img/android-wear/x86-20_r04.zip
           size: 119.77 MB
           sha1: efcc67868b1f487b144655d9d6c642c2606723de
 ------------
@@ -1418,7 +1439,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           Revision 3
           ARM EABI v7a System Image
           Requires SDK Platform Android API 21
-download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_wear_arm-21_r03.zip
+download: https://dl.google.com/android/repository/sys-img/android-wear/armeabi-v7a-21_r03.zip
           size: 168.55 MB
           sha1: 28a1113314a0c92a793282ba40e8216f3afd1186
 ------------
@@ -1428,7 +1449,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           Revision 3
           Intel x86 Atom System Image
           Requires SDK Platform Android API 21
-download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_wear_x86-21_r03.zip
+download: https://dl.google.com/android/repository/sys-img/android-wear/x86-21_r03.zip
           size: 178.44 MB
           sha1: 4ab3a1c33e46fcdf13b5bc4d5b3f67eea1206bed
 ------------
@@ -1438,7 +1459,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           Revision 7
           ARM EABI v7a System Image
           Requires SDK Platform Android API 22
-download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_wear_arm-22_r07.zip
+download: https://dl.google.com/android/repository/sys-img/android-wear/armeabi-v7a-22_r07.zip
           size: 177.89 MB
           sha1: 97b26d1ef08f291fd980358cbfa64861757d5fdf
 ------------
@@ -1448,7 +1469,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           Revision 7
           Intel x86 Atom System Image
           Requires SDK Platform Android API 22
-download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_wear_x86-22_r07.zip
+download: https://dl.google.com/android/repository/sys-img/android-wear/x86-22_r07.zip
           size: 185.53 MB
           sha1: a4aa0122186f00667f11c1fdaf39554724e8fd47
 ------------
@@ -1458,7 +1479,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           Revision 5
           ARM EABI v7a System Image
           Requires SDK Platform Android API 23
-download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_wear_armeabi-v7a-23_r05.zip
+download: https://dl.google.com/android/repository/sys-img/android-wear/armeabi-v7a-23_r05.zip
           size: 242.32 MB
           sha1: 5714a9a88f1443a4d882138b3aedfba568acbb83
 ------------
@@ -1468,7 +1489,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           Revision 5
           Intel x86 Atom System Image
           Requires SDK Platform Android API 23
-download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_wear_x86-23_r05.zip
+download: https://dl.google.com/android/repository/sys-img/android-wear/x86-23_r05.zip
           size: 251.97 MB
           sha1: e7753ff741554cd526e112c64f5085c7d3a45e8b
 ------------
@@ -1478,7 +1499,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           Revision 1
           ARM EABI v7a System Image
           Requires SDK Platform Android API 24
-download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_wear_armeabi-v7a-24_r01.zip
+download: https://dl.google.com/android/repository/sys-img/android-wear/armeabi-v7a-24_r01.zip
           size: 343.90 MB
           sha1: 8f9cad31f2c5bd15f9c6400c3907f0d2e075d53d
 ------------
@@ -1488,7 +1509,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           Revision 1
           Intel x86 Atom System Image
           Requires SDK Platform Android API 24
-download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_wear_x86-24_r01.zip
+download: https://dl.google.com/android/repository/sys-img/android-wear/x86-24_r01.zip
           size: 361.98 MB
           sha1: bc351a9785f5bf21f32900c71adffe7e642a0aac
 ------------
@@ -1498,7 +1519,7 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/sysimg_w
           Revision 3
           Intel x86 Atom System Image
           Requires SDK Platform Android API 21
-download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv_x86-21_r03.zip
+download: https://dl.google.com/android/repository/sys-img/android-tv/x86-21_r03.zip
           size: 256.49 MB
           sha1: 2f8a1988188d6abfd6c6395baeb4471a034dc1e8
 ------------
@@ -1508,7 +1529,7 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
           Revision 3
           ARM EABI v7a System Image
           Requires SDK Platform Android API 21
-download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv_arm-21_r03.zip
+download: https://dl.google.com/android/repository/sys-img/android-tv/armeabi-v7a-21_r03.zip
           size: 237.87 MB
           sha1: b63e28a47f11b639dd94981a458b7abfa89ac331
 ------------
@@ -1518,7 +1539,7 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
           Revision 3
           Intel x86 Atom System Image
           Requires SDK Platform Android API 22
-download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv_x86-22_r03.zip
+download: https://dl.google.com/android/repository/sys-img/android-tv/x86-22_r03.zip
           size: 279.54 MB
           sha1: c78efd5a155622eb490be9d326f5783993375c35
 ------------
@@ -1528,7 +1549,7 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
           Revision 1
           ARM EABI v7a System Image
           Requires SDK Platform Android API 22
-download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv_arm-22_r01.zip
+download: https://dl.google.com/android/repository/sys-img/android-tv/armeabi-v7a-22_r01.zip
           size: 256.63 MB
           sha1: 557b7934170caa94f9dcac174f411b747ad62328
 ------------
@@ -1538,7 +1559,7 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
           Revision 5
           Intel x86 Atom System Image
           Requires SDK Platform Android API 23
-download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv_x86-23_r05.zip
+download: https://dl.google.com/android/repository/sys-img/android-tv/x86-23_r05.zip
           size: 311.83 MB
           sha1: 835936eaab742e0fc61b36f4ff68adece77fa736
 ------------
@@ -1548,19 +1569,119 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
           Revision 3
           ARM EABI v7a System Image
           Requires SDK Platform Android API 23
-download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv_arm-23_r03.zip
+download: https://dl.google.com/android/repository/sys-img/android-tv/armeabi-v7a-23_r03.zip
           size: 285.92 MB
           sha1: b2f8ecaa952481be259228779a12be3516f9e843
 ------------
     Type: SystemImage
     Desc: Android TV Intel x86 Atom System Image
           API 24
-          Revision 5
+          Revision 6
           Intel x86 Atom System Image
           Requires SDK Platform Android API 24
-download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv_x86-24_r05.zip
-          size: 358.32 MB
-          sha1: 6714da4db696326bf8ff60bc0a841a28a96685e4
+download: https://dl.google.com/android/repository/sys-img/android-tv/x86-24_r06.zip
+          size: 358.40 MB
+          sha1: 175fc98e0ea54adb46d8da298f64c345f7b74c5b
+------------
+    Type: SystemImage
+    Desc: Google APIs ARM EABI v7a System Image
+          API 10
+          Revision 5
+          ARM EABI v7a System Image
+          Requires SDK Platform Android API 10
+download: https://dl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-10_r05.zip
+          size: 105.59 MB
+          sha1: cb60221d4ff6686ae96560970d48d9aa60e80b3f
+------------
+    Type: SystemImage
+    Desc: Google APIs Intel x86 Atom System Image
+          API 10
+          Revision 5
+          Intel x86 Atom System Image
+          Requires SDK Platform Android API 10
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86-10_r05.zip
+          size: 113.15 MB
+          sha1: b8e8a4ab26890c4a395fb796bf9cb7ceb51c880e
+------------
+    Type: SystemImage
+    Desc: Google APIs ARM EABI v7a System Image
+          API 15
+          Revision 5
+          ARM EABI v7a System Image
+          Requires SDK Platform Android API 15
+download: https://dl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-15_r05.zip
+          size: 141.54 MB
+          sha1: 1ec4e6f9014fcbe694511280f5b497aaf7dd750f
+------------
+    Type: SystemImage
+    Desc: Google APIs Intel x86 Atom System Image
+          API 15
+          Revision 5
+          Intel x86 Atom System Image
+          Requires SDK Platform Android API 15
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86-15_r05.zip
+          size: 155.39 MB
+          sha1: 12a009ef86a1f7176d101e40032a63a812bc7180
+------------
+    Type: SystemImage
+    Desc: Google APIs ARM EABI v7a System Image
+          API 16
+          Revision 5
+          ARM EABI v7a System Image
+          Requires SDK Platform Android API 16
+download: https://dl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-16_r05.zip
+          size: 160.68 MB
+          sha1: 990ef55bcf4500debd723626bc14aa10bf4914fe
+------------
+    Type: SystemImage
+    Desc: Google APIs Intel x86 Atom System Image
+          API 16
+          Revision 5
+          Intel x86 Atom System Image
+          Requires SDK Platform Android API 16
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86-16_r05.zip
+          size: 177.18 MB
+          sha1: b7dee11fb413f04d67983dd331e2837213d35b49
+------------
+    Type: SystemImage
+    Desc: Google APIs ARM EABI v7a System Image
+          API 17
+          Revision 5
+          ARM EABI v7a System Image
+          Requires SDK Platform Android API 17
+download: https://dl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-17_r05.zip
+          size: 166.35 MB
+          sha1: c990f2a81c24a61f9f1da5d5d205f2924ce548ae
+------------
+    Type: SystemImage
+    Desc: Google APIs Intel x86 Atom System Image
+          API 17
+          Revision 5
+          Intel x86 Atom System Image
+          Requires SDK Platform Android API 17
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86-17_r05.zip
+          size: 185.54 MB
+          sha1: d89591526b66d7c475056b755dd20348bd6e5d75
+------------
+    Type: SystemImage
+    Desc: Google APIs ARM EABI v7a System Image
+          API 18
+          Revision 5
+          ARM EABI v7a System Image
+          Requires SDK Platform Android API 18
+download: https://dl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-18_r05.zip
+          size: 170.52 MB
+          sha1: c4e69a96d4584f7e311e358fe4ad0e5d1bf1605b
+------------
+    Type: SystemImage
+    Desc: Google APIs Intel x86 Atom System Image
+          API 18
+          Revision 5
+          Intel x86 Atom System Image
+          Requires SDK Platform Android API 18
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86-18_r05.zip
+          size: 190.28 MB
+          sha1: 2b34741693eba9419cb6bf1a467596783234d37a
 ------------
     Type: SystemImage
     Desc: Google APIs Intel x86 Atom System Image
@@ -1568,7 +1689,7 @@ download: https://dl.google.com/android/repository/sys-img/android-tv/sysimg_atv
           Revision 23
           Intel x86 Atom System Image
           Requires SDK Platform Android API 19
-download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x86-19_r23.zip
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86-19_r23.zip
           size: 247.54 MB
           sha1: a00bfdae27acbc39f20e5e83c377503c50654fc1
 ------------
@@ -1578,7 +1699,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           Revision 23
           ARM EABI v7a System Image
           Requires SDK Platform Android API 19
-download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_armeabi-v7a-19_r23.zip
+download: https://dl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-19_r23.zip
           size: 212.41 MB
           sha1: 5173a5b1b04249c1f4654a0018619ca16b689f24
 ------------
@@ -1588,7 +1709,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_ar
           Revision 15
           Intel x86 Atom System Image
           Requires SDK Platform Android API 21
-download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x86-21_r15.zip
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86-21_r15.zip
           size: 299.60 MB
           sha1: c5c930208e074c70524f93b9ccd0aa9006c9000c
 ------------
@@ -1598,7 +1719,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           Revision 15
           Intel x86 Atom_64 System Image
           Requires SDK Platform Android API 21
-download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x86_64-21_r15.zip
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86_64-21_r15.zip
           size: 423.85 MB
           sha1: cdd145fc295bfdd04918eb8067b25338bff00535
 ------------
@@ -1608,7 +1729,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           Revision 15
           ARM EABI v7a System Image
           Requires SDK Platform Android API 21
-download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_armeabi-v7a-21_r15.zip
+download: https://dl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-21_r15.zip
           size: 269.04 MB
           sha1: f9fae5fc40c5e75b73722f0d422f3f1c7b78e34d
 ------------
@@ -1618,7 +1739,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_ar
           Revision 9
           Intel x86 Atom System Image
           Requires SDK Platform Android API 22
-download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x86-22_r09.zip
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86-22_r09.zip
           size: 350.61 MB
           sha1: 4f80a1605b1da3c43a2a9c24d580d46ac930a36d
 ------------
@@ -1628,7 +1749,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           Revision 9
           ARM EABI v7a System Image
           Requires SDK Platform Android API 22
-download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_armeabi-v7a-22_r09.zip
+download: https://dl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-22_r09.zip
           size: 323.49 MB
           sha1: ecc36dd9a3ce4974751310db442250430afc2188
 ------------
@@ -1638,7 +1759,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_ar
           Revision 9
           Intel x86 Atom_64 System Image
           Requires SDK Platform Android API 22
-download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x86_64-22_r09.zip
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86_64-22_r09.zip
           size: 476.55 MB
           sha1: 73a40fe0e3bcc17d7a393c82da2af1ff1929d9c9
 ------------
@@ -1648,7 +1769,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           Revision 16
           Intel x86 Atom System Image
           Requires SDK Platform Android API 23
-download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r16.zip
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86-23_r16.zip
           size: 401.94 MB
           sha1: fcfc56626756b245a563496211b32bc3c22d3ff1
 ------------
@@ -1658,7 +1779,7 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           Revision 16
           Intel x86 Atom_64 System Image
           Requires SDK Platform Android API 23
-download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x86_64-23_r16.zip
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86_64-23_r16.zip
           size: 533.50 MB
           sha1: f9e3cafe7fd0b691df14e3b132a9197ebf90982d
 ------------
@@ -1668,6 +1789,6 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_x8
           Revision 16
           ARM EABI v7a System Image
           Requires SDK Platform Android API 23
-download: https://dl.google.com/android/repository/sys-img/google_apis/sysimg_armeabi-v7a-23_r16.zip
+download: https://dl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-23_r16.zip
           size: 375.96 MB
           sha1: c9eb258f39b402e2b856d3027d516621bb98c802
