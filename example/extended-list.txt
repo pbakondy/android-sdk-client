@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -256,17 +256,17 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
           sha1: a4060f29ed39fc929c302836d488998c53c3002e
 ------------
     Type: PlatformTool
-    Desc: Android SDK Platform-tools, revision 24.0.2
-          Revision 24.0.2
-   linux: https://dl.google.com/android/repository/platform-tools_r24.0.2-linux.zip
-          size: 3.19 MB
-          sha1: a268850d31973d32de5c1515853f81924a4068cf
-  macosx: https://dl.google.com/android/repository/platform-tools_r24.0.2-macosx.zip
-          size: 3.01 MB
-          sha1: 16053da716cbc6ef31c32a0d2f1437b22089c88c
- windows: https://dl.google.com/android/repository/platform-tools_r24.0.2-windows.zip
+    Desc: Android SDK Platform-tools, revision 24.0.3
+          Revision 24.0.3
+ windows: https://dl.google.com/android/repository/platform-tools_r24.0.3-windows.zip
           size: 2.86 MB
-          sha1: ce09a7351d5c50865691554ed56325f6e5cd733c
+          sha1: 3f5061d3f0b2be8b37b43f6fe114092224a59a44
+  macosx: https://dl.google.com/android/repository/platform-tools_r24.0.3-macosx.zip
+          size: 3.01 MB
+          sha1: 8210f0c7430e35020f19eae73a0c365d4e839501
+   linux: https://dl.google.com/android/repository/platform-tools_r24.0.3-linux.zip
+          size: 3.19 MB
+          sha1: 182c0ba05def8fdcc3b3093b055f78914c72de9c
 ------------
     Type: BuildTool
     Desc: Android SDK Build-tools, revision 24.0.2
@@ -594,21 +594,8 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
           sha1: 899897d327b0bad492d3a40d3db4d96119c15bc0
 ------------
     Type: Tool
-    Desc: Android SDK Tools, revision 25.1.7
-          Revision 25.1.7
-   linux: https://dl.google.com/android/repository/tools_r25.1.7-linux.zip
-          size: 223.58 MB
-          sha1: 36869e6c81cda18f862959a92301761f81bc06b8
-  macosx: https://dl.google.com/android/repository/tools_r25.1.7-macosx.zip
-          size: 153.93 MB
-          sha1: 0fc555651bc6c7fc93237316311d3b435747bf3b
- windows: https://dl.google.com/android/repository/tools_r25.1.7-windows.zip
-          size: 219.74 MB
-          sha1: 2556ac9a5fa741d44d9b989966c0bbdf15cb6424
-------------
-    Type: Tool
-    Desc: Android SDK Tools, revision 25.2.2 rc1
-          Revision 25.2.2 rc1
+    Desc: Android SDK Tools, revision 25.2.2
+          Revision 25.2.2
    linux: https://dl.google.com/android/repository/tools_r25.2.2-linux.zip
           size: 260.82 MB
           sha1: 99257925a3d8b46fee948a7520d7b7e3e3e1890e
@@ -967,14 +954,14 @@ download: https://dl.google.com/android/repository/google_tv-13_r01.zip
           sha1: b73f7c66011ac8180b44aa4e83b8d78c66ea9a09
 ------------
     Type: Extra
-    Desc: Android Support Repository, revision 37
-          Revision 37
+    Desc: Android Support Repository, revision 38
+          Revision 38
           by Android
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/android_m2repository_r37.zip
-          size: 268.24 MB
-          sha1: 2f862a5d66d5526cd5b7655c3e9678f493e485f7
+download: https://dl.google.com/android/repository/android_m2repository_r38.zip
+          size: 275.76 MB
+          sha1: 2ad48ed61d6fc8d7d9351ce62873be60dac5187b
 ------------
     Type: Extra
     Desc: Android Support Library, revision 23.2.1 (Obsolete)
