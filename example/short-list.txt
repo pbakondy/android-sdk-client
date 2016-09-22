@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Done loading packages.
  - SDK Platform Android 7.0, revision 2
  - SDK Platform Android 6.0, revision 3
@@ -104,11 +104,11 @@ Done loading packages.
  - Google TV Addon, Android API 13, revision 1 (Obsolete)
  - Android Support Repository, revision 38
  - Android Support Library, revision 23.2.1 (Obsolete)
- - Google Repository, revision 32
+ - Google Repository, revision 34
  - Google Play Licensing Library, revision 1
  - Google Play APK Expansion library, revision 1
  - Google Play services for Froyo, revision 12 (Obsolete)
- - Google Play services, revision 32
+ - Google Play services, revision 33
  - Google USB Driver, revision 11
  - Google Play Billing Library, revision 5
  - Google AdMob Ads SDK, revision 11 (Obsolete)
