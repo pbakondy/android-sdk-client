@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -973,14 +973,14 @@ download: https://dl.google.com/android/repository/support_r23.2.1.zip
           sha1: 41121bbc412c2fce0be170d589d20cfa3e78e857
 ------------
     Type: Extra
-    Desc: Google Repository, revision 34
-          Revision 34
+    Desc: Google Repository, revision 35
+          Revision 35
           by Google Inc.
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/google_m2repository_r34.zip
-          size: 115.96 MB
-          sha1: 110383ee15b589d8ee635ab4056da67df4f827cb
+download: https://dl.google.com/android/repository/google_m2repository_r35.zip
+          size: 123.27 MB
+          sha1: 209d1f3b4c5db966044436b793fb8fbd77a7eaf1
 ------------
     Type: Extra
     Desc: Google Play Licensing Library, revision 1
@@ -1127,9 +1127,16 @@ download: https://dl.google.com/android/repository/glass/google-gdk.zip
   macosx: https://dl.google.com/android/repository/extras/intel/haxm-macosx_r6_0_3.zip
           size: 219.23 KB
           sha1: 3128fdfe9a25d9918f93ee42f1a60574be702212
- windows: https://dl.google.com/android/repository/extras/intel/haxm-windows_r6_0_3.zip
-          size: 1.73 MB
-          sha1: daa0c2e0c74e772312dad6908fd64d47e66f25a5
+------------
+    Type: Extra
+    Desc: Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.4
+          Revision 6.0.4
+          by Intel Corporation
+          Emulation speedup using Intel VT processor technology. Read more at www.intel.com/software/android
+          Install path: extras/android/Hardware_Accelerated_Execution_Manager
+ windows: https://dl.google.com/android/repository/extras/intel/haxm-windows_r6_0_4.zip
+          size: 2.48 MB
+          sha1: 5c7027cea073df7716a7314e196872a93b215472
 ------------
     Type: SystemImage
     Desc: ARM EABI v7a System Image
