@@ -1,7 +1,7 @@
 Fetching URL: https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addons_list-2.xml
-Parse XML:    https://dl.google.com/android/repository/repository-11.xml
 Parse XML:    https://dl.google.com/android/repository/addons_list-2.xml
+Parse XML:    https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addon.xml
 Fetching URL: https://dl.google.com/android/repository/glass/addon.xml
 Fetching URL: https://dl.google.com/android/repository/extras/intel/addon.xml
@@ -11,11 +11,11 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-im
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Done loading packages.
  - SDK Platform Android 7.0, revision 2
  - SDK Platform Android 6.0, revision 3
@@ -40,7 +40,9 @@ Done loading packages.
  - SDK Platform Android 1.6, revision 3 (Obsolete)
  - SDK Platform Android 1.5, revision 4 (Obsolete)
  - SDK Platform Android 1.1, revision 1 (Obsolete)
+ - Android SDK Platform-tools, revision 24.0.4 rc1
  - Android SDK Platform-tools, revision 24.0.3
+ - Android SDK Build-tools, revision 24.0.3
  - Android SDK Build-tools, revision 24.0.2
  - Android SDK Build-tools, revision 24.0.1
  - Android SDK Build-tools, revision 24
@@ -104,7 +106,7 @@ Done loading packages.
  - Google TV Addon, Android API 13, revision 1 (Obsolete)
  - Android Support Repository, revision 38
  - Android Support Library, revision 23.2.1 (Obsolete)
- - Google Repository, revision 35
+ - Google Repository, revision 36
  - Google Play Licensing Library, revision 1
  - Google Play APK Expansion library, revision 1
  - Google Play services for Froyo, revision 12 (Obsolete)
@@ -154,10 +156,10 @@ Done loading packages.
  - Intel x86 Atom System Image, Android API 21, revision 3
  - ARM EABI v7a System Image, Android API 22, revision 7
  - Intel x86 Atom System Image, Android API 22, revision 7
- - ARM EABI v7a System Image, Android API 23, revision 5
- - Intel x86 Atom System Image, Android API 23, revision 5
- - ARM EABI v7a System Image, Android API 24, revision 1
- - Intel x86 Atom System Image, Android API 24, revision 1
+ - ARM EABI v7a System Image, Android API 23, revision 6
+ - Intel x86 Atom System Image, Android API 23, revision 6
+ - ARM EABI v7a System Image, Android API 24, revision 2
+ - Intel x86 Atom System Image, Android API 24, revision 2
  - Intel x86 Atom System Image, Android API 21, revision 3
  - ARM EABI v7a System Image, Android API 21, revision 3
  - Intel x86 Atom System Image, Android API 22, revision 3
