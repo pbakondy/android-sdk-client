@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -256,8 +256,8 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
           sha1: a4060f29ed39fc929c302836d488998c53c3002e
 ------------
     Type: PlatformTool
-    Desc: Android SDK Platform-tools, revision 24.0.4 rc1
-          Revision 24.0.4 rc1
+    Desc: Android SDK Platform-tools, revision 24.0.4
+          Revision 24.0.4
    linux: https://dl.google.com/android/repository/platform-tools_r24.0.4-linux.zip
           size: 3.19 MB
           sha1: 16ed43fc60ea219902eb6afd98c6967ee2553676
@@ -267,19 +267,6 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
  windows: https://dl.google.com/android/repository/platform-tools_r24.0.4-windows.zip
           size: 2.86 MB
           sha1: 6777753ba6dee3a1e8e35388b71f5b2b19df2ae3
-------------
-    Type: PlatformTool
-    Desc: Android SDK Platform-tools, revision 24.0.3
-          Revision 24.0.3
-   linux: https://dl.google.com/android/repository/platform-tools_r24.0.3-linux.zip
-          size: 3.19 MB
-          sha1: 182c0ba05def8fdcc3b3093b055f78914c72de9c
-  macosx: https://dl.google.com/android/repository/platform-tools_r24.0.3-macosx.zip
-          size: 3.01 MB
-          sha1: 8210f0c7430e35020f19eae73a0c365d4e839501
- windows: https://dl.google.com/android/repository/platform-tools_r24.0.3-windows.zip
-          size: 2.86 MB
-          sha1: 3f5061d3f0b2be8b37b43f6fe114092224a59a44
 ------------
     Type: BuildTool
     Desc: Android SDK Build-tools, revision 24.0.3
