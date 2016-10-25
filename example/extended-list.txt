@@ -10,12 +10,12 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -1008,14 +1008,14 @@ download: https://dl.google.com/android/repository/support_r23.2.1.zip
           sha1: 41121bbc412c2fce0be170d589d20cfa3e78e857
 ------------
     Type: Extra
-    Desc: Google Repository, revision 36
-          Revision 36
+    Desc: Google Repository, revision 38
+          Revision 38
           by Google Inc.
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/google_m2repository_r36.zip
-          size: 123.82 MB
-          sha1: fa55e43b0175167da7f8cbedea35331cd448cf9b
+download: https://dl.google.com/android/repository/google_m2repository_gms_v7_rc28_wear_2a3.zip
+          size: 131.34 MB
+          sha1: 6320401708c1be9b77acde31919cae7b5e29b753
 ------------
     Type: Extra
     Desc: Google Play Licensing Library, revision 1
@@ -1048,14 +1048,14 @@ download: https://dl.google.com/android/repository/google_play_services_3265130_
           sha1: 92558dbc380bba3d55d0ec181167fb05ce7c79d9
 ------------
     Type: Extra
-    Desc: Google Play services, revision 33
-          Revision 33
+    Desc: Google Play services, revision 37
+          Revision 37
           by Google Inc.
           Google Play services Javadocs and sample code
           Install path: extras/android/google_play_services
-download: https://dl.google.com/android/repository/google_play_services_9683000_r33.zip
-          size: 11.42 MB
-          sha1: 9f38cfdcdf9e25a77d75e4b58e6c35adcf953963
+download: https://dl.google.com/android/repository/google_play_services_v7_rc28.zip
+          size: 11.52 MB
+          sha1: 20b7d0b69c166161bf9aa95df1f58404a8733171
 ------------
     Type: Extra
     Desc: Google USB Driver, revision 11
