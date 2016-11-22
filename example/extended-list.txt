@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -1008,14 +1008,14 @@ download: https://dl.google.com/android/repository/support_r23.2.1.zip
           sha1: 41121bbc412c2fce0be170d589d20cfa3e78e857
 ------------
     Type: Extra
-    Desc: Google Repository, revision 38
-          Revision 38
+    Desc: Google Repository, revision 39
+          Revision 39
           by Google Inc.
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/google_m2repository_gms_v7_rc28_wear_2a3.zip
-          size: 131.34 MB
-          sha1: 6320401708c1be9b77acde31919cae7b5e29b753
+download: https://dl.google.com/android/repository/google_m2repository_gms_v8_rc41_wear_2a3.zip
+          size: 138.28 MB
+          sha1: 12d2355caafea06987c8323fa53c3ecc61477a35
 ------------
     Type: Extra
     Desc: Google Play Licensing Library, revision 1
@@ -1048,14 +1048,14 @@ download: https://dl.google.com/android/repository/google_play_services_3265130_
           sha1: 92558dbc380bba3d55d0ec181167fb05ce7c79d9
 ------------
     Type: Extra
-    Desc: Google Play services, revision 37
-          Revision 37
+    Desc: Google Play services, revision 38
+          Revision 38
           by Google Inc.
           Google Play services Javadocs and sample code
           Install path: extras/android/google_play_services
-download: https://dl.google.com/android/repository/google_play_services_v7_rc28.zip
-          size: 11.52 MB
-          sha1: 20b7d0b69c166161bf9aa95df1f58404a8733171
+download: https://dl.google.com/android/repository/google_play_services_v8_rc41.zip
+          size: 11.78 MB
+          sha1: 7a50dec81ba9c9b51d7778c19ca05002498209e8
 ------------
     Type: Extra
     Desc: Google USB Driver, revision 11
@@ -1164,14 +1164,14 @@ download: https://dl.google.com/android/repository/glass/google-gdk.zip
           sha1: 3128fdfe9a25d9918f93ee42f1a60574be702212
 ------------
     Type: Extra
-    Desc: Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.4
-          Revision 6.0.4
+    Desc: Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.5
+          Revision 6.0.5
           by Intel Corporation
           Emulation speedup using Intel VT processor technology. Read more at www.intel.com/software/android
           Install path: extras/android/Hardware_Accelerated_Execution_Manager
- windows: https://dl.google.com/android/repository/extras/intel/haxm-windows_r6_0_4.zip
-          size: 2.48 MB
-          sha1: 5c7027cea073df7716a7314e196872a93b215472
+ windows: https://dl.google.com/android/repository/extras/intel/haxm-windows_r6_0_5.zip
+          size: 2.50 MB
+          sha1: 77df087e699411e290294da22bd1058b7f341104
 ------------
     Type: SystemImage
     Desc: ARM EABI v7a System Image
