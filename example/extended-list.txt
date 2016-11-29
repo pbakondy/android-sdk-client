@@ -10,11 +10,11 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Done loading packages.
 ------------
@@ -1021,14 +1021,14 @@ download: https://dl.google.com/android/repository/support_r23.2.1.zip
           sha1: 41121bbc412c2fce0be170d589d20cfa3e78e857
 ------------
     Type: Extra
-    Desc: Google Repository, revision 39
-          Revision 39
+    Desc: Google Repository, revision 40
+          Revision 40
           by Google Inc.
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/google_m2repository_gms_v8_rc41_wear_2a3.zip
-          size: 138.28 MB
-          sha1: 12d2355caafea06987c8323fa53c3ecc61477a35
+download: https://dl.google.com/android/repository/google_m2repository_gms_v8_rc42_wear_2a3.zip
+          size: 145.56 MB
+          sha1: 0f599f7f35fba49b9277ef9e1394c5c82d8bd369
 ------------
     Type: Extra
     Desc: Google Play Licensing Library, revision 1
