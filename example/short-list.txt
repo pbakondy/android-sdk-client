@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Done loading packages.
  - SDK Platform Android 7.1.1, revision 2
  - SDK Platform Android 7.0, revision 2
@@ -122,7 +122,7 @@ Done loading packages.
  - Android Auto API Simulators, revision 1
  - Android Auto Desktop Head Unit emulator, revision 1.1
  - Glass Development Kit Preview, Android API 19, revision 11
- - Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.3
+ - Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.5
  - Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.5
  - ARM EABI v7a System Image, Android API 10, revision 4
  - ARM EABI v7a System Image, Android API 14, revision 2
