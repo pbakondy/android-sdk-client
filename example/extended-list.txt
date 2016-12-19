@@ -10,12 +10,12 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -265,17 +265,17 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
           sha1: a4060f29ed39fc929c302836d488998c53c3002e
 ------------
     Type: PlatformTool
-    Desc: Android SDK Platform-tools, revision 25.0.2
-          Revision 25.0.2
-   linux: https://dl.google.com/android/repository/platform-tools_r25.0.2-linux.zip
-          size: 3.73 MB
-          sha1: 7a5736ec23e909a2cd5dd5597fba937f6d3177f3
-  macosx: https://dl.google.com/android/repository/platform-tools_r25.0.2-macosx.zip
+    Desc: Android SDK Platform-tools, revision 25.0.3
+          Revision 25.0.3
+   linux: https://dl.google.com/android/repository/platform-tools_r25.0.3-linux.zip
+          size: 3.74 MB
+          sha1: 45979ff7d19ac01b52fef283bcccf386f085c239
+  macosx: https://dl.google.com/android/repository/platform-tools_r25.0.3-macosx.zip
           size: 3.56 MB
-          sha1: 10418e5704a0d87211f910d65ff09e37553da2a1
- windows: https://dl.google.com/android/repository/platform-tools_r25.0.2-windows.zip
+          sha1: a539384766523a90637cb5e0231c8530bd639916
+ windows: https://dl.google.com/android/repository/platform-tools_r25.0.3-windows.zip
           size: 3.41 MB
-          sha1: 50b4c972e265e3caf29025366adb4deced8b7c52
+          sha1: b6774fe6927893f5f8e94ae44de82a68b2f6669f
 ------------
     Type: BuildTool
     Desc: Android SDK Build-tools, revision 25.0.2
