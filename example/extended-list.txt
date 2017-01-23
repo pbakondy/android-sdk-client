@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -267,12 +267,12 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
     Type: PlatformTool
     Desc: Android SDK Platform-tools, revision 25.0.3
           Revision 25.0.3
+  macosx: https://dl.google.com/android/repository/platform-tools_r25.0.3-darwin.zip
+          size: 3.56 MB
+          sha1: a539384766523a90637cb5e0231c8530bd639916
    linux: https://dl.google.com/android/repository/platform-tools_r25.0.3-linux.zip
           size: 3.74 MB
           sha1: 45979ff7d19ac01b52fef283bcccf386f085c239
-  macosx: https://dl.google.com/android/repository/platform-tools_r25.0.3-macosx.zip
-          size: 3.56 MB
-          sha1: a539384766523a90637cb5e0231c8530bd639916
  windows: https://dl.google.com/android/repository/platform-tools_r25.0.3-windows.zip
           size: 3.41 MB
           sha1: b6774fe6927893f5f8e94ae44de82a68b2f6669f
@@ -655,17 +655,17 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
           sha1: 899897d327b0bad492d3a40d3db4d96119c15bc0
 ------------
     Type: Tool
-    Desc: Android SDK Tools, revision 25.2.4
-          Revision 25.2.4
-   linux: https://dl.google.com/android/repository/tools_r25.2.4-linux.zip
-          size: 265.01 MB
-          sha1: 36131a908e436d5c9911a25fa1a70494deb69eb2
-  macosx: https://dl.google.com/android/repository/tools_r25.2.4-macosx.zip
+    Desc: Android SDK Tools, revision 25.2.5
+          Revision 25.2.5
+   linux: https://dl.google.com/android/repository/tools_r25.2.5-linux.zip
+          size: 265.02 MB
+          sha1: 72df3aa1988c0a9003ccdfd7a13a7b8bd0f47fc1
+  macosx: https://dl.google.com/android/repository/tools_r25.2.5-macosx.zip
           size: 191.24 MB
-          sha1: f4d3a96a9ff61d44c36f385148c8b7ff66bd83bc
- windows: https://dl.google.com/android/repository/tools_r25.2.4-windows.zip
+          sha1: d2168d963ac5b616e3d3ddaf21511d084baf3659
+ windows: https://dl.google.com/android/repository/tools_r25.2.5-windows.zip
           size: 292.57 MB
-          sha1: e5462271cd4cfe6a2ae54424887c9bf4be988374
+          sha1: a7f7ebeae1c8d8f62d3a8466e9c81baee7cc31ca
 ------------
     Type: Doc
     Desc: Documentation for Android SDK, API 24, revision 1
