@@ -10,12 +10,12 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -1023,24 +1023,24 @@ download: https://dl.google.com/android/repository/google_tv-13_r01.zip
           sha1: b73f7c66011ac8180b44aa4e83b8d78c66ea9a09
 ------------
     Type: Extra
-    Desc: Android Support Repository, revision 41
-          Revision 41
+    Desc: Android Support Repository, revision 42
+          Revision 42
           by Android
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/android_m2repository_r41.zip
-          size: 299.47 MB
-          sha1: 1aa21d8f205a056f2423bf96444ac82a5fcc9ee9
+download: https://dl.google.com/android/repository/android_m2repository_r42.zip
+          size: 307.55 MB
+          sha1: 175c56e2e2aa6fec560430318f56ed98eaeaea04
 ------------
     Type: Extra
-    Desc: Google Repository, revision 41
-          Revision 41
+    Desc: Google Repository, revision 42
+          Revision 42
           by Google Inc.
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/google_m2repository_gms_v8_rc42_wear_2b1_rc4.zip
-          size: 146.20 MB
-          sha1: 4a9ee1c3b578e8149219c82c1b8cd592131ec4fb
+download: https://dl.google.com/android/repository/google_m2repository_gms_v8_rc42_wear_2b2_rc2.zip
+          size: 146.71 MB
+          sha1: a6897a0acd112d076840d3908ea2bd480e28815e
 ------------
     Type: Extra
     Desc: Google Play Licensing Library, revision 1
