@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -1023,24 +1023,24 @@ download: https://dl.google.com/android/repository/google_tv-13_r01.zip
           sha1: b73f7c66011ac8180b44aa4e83b8d78c66ea9a09
 ------------
     Type: Extra
-    Desc: Android Support Repository, revision 42
-          Revision 42
+    Desc: Android Support Repository, revision 43
+          Revision 43
           by Android
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/android_m2repository_r42.zip
-          size: 307.55 MB
-          sha1: 175c56e2e2aa6fec560430318f56ed98eaeaea04
+download: https://dl.google.com/android/repository/android_m2repository_r43.zip
+          size: 306.62 MB
+          sha1: c62e1316aad4ebe604b7f190a2d8a8be3847ab65
 ------------
     Type: Extra
-    Desc: Google Repository, revision 42
-          Revision 42
+    Desc: Google Repository, revision 43
+          Revision 43
           by Google Inc.
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/google_m2repository_gms_v8_rc42_wear_2b2_rc2.zip
-          size: 146.71 MB
-          sha1: a6897a0acd112d076840d3908ea2bd480e28815e
+download: https://dl.google.com/android/repository/google_m2repository_gms_v8_rc42_wear_2_0_rc6.zip
+          size: 147.22 MB
+          sha1: c7ddb49f0c153e9083ab746edf092103c944a35d
 ------------
     Type: Extra
     Desc: Google Play Licensing Library, revision 1
@@ -1510,66 +1510,6 @@ download: https://dl.google.com/android/repository/sys-img/android/x86_64-25_r03
 ------------
     Type: SystemImage
     Desc: Android Wear ARM EABI v7a System Image
-          API 20
-          Revision 4
-          ARM EABI v7a System Image
-          Requires SDK Platform Android API 20
-download: https://dl.google.com/android/repository/sys-img/android-wear/armeabi-v7a-20_r04.zip
-          size: 107.61 MB
-          sha1: c05655105fe739a5405d12532430066d2537ed13
-------------
-    Type: SystemImage
-    Desc: Android Wear Intel x86 Atom System Image
-          API 20
-          Revision 4
-          Intel x86 Atom System Image
-          Requires SDK Platform Android API 20
-download: https://dl.google.com/android/repository/sys-img/android-wear/x86-20_r04.zip
-          size: 119.77 MB
-          sha1: efcc67868b1f487b144655d9d6c642c2606723de
-------------
-    Type: SystemImage
-    Desc: Android Wear ARM EABI v7a System Image
-          API 21
-          Revision 3
-          ARM EABI v7a System Image
-          Requires SDK Platform Android API 21
-download: https://dl.google.com/android/repository/sys-img/android-wear/armeabi-v7a-21_r03.zip
-          size: 168.55 MB
-          sha1: 28a1113314a0c92a793282ba40e8216f3afd1186
-------------
-    Type: SystemImage
-    Desc: Android Wear Intel x86 Atom System Image
-          API 21
-          Revision 3
-          Intel x86 Atom System Image
-          Requires SDK Platform Android API 21
-download: https://dl.google.com/android/repository/sys-img/android-wear/x86-21_r03.zip
-          size: 178.44 MB
-          sha1: 4ab3a1c33e46fcdf13b5bc4d5b3f67eea1206bed
-------------
-    Type: SystemImage
-    Desc: Android Wear ARM EABI v7a System Image
-          API 22
-          Revision 7
-          ARM EABI v7a System Image
-          Requires SDK Platform Android API 22
-download: https://dl.google.com/android/repository/sys-img/android-wear/armeabi-v7a-22_r07.zip
-          size: 177.89 MB
-          sha1: 97b26d1ef08f291fd980358cbfa64861757d5fdf
-------------
-    Type: SystemImage
-    Desc: Android Wear Intel x86 Atom System Image
-          API 22
-          Revision 7
-          Intel x86 Atom System Image
-          Requires SDK Platform Android API 22
-download: https://dl.google.com/android/repository/sys-img/android-wear/x86-22_r07.zip
-          size: 185.53 MB
-          sha1: a4aa0122186f00667f11c1fdaf39554724e8fd47
-------------
-    Type: SystemImage
-    Desc: Android Wear ARM EABI v7a System Image
           API 23
           Revision 6
           ARM EABI v7a System Image
@@ -1591,22 +1531,22 @@ download: https://dl.google.com/android/repository/sys-img/android-wear/x86-23_r
     Type: SystemImage
     Desc: Android Wear ARM EABI v7a System Image
           API 25
-          Revision 1
+          Revision 2
           ARM EABI v7a System Image
           Requires SDK Platform Android API 25
-download: https://dl.google.com/android/repository/sys-img/android-wear/armeabi-v7a-25_r01.zip
-          size: 366.23 MB
-          sha1: 3af2d1a88fbe33e804909b1c71557aac3fa0841c
+download: https://dl.google.com/android/repository/sys-img/android-wear/armeabi-v7a-25_r02.zip
+          size: 363.42 MB
+          sha1: 0c3d89d7d14256acced7feacd90d9736938b3637
 ------------
     Type: SystemImage
     Desc: Android Wear Intel x86 Atom System Image
           API 25
-          Revision 1
+          Revision 2
           Intel x86 Atom System Image
           Requires SDK Platform Android API 25
-download: https://dl.google.com/android/repository/sys-img/android-wear/x86-25_r01.zip
-          size: 385.11 MB
-          sha1: ff8eb9134ae72f8781feb176e1ef42c92b916654
+download: https://dl.google.com/android/repository/sys-img/android-wear/x86-25_r02.zip
+          size: 382.39 MB
+          sha1: 180a71bfbdc71c61c72587f4af985d252d07fbfb
 ------------
     Type: SystemImage
     Desc: Android TV Intel x86 Atom System Image
