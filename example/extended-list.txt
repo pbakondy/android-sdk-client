@@ -12,9 +12,9 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-i
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
 Done loading packages.
 ------------
@@ -1023,14 +1023,14 @@ download: https://dl.google.com/android/repository/google_tv-13_r01.zip
           sha1: b73f7c66011ac8180b44aa4e83b8d78c66ea9a09
 ------------
     Type: Extra
-    Desc: Android Support Repository, revision 43
-          Revision 43
+    Desc: Android Support Repository, revision 44
+          Revision 44
           by Android
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/android_m2repository_r43.zip
-          size: 306.62 MB
-          sha1: c62e1316aad4ebe604b7f190a2d8a8be3847ab65
+download: https://dl.google.com/android/repository/android_m2repository_r44.zip
+          size: 314.51 MB
+          sha1: e1489c3a1201a2ab38ea62eb978a0a1ef839242e
 ------------
     Type: Extra
     Desc: Google Repository, revision 44
