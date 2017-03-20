@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -265,17 +265,17 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
           sha1: a4060f29ed39fc929c302836d488998c53c3002e
 ------------
     Type: PlatformTool
-    Desc: Android SDK Platform-tools, revision 25.0.3
-          Revision 25.0.3
-  macosx: https://dl.google.com/android/repository/platform-tools_r25.0.3-darwin.zip
-          size: 3.56 MB
-          sha1: a539384766523a90637cb5e0231c8530bd639916
-   linux: https://dl.google.com/android/repository/platform-tools_r25.0.3-linux.zip
-          size: 3.74 MB
-          sha1: 45979ff7d19ac01b52fef283bcccf386f085c239
- windows: https://dl.google.com/android/repository/platform-tools_r25.0.3-windows.zip
-          size: 3.41 MB
-          sha1: b6774fe6927893f5f8e94ae44de82a68b2f6669f
+    Desc: Android SDK Platform-tools, revision 25.0.4
+          Revision 25.0.4
+  macosx: https://dl.google.com/android/repository/platform-tools_r25.0.4-darwin.zip
+          size: 7.20 MB
+          sha1: e129a1cb9f5e03807e19881bf0b02f0971cb1dc2
+   linux: https://dl.google.com/android/repository/platform-tools_r25.0.4-linux.zip
+          size: 7.29 MB
+          sha1: adbc8742f20295bc640860028d63cf57b6e4a58e
+ windows: https://dl.google.com/android/repository/platform-tools_r25.0.4-windows.zip
+          size: 6.96 MB
+          sha1: dcfd95dc2358079daa154f58a6608cba2cd9dacb
 ------------
     Type: BuildTool
     Desc: Android SDK Build-tools, revision 25.0.2
@@ -1023,14 +1023,14 @@ download: https://dl.google.com/android/repository/google_tv-13_r01.zip
           sha1: b73f7c66011ac8180b44aa4e83b8d78c66ea9a09
 ------------
     Type: Extra
-    Desc: Android Support Repository, revision 44
-          Revision 44
+    Desc: Android Support Repository, revision 45
+          Revision 45
           by Android
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/android_m2repository_r44.zip
-          size: 314.51 MB
-          sha1: e1489c3a1201a2ab38ea62eb978a0a1ef839242e
+download: https://dl.google.com/android/repository/android_m2repository_r45.zip
+          size: 322.73 MB
+          sha1: 88df24cc778f3cd6464e605dc82aed5bd2dfbed4
 ------------
     Type: Extra
     Desc: Google Repository, revision 44
