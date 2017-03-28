@@ -1,7 +1,7 @@
 Fetching URL: https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addons_list-2.xml
-Parse XML:    https://dl.google.com/android/repository/repository-11.xml
 Parse XML:    https://dl.google.com/android/repository/addons_list-2.xml
+Parse XML:    https://dl.google.com/android/repository/repository-11.xml
 Fetching URL: https://dl.google.com/android/repository/addon.xml
 Fetching URL: https://dl.google.com/android/repository/glass/addon.xml
 Fetching URL: https://dl.google.com/android/repository/extras/intel/addon.xml
@@ -9,13 +9,13 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -1049,24 +1049,24 @@ download: https://dl.google.com/android/repository/google_tv-13_r01.zip
           sha1: b73f7c66011ac8180b44aa4e83b8d78c66ea9a09
 ------------
     Type: Extra
-    Desc: Android Support Repository, revision 46
-          Revision 46
+    Desc: Android Support Repository, revision 47
+          Revision 47
           by Android
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/android_m2repository_r46.zip
-          size: 330.84 MB
-          sha1: 1f4e45e49e1ccf79c8ce5dacfe54688cc2a62966
+download: https://dl.google.com/android/repository/android_m2repository_r47.zip
+          size: 339.06 MB
+          sha1: a0d22beacc106a6977321f2b07d692ce4979e96a
 ------------
     Type: Extra
-    Desc: Google Repository, revision 45
-          Revision 45
+    Desc: Google Repository, revision 46
+          Revision 46
           by Google Inc.
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/google_m2repository_gms_v9_1_rc07_wear_2_0_rc6.zip
-          size: 161.89 MB
-          sha1: 9973709d7e7af5f7dc8c71ad8599ebf0fdade177
+download: https://dl.google.com/android/repository/google_m2repository_gms_v9_1_rc07_wear_2_0_1_rc3.zip
+          size: 162.60 MB
+          sha1: 21ebb86d0943b3105eea6f2b29896df7a149b276
 ------------
     Type: Extra
     Desc: Google Play Licensing Library, revision 1
