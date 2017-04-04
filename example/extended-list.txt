@@ -9,13 +9,15 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android/sys-img.x
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -1205,24 +1207,24 @@ download: https://dl.google.com/android/repository/glass/google-gdk.zip
           sha1: 52cadbec4d42ce68a667e7e4ea461ef8b81924ef
 ------------
     Type: Extra
-    Desc: Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.5
-          Revision 6.0.5
+    Desc: Intel x86 Emulator Accelerator (HAXM installer), revision 6.1.1
+          Revision 6.1.1
           by Intel Corporation
           Emulation speedup using Intel VT processor technology. Read more at www.intel.com/software/android
           Install path: extras/android/Hardware_Accelerated_Execution_Manager
-  macosx: https://dl.google.com/android/repository/extras/intel/haxm-macosx_r6_0_5.zip
-          size: 221.71 KB
-          sha1: b2cb3bc37297362a99faf0fbb7714891233e9946
+  macosx: https://dl.google.com/android/repository/extras/intel/haxm-macosx_r6_1_1.zip
+          size: 228.00 KB
+          sha1: 8e2d79760be88bb551323f8a685f3d841a560cdb
 ------------
     Type: Extra
-    Desc: Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.5
-          Revision 6.0.5
+    Desc: Intel x86 Emulator Accelerator (HAXM installer), revision 6.0.6
+          Revision 6.0.6
           by Intel Corporation
           Emulation speedup using Intel VT processor technology. Read more at www.intel.com/software/android
           Install path: extras/android/Hardware_Accelerated_Execution_Manager
- windows: https://dl.google.com/android/repository/extras/intel/haxm-windows_r6_0_5.zip
-          size: 2.50 MB
-          sha1: 77df087e699411e290294da22bd1058b7f341104
+ windows: https://dl.google.com/android/repository/extras/intel/haxm-windows_r6_0_6.zip
+          size: 2.52 MB
+          sha1: d5096efd5f7cd71a65cf319344258da3d72c5b21
 ------------
     Type: SystemImage
     Desc: ARM EABI v7a System Image
