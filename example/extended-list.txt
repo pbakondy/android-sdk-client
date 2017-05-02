@@ -10,14 +10,14 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -267,17 +267,17 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
           sha1: a4060f29ed39fc929c302836d488998c53c3002e
 ------------
     Type: PlatformTool
-    Desc: Android SDK Platform-tools, revision 25.0.4
-          Revision 25.0.4
-  macosx: https://dl.google.com/android/repository/platform-tools_r25.0.4-darwin.zip
+    Desc: Android SDK Platform-tools, revision 25.0.5
+          Revision 25.0.5
+  macosx: https://dl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip
           size: 7.20 MB
-          sha1: e129a1cb9f5e03807e19881bf0b02f0971cb1dc2
-   linux: https://dl.google.com/android/repository/platform-tools_r25.0.4-linux.zip
+          sha1: 9bbf65f80b05303a3576682d3350b087c4802283
+   linux: https://dl.google.com/android/repository/platform-tools_r25.0.5-linux.zip
           size: 7.29 MB
-          sha1: adbc8742f20295bc640860028d63cf57b6e4a58e
- windows: https://dl.google.com/android/repository/platform-tools_r25.0.4-windows.zip
+          sha1: 4c026e2445e8b898cb0fd5dedf710a666a78aaa7
+ windows: https://dl.google.com/android/repository/platform-tools_r25.0.5-windows.zip
           size: 6.96 MB
-          sha1: dcfd95dc2358079daa154f58a6608cba2cd9dacb
+          sha1: a59b3747414e3002e826f84470dc1a7ceeb1c6d4
 ------------
     Type: PlatformTool
     Desc: Android SDK Platform-tools, revision 26 rc1
@@ -304,6 +304,19 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
  windows: https://dl.google.com/android/repository/build-tools_r26-rc1-windows.zip
           size: 51.86 MB
           sha1: 43c2ddad3b67a5c33712ae14331a60673e69be91
+------------
+    Type: BuildTool
+    Desc: Android SDK Build-tools, revision 25.0.3
+          Revision 25.0.3
+   linux: https://dl.google.com/android/repository/build-tools_r25.0.3-linux.zip
+          size: 48.41 MB
+          sha1: db95f3a0ae376534d4d69f4cdb6fad20649f3509
+  macosx: https://dl.google.com/android/repository/build-tools_r25.0.3-macosx.zip
+          size: 48.20 MB
+          sha1: 160d2fefb5ce68e443427fc30a793a703b63e26e
+ windows: https://dl.google.com/android/repository/build-tools_r25.0.3-windows.zip
+          size: 48.96 MB
+          sha1: 1edcb109ae5133aebfed573cf0bc84e0c353c28d
 ------------
     Type: BuildTool
     Desc: Android SDK Build-tools, revision 25.0.2
@@ -1061,14 +1074,14 @@ download: https://dl.google.com/android/repository/android_m2repository_r47.zip
           sha1: a0d22beacc106a6977321f2b07d692ce4979e96a
 ------------
     Type: Extra
-    Desc: Google Repository, revision 46
-          Revision 46
+    Desc: Google Repository, revision 47
+          Revision 47
           by Google Inc.
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/google_m2repository_gms_v9_1_rc07_wear_2_0_1_rc3.zip
-          size: 162.60 MB
-          sha1: 21ebb86d0943b3105eea6f2b29896df7a149b276
+download: https://dl.google.com/android/repository/google_m2repository_gms_v9_2_rc08_wear_2_0_1_rc3.zip
+          size: 169.83 MB
+          sha1: c8c81ecdc87fc28d34783112400f642f4adf038c
 ------------
     Type: Extra
     Desc: Google Play Licensing Library, revision 1
