@@ -10,14 +10,14 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -267,30 +267,43 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
           sha1: a4060f29ed39fc929c302836d488998c53c3002e
 ------------
     Type: PlatformTool
-    Desc: Android SDK Platform-tools, revision 25.0.5
-          Revision 25.0.5
-  macosx: https://dl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip
-          size: 7.20 MB
-          sha1: 9bbf65f80b05303a3576682d3350b087c4802283
-   linux: https://dl.google.com/android/repository/platform-tools_r25.0.5-linux.zip
-          size: 7.29 MB
-          sha1: 4c026e2445e8b898cb0fd5dedf710a666a78aaa7
- windows: https://dl.google.com/android/repository/platform-tools_r25.0.5-windows.zip
-          size: 6.96 MB
-          sha1: a59b3747414e3002e826f84470dc1a7ceeb1c6d4
+    Desc: Android SDK Platform-tools, revision 25.0.6
+          Revision 25.0.6
+  macosx: https://dl.google.com/android/repository/platform-tools_r25.0.6-darwin.zip
+          size: 7.39 MB
+          sha1: 27c87c8d7e8ed2461e827929636615c2080d2123
+   linux: https://dl.google.com/android/repository/platform-tools_r25.0.6-linux.zip
+          size: 7.48 MB
+          sha1: 54db754bba791f1c9075ef991b59bcb08de524d3
+ windows: https://dl.google.com/android/repository/platform-tools_r25.0.6-windows.zip
+          size: 7.15 MB
+          sha1: 545b75f0ab7ee946ab449cc30ac00cf62e9c47dd
 ------------
     Type: PlatformTool
-    Desc: Android SDK Platform-tools, revision 26 rc1
-          Revision 26 rc1
-  macosx: https://dl.google.com/android/repository/platform-tools_r26.0.0-rc1-darwin.zip
-          size: 6.95 MB
-          sha1: e3e6ff0deaaf9473f2b5f308d94863da0ed2af28
-   linux: https://dl.google.com/android/repository/platform-tools_r26.0.0-rc1-linux.zip
-          size: 7.03 MB
-          sha1: 00d08376fcff437d17b2157eb91c7ae1ad760cc9
- windows: https://dl.google.com/android/repository/platform-tools_r26.0.0-rc1-windows.zip
-          size: 6.72 MB
-          sha1: 92d6a21271b3665a330a57567bda60ea13be4500
+    Desc: Android SDK Platform-tools, revision 26 rc2
+          Revision 26 rc2
+  macosx: https://dl.google.com/android/repository/platform-tools_r26.0.0-rc2-darwin.zip
+          size: 7.41 MB
+          sha1: 976c75d7bde048f4c9aea468a35b576ab303a589
+   linux: https://dl.google.com/android/repository/platform-tools_r26.0.0-rc2-linux.zip
+          size: 7.50 MB
+          sha1: f2b04b048a46ba722a2d1bfde99a16df94bbfdb3
+ windows: https://dl.google.com/android/repository/platform-tools_r26.0.0-rc2-windows.zip
+          size: 7.17 MB
+          sha1: 5e8727e2eba0c4ce5136dd73a26584c92fc6a642
+------------
+    Type: BuildTool
+    Desc: Android SDK Build-tools, revision 26 rc2
+          Revision 26 rc2
+   linux: https://dl.google.com/android/repository/build-tools_r26-rc2-linux.zip
+          size: 51.35 MB
+          sha1: 629bbd8d2e415bf64871fb0b4c0540fd6d0347a0
+  macosx: https://dl.google.com/android/repository/build-tools_r26-rc2-macosx.zip
+          size: 50.55 MB
+          sha1: cb1eb738a1f7003025af267a9b8cc2d259533c70
+ windows: https://dl.google.com/android/repository/build-tools_r26-rc2-windows.zip
+          size: 52.15 MB
+          sha1: ddaba77db0557a98f6330fbd579ad0bd12cbb152
 ------------
     Type: BuildTool
     Desc: Android SDK Build-tools, revision 26 rc1
@@ -1011,6 +1024,17 @@ download: https://dl.google.com/android/repository/google_apis-24_r1.zip
           sha1: 31361c2868f27343ee917fbd259c1463821b6145
 ------------
     Type: Addon
+    Desc: Google APIs, Android API 23, revision 1
+          API 23
+          Revision 1
+          by Google Inc.
+          Android + Google APIs
+          Requires SDK Platform Android API 23
+download: https://dl.google.com/android/repository/google_apis-25_r1.zip
+          size: 151.24 KB
+          sha1: 550e83eea9513ab11c44919ac6da54b36084a9f3
+------------
+    Type: Addon
     Desc: Google APIs, Android API 21, revision 1
           API 21
           Revision 1
@@ -1074,14 +1098,14 @@ download: https://dl.google.com/android/repository/android_m2repository_r47.zip
           sha1: a0d22beacc106a6977321f2b07d692ce4979e96a
 ------------
     Type: Extra
-    Desc: Google Repository, revision 47
-          Revision 47
+    Desc: Google Repository, revision 51
+          Revision 51
           by Google Inc.
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/google_m2repository_gms_v9_2_rc08_wear_2_0_1_rc3.zip
-          size: 169.83 MB
-          sha1: c8c81ecdc87fc28d34783112400f642f4adf038c
+download: https://dl.google.com/android/repository/google_m2repository_gms_v9_3_rc10_wear_2_0_2_rc1.zip
+          size: 177.89 MB
+          sha1: 92db08ff913be8561f9984752b6d9121816c3da2
 ------------
     Type: Extra
     Desc: Google Play Licensing Library, revision 1
@@ -1114,14 +1138,14 @@ download: https://dl.google.com/android/repository/google_play_services_3265130_
           sha1: 92558dbc380bba3d55d0ec181167fb05ce7c79d9
 ------------
     Type: Extra
-    Desc: Google Play services, revision 39
-          Revision 39
+    Desc: Google Play services, revision 40
+          Revision 40
           by Google Inc.
           Google Play services Javadocs and sample code
           Install path: extras/android/google_play_services
-download: https://dl.google.com/android/repository/google_play_services_v9_rc41.zip
-          size: 11.94 MB
-          sha1: de649e709c132230228e2a7ae2c1c711b38bd9a9
+download: https://dl.google.com/android/repository/google_play_services_v9_3_rc09.zip
+          size: 11.99 MB
+          sha1: e8bc3106ba704ab76251efb6b5fd3a9e04fad7b2
 ------------
     Type: Extra
     Desc: Google USB Driver, revision 11
@@ -1207,6 +1231,16 @@ download: https://dl.google.com/android/repository/simulator_r01.zip
  windows: https://dl.google.com/android/repository/desktop-head-unit-windows_r01.1.zip
           size: 2.57 MB
           sha1: 99c4a7172d73673552119347bc24c58b47da177b
+------------
+    Type: Extra
+    Desc: Instant Apps Development SDK, revision 1
+          Revision 1
+          by Google Inc.
+          Android Instant Apps Development SDK
+          Install path: extras/android/instantapps
+download: https://dl.google.com/android/repository/aiasdk-1.0.0.zip
+          size: 429.60 MB
+          sha1: 50074a0f0312ee1d0d81d2cddc3d84a8a9e97a53
 ------------
     Type: Addon
     Desc: Glass Development Kit Preview, Android API 19, revision 11
@@ -1938,3 +1972,13 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/armeabi-v
 download: https://dl.google.com/android/repository/sys-img/google_apis/arm64-v8a-25_r04.zip
           size: 713.61 MB
           sha1: c5fdf8666d2840ddc945edfae60d3d908e4b5b92
+------------
+    Type: SystemImage
+    Desc: Google Play Intel x86 Atom System Image
+          API 24
+          Revision 12
+          Intel x86 Atom System Image
+          Requires SDK Platform Android API 24
+download: https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86-24_r12.zip
+          size: 767.51 MB
+          sha1: 37ac16343f994df3d6bb8b36cac15735c7ed86e0
