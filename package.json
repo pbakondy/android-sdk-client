@@ -1,6 +1,6 @@
 {
   "name": "android-sdk-client",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Display list of available files of SDK repository",
   "bin": {
     "android-sdk-client": "cli.js"
@@ -31,15 +31,15 @@
     "addon"
   ],
   "dependencies": {
-    "axios": "^0.15.3",
-    "es6-promise": "^4.0.5",
+    "axios": "^0.16.2",
+    "es6-promise": "^4.1.0",
     "humanize": "0.0.9",
     "meow": "^3.7.0",
     "mkdirp": "^0.5.1",
     "xml2js": "^0.4.17"
   },
   "devDependencies": {
-    "eslint": "^3.17.0"
+    "eslint": "^3.19.0"
   },
   "repository": {
     "type": "git",
