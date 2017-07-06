@@ -10,14 +10,14 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Done loading packages.
 ------------
     Type: Platform
@@ -1107,14 +1107,14 @@ download: https://dl.google.com/android/repository/android_m2repository_r47.zip
           sha1: a0d22beacc106a6977321f2b07d692ce4979e96a
 ------------
     Type: Extra
-    Desc: Google Repository, revision 53
-          Revision 53
+    Desc: Google Repository, revision 55
+          Revision 55
           by Google Inc.
           Local Maven repository for Support Libraries
           Install path: extras/android/m2repository
-download: https://dl.google.com/android/repository/google_m2repository_gms_v11_1_rc16_wear_2_0_3_rc1.zip
-          size: 185.15 MB
-          sha1: 9008082eb1e6ff5a78d32a1fed6915f266fc5013
+download: https://dl.google.com/android/repository/google_m2repository_gms_v11_2_rc08_wear_2_0_3_rc1.zip
+          size: 197.69 MB
+          sha1: e528f134a03462cafc6f17d196d15877d5cf57b5
 ------------
     Type: Extra
     Desc: Google Play Licensing Library, revision 1
@@ -1147,14 +1147,14 @@ download: https://dl.google.com/android/repository/google_play_services_3265130_
           sha1: 92558dbc380bba3d55d0ec181167fb05ce7c79d9
 ------------
     Type: Extra
-    Desc: Google Play services, revision 41
-          Revision 41
+    Desc: Google Play services, revision 42
+          Revision 42
           by Google Inc.
           Google Play services Javadocs and sample code
           Install path: extras/android/google_play_services
-download: https://dl.google.com/android/repository/google_play_services_v11_rc16.zip
+download: https://dl.google.com/android/repository/google_play_services_v11.2_rc08.zip
           size: 12.56 MB
-          sha1: 55be81c50041f6a8f62947418f74f683369c971f
+          sha1: 2d15b4d5271fce4d7eb1e72bb526771bdf55c014
 ------------
     Type: Extra
     Desc: Google USB Driver, revision 11
@@ -1965,42 +1965,42 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/arm64-v8a
     Type: SystemImage
     Desc: Google APIs Intel x86 Atom System Image
           API 25
-          Revision 5
+          Revision 6
           Intel x86 Atom System Image
           Requires SDK Platform Android API 25
-download: https://dl.google.com/android/repository/sys-img/google_apis/x86-25_r05.zip
-          size: 921.02 MB
-          sha1: 71a06b0592e9c843167bf4062017492d34d68e15
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86-25_r06.zip
+          size: 906.61 MB
+          sha1: 5d79966811c7d01c446f8c37030ba0c36de4e0a8
 ------------
     Type: SystemImage
     Desc: Google APIs Intel x86 Atom_64 System Image
           API 25
-          Revision 5
+          Revision 6
           Intel x86 Atom_64 System Image
           Requires SDK Platform Android API 25
-download: https://dl.google.com/android/repository/sys-img/google_apis/x86_64-25_r05.zip
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86_64-25_r06.zip
           size: 1.11 GB
-          sha1: b6e308fa736b0feb9af4de6929289be7c60f94d9
+          sha1: fa4ca3cad4aa76a377f170bee0fc7a2020ccd1f2
 ------------
     Type: SystemImage
     Desc: Google APIs ARM EABI v7a System Image
           API 25
-          Revision 5
+          Revision 6
           ARM EABI v7a System Image
           Requires SDK Platform Android API 25
-download: https://dl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-25_r05.zip
+download: https://dl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-25_r06.zip
           size: 852.53 MB
-          sha1: 5752d41cc374b3b64c3a87cc965abe380a56980b
+          sha1: 9c205bc0f569071e33035ca8f4856732ff4f3c3f
 ------------
     Type: SystemImage
-    Desc: Google APIs ARM EABI v7a System Image
+    Desc: Google APIs ARM 64 v8a System Image
           API 25
-          Revision 5
-          ARM EABI v7a System Image
+          Revision 6
+          ARM 64 v8a System Image
           Requires SDK Platform Android API 25
-download: https://dl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-25_r05.zip
-          size: 852.53 MB
-          sha1: 5752d41cc374b3b64c3a87cc965abe380a56980b
+download: https://dl.google.com/android/repository/sys-img/google_apis/arm64-v8a-25_r06.zip
+          size: 967.41 MB
+          sha1: 6e7b751b7012fc5769f48fdef019b2b2a34196cd
 ------------
     Type: SystemImage
     Desc: Google APIs Intel x86 Atom System Image

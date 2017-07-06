@@ -10,14 +10,14 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Done loading packages.
  - SDK Platform Android 8.0.0, revision 1
  - SDK Platform Android 7.1.1, revision 3
@@ -117,11 +117,11 @@ Done loading packages.
  - Google TV Addon, Android API 12, revision 2 (Obsolete)
  - Google TV Addon, Android API 13, revision 1 (Obsolete)
  - Android Support Repository, revision 47
- - Google Repository, revision 53
+ - Google Repository, revision 55
  - Google Play Licensing Library, revision 1
  - Google Play APK Expansion library, revision 1
  - Google Play services for Froyo, revision 12 (Obsolete)
- - Google Play services, revision 41
+ - Google Play services, revision 42
  - Google USB Driver, revision 11
  - Google Play Billing Library, revision 5
  - Google AdMob Ads SDK, revision 11 (Obsolete)
@@ -202,10 +202,10 @@ Done loading packages.
  - Intel x86 Atom_64 System Image, Android API 24, revision 14
  - ARM EABI v7a System Image, Android API 24, revision 14
  - ARM 64 v8a System Image, Android API 24, revision 14
- - Intel x86 Atom System Image, Android API 25, revision 5
- - Intel x86 Atom_64 System Image, Android API 25, revision 5
- - ARM EABI v7a System Image, Android API 25, revision 5
- - ARM EABI v7a System Image, Android API 25, revision 5
+ - Intel x86 Atom System Image, Android API 25, revision 6
+ - Intel x86 Atom_64 System Image, Android API 25, revision 6
+ - ARM EABI v7a System Image, Android API 25, revision 6
+ - ARM 64 v8a System Image, Android API 25, revision 6
  - Intel x86 Atom System Image, Android API 26, revision 4
  - Intel x86 Atom System Image, Android API 24, revision 13
  - Intel x86 Atom System Image, Android API 26, revision 4
