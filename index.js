@@ -298,13 +298,13 @@ function getAndParse(source) {
   return new Promise(function(resolve, reject) {
     console.log('Fetching URL:', source.url);
     axios.get(source.url)
-    .then(data => { source.xml = data; return data; })
-    .then(parse)
-    .then(data => { source.data = data; return data; })
-    .then(data => exportSources(data, source))
-//    .then(data => printDetails(data, source))
-    .then(resolve)
-    .catch(reject);
+      .then(data => { source.xml = data; return data; })
+      .then(parse)
+      .then(data => { source.data = data; return data; })
+      .then(data => exportSources(data, source))
+    // .then(data => printDetails(data, source))
+      .then(resolve)
+      .catch(reject);
   });
 }
 
