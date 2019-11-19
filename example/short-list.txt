@@ -11,15 +11,16 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-im
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
 Done loading packages.
- - SDK Platform Android Q, revision 2
+ - SDK Platform Android 10, revision 3
+ - SDK Platform Android 10, revision 1
  - SDK Platform Android 9, revision 6
  - SDK Platform Android 8.1.0, revision 3
  - SDK Platform Android 8.0.0, revision 2
@@ -47,15 +48,19 @@ Done loading packages.
  - SDK Platform Android 1.6, revision 3 (Obsolete)
  - SDK Platform Android 1.5, revision 4 (Obsolete)
  - SDK Platform Android 1.1, revision 1 (Obsolete)
- - Android SDK Platform-tools, revision 28.0.2
- - Android SDK Build-tools, revision 29 rc2
- - Android SDK Build-tools, revision 29 rc1
+ - Android SDK Platform-tools, revision 29.0.5
+ - Android SDK Build-tools, revision 29.0.2
+ - Android SDK Build-tools, revision 29.0.1
+ - Android SDK Build-tools, revision 29
+ - Android SDK Build-tools, revision 29 rc3 (Obsolete)
+ - Android SDK Build-tools, revision 29 rc2 (Obsolete)
+ - Android SDK Build-tools, revision 29 rc1 (Obsolete)
  - Android SDK Build-tools, revision 28.0.3
  - Android SDK Build-tools, revision 28.0.2
  - Android SDK Build-tools, revision 28.0.1
  - Android SDK Build-tools, revision 28
- - Android SDK Build-tools, revision 28 rc2
- - Android SDK Build-tools, revision 28 rc1
+ - Android SDK Build-tools, revision 28 rc2 (Obsolete)
+ - Android SDK Build-tools, revision 28 rc1 (Obsolete)
  - Android SDK Build-tools, revision 27.0.3
  - Android SDK Build-tools, revision 27.0.2
  - Android SDK Build-tools, revision 27.0.1
@@ -98,6 +103,7 @@ Done loading packages.
  - Android SDK Build-tools, revision 17 (Obsolete)
  - Android SDK Tools, revision 25.2.5
  - Documentation for Android SDK, API 24, revision 1
+ - Sources for Android SDK, API 29, revision 1
  - Sources for Android SDK, API 28, revision 1
  - Sources for Android SDK, API 27, revision 1
  - Sources for Android SDK, API 26, revision 1
@@ -143,17 +149,17 @@ Done loading packages.
  - Google Play APK Expansion library, revision 1
  - Google Play services for Froyo, revision 12 (Obsolete)
  - Google Play services, revision 49
- - Google USB Driver, revision 11
+ - Google USB Driver, revision 12
  - Google AdMob Ads SDK, revision 11 (Obsolete)
  - Google Analytics App Tracking SDK, revision 3 (Obsolete)
  - Google Web Driver, revision 2
  - Google Cloud Messaging for Android Library, revision 3 (Obsolete)
  - Android Auto API Simulators, revision 1
  - Android Auto Desktop Head Unit emulator, revision 1.1
- - Google Play Instant Development SDK, revision 1.7
+ - Google Play Instant Development SDK, revision 1.9
  - Glass Development Kit Preview, Android API 19, revision 11
- - Intel x86 Emulator Accelerator (HAXM installer), revision 7.3.2
- - Intel x86 Emulator Accelerator (HAXM installer), revision 7.3.2
+ - Intel x86 Emulator Accelerator (HAXM installer), revision 7.5.1
+ - Intel x86 Emulator Accelerator (HAXM installer), revision 7.5.4
  - ARM EABI v7a System Image, Android API 10, revision 5
  - ARM EABI v7a System Image, Android API 14, revision 2
  - ARM EABI v7a System Image, Android API 15, revision 5
@@ -182,7 +188,8 @@ Done loading packages.
  - Intel x86 Atom System Image, Android API 26, revision 1
  - Intel x86 Atom System Image, Android API 27, revision 1
  - Intel x86 Atom System Image, Android API 28, revision 4
- - Intel x86 Atom System Image, Android API 28, revision 3
+ - Intel x86 Atom System Image, Android API 29, revision 7
+ - Intel x86 Atom System Image, Android API 29, revision 7
  - Intel x86 Atom_64 System Image, Android API 21, revision 5
  - Intel x86 Atom_64 System Image, Android API 22, revision 6
  - Intel x86 Atom_64 System Image, Android API 23, revision 10
@@ -191,7 +198,8 @@ Done loading packages.
  - Intel x86 Atom_64 System Image, Android API 26, revision 1
  - Intel x86 Atom_64 System Image, Android API 27, revision 1
  - Intel x86 Atom_64 System Image, Android API 28, revision 4
- - Intel x86 Atom_64 System Image, Android API 28, revision 3
+ - Intel x86 Atom_64 System Image, Android API 29, revision 7
+ - Intel x86 Atom_64 System Image, Android API 29, revision 7
  - ARM EABI v7a System Image, Android API 23, revision 6
  - Intel x86 Atom System Image, Android API 23, revision 6
  - ARM EABI v7a System Image, Android API 25, revision 3
@@ -201,13 +209,13 @@ Done loading packages.
  - Intel x86 Atom System Image, Android API 21, revision 3
  - ARM EABI v7a System Image, Android API 21, revision 3
  - Intel x86 Atom System Image, Android API 22, revision 3
- - Intel x86 Atom System Image, Android API 23, revision 17
+ - Intel x86 Atom System Image, Android API 23, revision 19
  - ARM EABI v7a System Image, Android API 23, revision 12
- - Intel x86 Atom System Image, Android API 24, revision 19
- - Intel x86 Atom System Image, Android API 25, revision 13
- - Intel x86 Atom System Image, Android API 26, revision 11
- - Intel x86 Atom System Image, Android API 27, revision 6
- - Intel x86 Atom System Image, Android API 28, revision 7
+ - Intel x86 Atom System Image, Android API 24, revision 20
+ - Intel x86 Atom System Image, Android API 25, revision 14
+ - Intel x86 Atom System Image, Android API 26, revision 12
+ - Intel x86 Atom System Image, Android API 27, revision 7
+ - Intel x86 Atom System Image, Android API 28, revision 8
  - Intel x86 Atom System Image, Android API 28, revision 1
  - ARM EABI v7a System Image, Android API 10, revision 6
  - Intel x86 Atom System Image, Android API 10, revision 6
@@ -219,37 +227,41 @@ Done loading packages.
  - Intel x86 Atom System Image, Android API 17, revision 6
  - ARM EABI v7a System Image, Android API 18, revision 6
  - Intel x86 Atom System Image, Android API 18, revision 6
- - Intel x86 Atom System Image, Android API 19, revision 37
- - ARM EABI v7a System Image, Android API 19, revision 37
- - Intel x86 Atom System Image, Android API 21, revision 29
- - Intel x86 Atom_64 System Image, Android API 21, revision 29
- - ARM EABI v7a System Image, Android API 21, revision 29
- - Intel x86 Atom System Image, Android API 22, revision 23
- - ARM EABI v7a System Image, Android API 22, revision 23
- - Intel x86 Atom_64 System Image, Android API 22, revision 23
- - Intel x86 Atom System Image, Android API 23, revision 30
- - Intel x86 Atom_64 System Image, Android API 23, revision 30
- - ARM EABI v7a System Image, Android API 23, revision 30
- - Intel x86 Atom System Image, Android API 24, revision 24
- - Intel x86 Atom_64 System Image, Android API 24, revision 24
- - ARM EABI v7a System Image, Android API 24, revision 24
- - ARM 64 v8a System Image, Android API 24, revision 24
- - Intel x86 Atom System Image, Android API 25, revision 15
- - Intel x86 Atom_64 System Image, Android API 25, revision 15
- - ARM EABI v7a System Image, Android API 25, revision 15
- - ARM 64 v8a System Image, Android API 25, revision 15
- - Intel x86 Atom System Image, Android API 26, revision 12
- - Intel x86 Atom_64 System Image, Android API 26, revision 12
- - Intel x86 Atom System Image, Android API 27, revision 8
- - Intel x86 Atom System Image, Android API 28, revision 8
- - Intel x86 Atom_64 System Image, Android API 28, revision 8
- - Intel x86 Atom System Image, Android API 28, revision 3
- - Intel x86 Atom_64 System Image, Android API 28, revision 3
+ - Intel x86 Atom System Image, Android API 19, revision 38
+ - ARM EABI v7a System Image, Android API 19, revision 38
+ - Intel x86 Atom System Image, Android API 21, revision 30
+ - Intel x86 Atom_64 System Image, Android API 21, revision 30
+ - ARM EABI v7a System Image, Android API 21, revision 30
+ - Intel x86 Atom System Image, Android API 22, revision 24
+ - ARM EABI v7a System Image, Android API 22, revision 24
+ - Intel x86 Atom_64 System Image, Android API 22, revision 24
+ - Intel x86 Atom System Image, Android API 23, revision 31
+ - Intel x86 Atom_64 System Image, Android API 23, revision 31
+ - ARM EABI v7a System Image, Android API 23, revision 31
+ - Intel x86 Atom System Image, Android API 24, revision 25
+ - Intel x86 Atom_64 System Image, Android API 24, revision 25
+ - ARM EABI v7a System Image, Android API 24, revision 25
+ - ARM 64 v8a System Image, Android API 24, revision 25
+ - Intel x86 Atom System Image, Android API 25, revision 16
+ - Intel x86 Atom_64 System Image, Android API 25, revision 16
+ - ARM EABI v7a System Image, Android API 25, revision 16
+ - ARM 64 v8a System Image, Android API 25, revision 16
+ - Intel x86 Atom System Image, Android API 26, revision 14
+ - Intel x86 Atom_64 System Image, Android API 26, revision 14
+ - Intel x86 Atom System Image, Android API 27, revision 9
+ - Intel x86 Atom System Image, Android API 28, revision 9
+ - Intel x86 Atom System Image, Android API 28, revision 10
+ - Intel x86 Atom_64 System Image, Android API 28, revision 9
+ - Intel x86 Atom System Image, Android API 29, revision 9
+ - Intel x86 Atom_64 System Image, Android API 29, revision 9
  - Intel x86 Atom System Image, Android API 24, revision 19
  - Intel x86 Atom System Image, Android API 25, revision 9
  - Intel x86 Atom System Image, Android API 26, revision 7
  - Intel x86 Atom System Image, Android API 27, revision 3
  - Intel x86 Atom System Image, Android API 28, revision 8
+ - Intel x86 Atom System Image, Android API 28, revision 9
  - Intel x86 Atom_64 System Image, Android API 28, revision 8
- - Intel x86 Atom System Image, Android API 28, revision 3
- - Intel x86 Atom_64 System Image, Android API 28, revision 3
+ - Intel x86 Atom System Image, Android API 29, revision 8
+ - Intel x86 Atom System Image, Android API 29, revision 8
+ - Intel x86 Atom_64 System Image, Android API 29, revision 8
+ - Intel x86 Atom_64 System Image, Android API 29, revision 8
