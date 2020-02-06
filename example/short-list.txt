@@ -10,17 +10,16 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/android-wear/sys-
 Fetching URL: https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
-Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Done loading packages.
- - SDK Platform Android 10, revision 3
- - SDK Platform Android 10, revision 1
+ - SDK Platform Android 10, revision 4
  - SDK Platform Android 9, revision 6
  - SDK Platform Android 8.1.0, revision 3
  - SDK Platform Android 8.0.0, revision 2
@@ -49,6 +48,7 @@ Done loading packages.
  - SDK Platform Android 1.5, revision 4 (Obsolete)
  - SDK Platform Android 1.1, revision 1 (Obsolete)
  - Android SDK Platform-tools, revision 29.0.5
+ - Android SDK Build-tools, revision 29.0.3
  - Android SDK Build-tools, revision 29.0.2
  - Android SDK Build-tools, revision 29.0.1
  - Android SDK Build-tools, revision 29

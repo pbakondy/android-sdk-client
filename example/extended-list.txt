@@ -12,11 +12,11 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis/sys-i
 Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
+Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/addon.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
 Done loading packages.
 ------------
@@ -24,19 +24,10 @@ Done loading packages.
     Desc: Android SDK Platform 29
           Version 10
           API 29
-          Revision 3
-download: https://dl.google.com/android/repository/platform-29_r03.zip
+          Revision 4
+download: https://dl.google.com/android/repository/platform-29_r04.zip
           size: 74.65 MB
-          sha1: 670e2e104333dae90e16ea3b615f0b63da5883ae
-------------
-    Type: Platform
-    Desc: Android SDK Platform 29
-          Version 10
-          API 29
-          Revision 1
-download: https://dl.google.com/android/repository/platform-29_r01.zip
-          size: 74.50 MB
-          sha1: b1e10d134ac69f5e746e9be8015122b18d43c235
+          sha1: 8d644c39902038e0bd529165d5ba4f5a8607daea
 ------------
     Type: Platform
     Desc: Android SDK Platform 28
@@ -323,6 +314,19 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
  windows: https://dl.google.com/android/repository/platform-tools_r29.0.5-windows.zip
           size: 6.83 MB
           sha1: 0f55ef9978de5650e2cb7737b7175f2a937f27f0
+------------
+    Type: BuildTool
+    Desc: Android SDK Build-tools, revision 29.0.3
+          Revision 29.0.3
+   linux: https://dl.google.com/android/repository/build-tools_r29.0.3-linux.zip
+          size: 51.31 MB
+          sha1: 64efff52165cda5e31848acafa46a05e3f3b4651
+  macosx: https://dl.google.com/android/repository/build-tools_r29.0.3-macosx.zip
+          size: 50.00 MB
+          sha1: 76520eb7712fb0bb4c023b55c6f65588ee268289
+ windows: https://dl.google.com/android/repository/build-tools_r29.0.3-windows.zip
+          size: 52.64 MB
+          sha1: 813f8c35f016cef83e5b2b742229a3634d4658d3
 ------------
     Type: BuildTool
     Desc: Android SDK Build-tools, revision 29.0.2
