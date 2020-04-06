@@ -13,12 +13,21 @@ Fetching URL: https://dl.google.com/android/repository/sys-img/google_apis_plays
 Parse XML:    https://dl.google.com/android/repository/glass/addon.xml
 Parse XML:    https://dl.google.com/android/repository/extras/intel/addon.xml
 Parse XML:    https://dl.google.com/android/repository/addon.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
-Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android-tv/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/android-wear/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/android/sys-img.xml
 Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis/sys-img.xml
+Parse XML:    https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img.xml
 Done loading packages.
+------------
+    Type: Platform
+    Desc: Android SDK Platform R
+          Version R
+          API 29
+          Revision 2
+download: https://dl.google.com/android/repository/platform-R_r02.zip
+          size: 54.43 MB
+          sha1: fca9d55711c79056ec6441163e14511228c5ceea
 ------------
     Type: Platform
     Desc: Android SDK Platform 29
@@ -303,17 +312,43 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
           sha1: a4060f29ed39fc929c302836d488998c53c3002e
 ------------
     Type: PlatformTool
-    Desc: Android SDK Platform-tools, revision 29.0.5
-          Revision 29.0.5
-  macosx: https://dl.google.com/android/repository/platform-tools_r29.0.5-darwin.zip
-          size: 7.69 MB
-          sha1: d355fd9acf14d149c64a9f56aa57c52ea925084c
-   linux: https://dl.google.com/android/repository/platform-tools_r29.0.5-linux.zip
-          size: 7.74 MB
-          sha1: 2016a7e8f3f696583c0069881f4270365e247cd7
- windows: https://dl.google.com/android/repository/platform-tools_r29.0.5-windows.zip
-          size: 6.83 MB
-          sha1: 0f55ef9978de5650e2cb7737b7175f2a937f27f0
+    Desc: Android SDK Platform-tools, revision 29.0.6
+          Revision 29.0.6
+  macosx: https://dl.google.com/android/repository/platform-tools_r29.0.6-darwin.zip
+          size: 7.82 MB
+          sha1: 3232179dce22d8a6332018729026ed39f5d5cd0b
+   linux: https://dl.google.com/android/repository/platform-tools_r29.0.6-linux.zip
+          size: 7.87 MB
+          sha1: e95ed28330406705d47fe96bafb589be6c1f2f23
+ windows: https://dl.google.com/android/repository/platform-tools_r29.0.6-windows.zip
+          size: 6.94 MB
+          sha1: c970e1216ef99abf9fd480b01439998c4780728e
+------------
+    Type: BuildTool
+    Desc: Android SDK Build-tools, revision 30 rc2
+          Revision 30 rc2
+   linux: https://dl.google.com/android/repository/build-tools_r30-rc2-linux.zip
+          size: 69.56 MB
+          sha1: 889a8132b05aa6bd85295771d2f9fd898a735884
+  macosx: https://dl.google.com/android/repository/build-tools_r30-rc2-macosx.zip
+          size: 66.97 MB
+          sha1: b8e05643947bb1fef0c57f0a1aeec6b099e16ac5
+ windows: https://dl.google.com/android/repository/build-tools_r30-rc2-windows.zip
+          size: 70.44 MB
+          sha1: 002f35c64a53b33a5e59e3f8d4ab98c22019c38e
+------------
+    Type: BuildTool
+    Desc: Android SDK Build-tools, revision 30 rc1
+          Revision 30 rc1
+   linux: https://dl.google.com/android/repository/build-tools_r30-rc1-linux.zip
+          size: 69.18 MB
+          sha1: afcb370bb6956bbf9e90557230088a3e1417e8a8
+  macosx: https://dl.google.com/android/repository/build-tools_r30-rc1-macosx.zip
+          size: 67.20 MB
+          sha1: 2761a0ea9466685aaaf93e85bf8bd47575bc91b8
+ windows: https://dl.google.com/android/repository/build-tools_r30-rc1-windows.zip
+          size: 70.26 MB
+          sha1: f17b1209f2548ee7025781c2ebeed9f0c8341a40
 ------------
     Type: BuildTool
     Desc: Android SDK Build-tools, revision 29.0.3
@@ -1005,7 +1040,7 @@ download: https://dl.google.com/android/repository/android-2.1_r03.zip
           sha1: 899897d327b0bad492d3a40d3db4d96119c15bc0
 ------------
     Type: Tool
-    Desc: Android SDK Tools, revision 25.2.5
+    Desc: Android SDK Tools, revision 25.2.5 (Obsolete)
           Revision 25.2.5
    linux: https://dl.google.com/android/repository/tools_r25.2.5-linux.zip
           size: 265.02 MB
@@ -1561,7 +1596,7 @@ download: https://dl.google.com/android/repository/iasdk-1.9.0-1566514721.zip
           sha1: c498367dcd7db30154b3e70c4ddbb1b0ea4b8d20
 ------------
     Type: Addon
-    Desc: Glass Development Kit Preview, Android API 19, revision 11
+    Desc: Glass Development Kit Preview, Android API 19, revision 11 (Obsolete)
           API 19
           Revision 11
           by Google Inc.
@@ -1582,14 +1617,14 @@ download: https://dl.google.com/android/repository/glass/google-gdk.zip
           sha1: 5a628d9507b8cd90f211670ea4513f2e52f44975
 ------------
     Type: Extra
-    Desc: Intel x86 Emulator Accelerator (HAXM installer), revision 7.5.4
-          Revision 7.5.4
+    Desc: Intel x86 Emulator Accelerator (HAXM installer), revision 7.5.6
+          Revision 7.5.6
           by Intel Corporation
           Emulation speedup using Intel VT processor technology. Read more at www.intel.com/software/android
           Install path: extras/android/Hardware_Accelerated_Execution_Manager
- windows: https://dl.google.com/android/repository/extras/intel/haxm-windows_v7_5_4.zip
+ windows: https://dl.google.com/android/repository/extras/intel/haxm-windows_v7_5_6.zip
           size: 2.63 MB
-          sha1: ee785d038b8e8c13309d0dee857597be7de80970
+          sha1: a99c36e2c0394a4053c5f9a3afe9b2ec408ce6b8
 ------------
     Type: SystemImage
     Desc: ARM EABI v7a System Image
@@ -2538,6 +2573,26 @@ download: https://dl.google.com/android/repository/sys-img/google_apis/x86_64-29
           sha1: 0aa76b20a7ad30f2e41bc21b897b848d82533d26
 ------------
     Type: SystemImage
+    Desc: Google APIs Intel x86 Atom System Image
+          API 29
+          Revision 2
+          Intel x86 Atom System Image
+          Requires SDK Platform Android API 29
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86-R_r02.zip
+          size: 1.09 GB
+          sha1: 405eddaa4eaecfe2b08d083b1954af3990601fc0
+------------
+    Type: SystemImage
+    Desc: Google APIs Intel x86 Atom_64 System Image
+          API 29
+          Revision 2
+          Intel x86 Atom_64 System Image
+          Requires SDK Platform Android API 29
+download: https://dl.google.com/android/repository/sys-img/google_apis/x86_64-R_r02.zip
+          size: 1.27 GB
+          sha1: e103a2c1912407734bf578fb0b3089f4ceea8422
+------------
+    Type: SystemImage
     Desc: Google Play Intel x86 Atom System Image
           API 24
           Revision 19
@@ -2652,3 +2707,49 @@ download: https://dl.google.com/android/repository/sys-img/google_apis_playstore
    linux: https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-29_r08-linux.zip
           size: 1.23 GB
           sha1: 94835980b4a6eaeeb41936d7fb1381698e48433a
+------------
+    Type: SystemImage
+    Desc: Google Play Intel x86 Atom System Image
+          API 29
+          Revision 2
+          Intel x86 Atom System Image
+          Requires SDK Platform Android API 29
+ windows: https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86-R_r02-windows.zip
+          size: 1.06 GB
+          sha1: 16dd21e8a6d8d7f8f909a93c917746f9535a3cd4
+------------
+    Type: SystemImage
+    Desc: Google Play Intel x86 Atom System Image
+          API 29
+          Revision 2
+          Intel x86 Atom System Image
+          Requires SDK Platform Android API 29
+  macosx: https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86-R_r02-darwin.zip
+          size: 1.06 GB
+          sha1: 16dd21e8a6d8d7f8f909a93c917746f9535a3cd4
+   linux: https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86-R_r02-linux.zip
+          size: 1.06 GB
+          sha1: 16dd21e8a6d8d7f8f909a93c917746f9535a3cd4
+------------
+    Type: SystemImage
+    Desc: Google Play Intel x86 Atom_64 System Image
+          API 29
+          Revision 2
+          Intel x86 Atom_64 System Image
+          Requires SDK Platform Android API 29
+ windows: https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-R_r02-windows.zip
+          size: 1.22 GB
+          sha1: 9a93a01979b8e2c2a9c25ed0ad32933e8e20231d
+------------
+    Type: SystemImage
+    Desc: Google Play Intel x86 Atom_64 System Image
+          API 29
+          Revision 2
+          Intel x86 Atom_64 System Image
+          Requires SDK Platform Android API 29
+  macosx: https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-R_r02-darwin.zip
+          size: 1.22 GB
+          sha1: 9a93a01979b8e2c2a9c25ed0ad32933e8e20231d
+   linux: https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-R_r02-linux.zip
+          size: 1.22 GB
+          sha1: 9a93a01979b8e2c2a9c25ed0ad32933e8e20231d
